@@ -1,0 +1,633 @@
+#chalice-recipes {
+  display: grid;
+  padding: 0;
+  margin: -40px auto 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#chalice-recipes .module.head {
+  padding: calc(4rem + 40px) 3rem 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#chalice-recipes > .padder {
+  width: 100%;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: minmax(auto, 680px) minmax(200px, auto);
+  grid-gap: 3rem;
+}
+
+#chalice-recipes .module .sub-header ~ .sub-header {
+  margin: 3rem 0 1rem;
+}
+
+#chalice-recipes .module.head .text {
+  max-width: 680px;
+}
+
+#chalice-recipes .module.head .text p:first-child {
+  font-size: 16px;
+}
+
+#chalice-recipes .module.head .text ul {
+  list-style-type: disc;
+  padding: 0 0 0 2rem;
+  margin: 0 0 1rem;
+}
+
+#chalice-recipes .module.head .text ul:last-child {
+  margin: 0;
+}
+
+#chalice-recipes .module.head .text ul li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+
+#chalice-recipes .module.head .text .image {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 0 4px 0 0;
+  vertical-align: -7px;
+}
+
+#chalice-recipes .frame {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#chalice-recipes .frame .flair .image.corner {
+  padding-bottom: 99.7059%;
+}
+
+#chalice-recipes .frame .flair .image.leviathan {
+  background-size: 94%;
+}
+
+#chalice-recipes .frame .flair .image.ring-inner {
+  background-size: 69%;  
+  transition: opacity 0.5s, background-size 0.5s;
+}
+
+#chalice-recipes .frame .flair .image.ring-outer {
+  background-size: 75%;
+  transition: opacity 0.5s, background-size 0.5s;
+}
+
+#chalice-recipes .frame .flair.active .image.leviathan,
+#chalice-recipes .frame .flair.active .image.ring-outer {
+  animation: rotate-logo-feature 90s linear infinite;
+}
+
+#chalice-recipes .frame .flair.active .image.ring-inner {
+  animation: rotate-logo-feature 90s linear infinite reverse;
+}
+
+#chalice-recipes .frame .flair.active .image.ring-inner {
+  background-size: 64%;
+}
+
+#chalice-recipes .frame .flair.active .image.ring-outer {
+  background-size: 70%;
+}
+
+#chalice-recipes .frame .flair .image.chalice {
+  background-size: 47.5%;
+  background-position-y: 51%;
+}
+
+#chalice-recipes .frame .flair .image.dl.active {
+  opacity: 0;
+}
+
+#chalice-recipes .frame .image.corner.active {
+  position: absolute;
+  top: 0;
+}
+
+#chalice-recipes .frame .flair.active .image.dl:not(.active) {
+  opacity: 0;
+}
+
+#chalice-recipes .frame .flair.active .image.dl.active {
+  opacity: 1;
+}
+
+#chalice-recipes .frame .ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+#chalice-recipes .frame .ui .slots {
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+  height: 100%;
+}
+
+#chalice-recipes .frame .ui .slots > [class^="slot"] {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#chalice-recipes .frame .ui .slots [class^="slot"] .slot-inner {
+  position: relative;
+  max-width: 72px;
+  max-height: 72px;
+  width: 100%;
+}
+
+#chalice-recipes .frame .ui .slots [class^="slot"] .slot-inner .active-plug .list.chalice-items .linked {
+  background-color: rgba(146, 146, 146, 0.8);
+  cursor: pointer;
+}
+
+html.backdropfilter #chalice-recipes .frame .ui .slots [class^="slot"] .slot-inner .active-plug .list.chalice-items .linked {
+  background-color: rgba(146, 146, 146, 0);
+  backdrop-filter: blur(4px) saturate(1.2);
+}
+
+#chalice-recipes .frame .ui .slots [class^="slot"] .slot-inner .active-plug .list.chalice-items {
+  grid-template-columns: 1fr;
+}
+
+#chalice-recipes .frame .ui .slots [class^="slot"] .slot-inner .active-plug .image.dl.next-plug {
+  top: -26px;
+  left: -26px;
+  width: 124px;
+  height: 124px;
+  animation: rotate-logo-feature 90s linear infinite;
+  opacity: 0.5;
+}
+
+#chalice-recipes .frame .ui .slots .button.slot {
+  height: unset;
+  max-width: 72px;
+  max-height: 72px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#chalice-recipes .frame .ui .slots .button.slot::before {
+  box-shadow: inset 0 0 0 2px rgba(214, 214, 214, 0.8);
+}
+
+#chalice-recipes .frame .ui .slots .button.slot .image {
+  position: relative;
+  width: 100%;
+  height: unset;
+  max-width: 72px;
+  padding-bottom: 100%;
+}
+
+#chalice-recipes .frame .ui .slots .button.slot .image::before {
+  content: 'I';
+  position: absolute;
+  top: -24px;
+  left: 0;
+  width: calc(100% - 32px);
+  padding: 0 16px;
+  font-family: serif;
+  color: #dabd9a;
+  color: #fff;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#chalice-recipes .frame .ui .slots .slot1 {
+  grid-column: 2/3;
+}
+
+#chalice-recipes .frame .ui .slots .slot2 {
+  grid-row: 2/3;
+}
+
+#chalice-recipes .frame .ui .slots .slot2 .button.slot .image::before {
+  content: 'II';
+  text-align: left;
+}
+
+#chalice-recipes .frame .ui .slots .slot3 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+
+#chalice-recipes .frame .ui .slots .slot3 .button.slot .image::before {
+  content: 'III';
+  text-align: right;
+}
+
+#chalice-recipes .frame .ui .slots .slot4 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+
+#chalice-recipes .frame .ui .slots .slot4 .button.slot .image::before {
+  content: 'IV';
+  display: none;
+}
+
+#chalice-recipes .frame .ui .slots .slotZ {
+  z-index: 10;
+}
+
+#chalice-recipes .overlay {
+  position: absolute;
+  width: 467px;
+  /* width: 309px; */
+  top: 0;
+  left: 79px;
+  z-index: 11;
+}
+
+#chalice-recipes .overlay .list.chalice-items li {
+  background-color: rgba(146, 146, 146, 0.8);
+  cursor: pointer;
+}
+
+html.backdropfilter #chalice-recipes .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(7px) brightness(0.9) saturate(1.2);
+}
+
+html.backdropfilter .wrapper.dark-mode #chalice-recipes .overlay {
+  backdrop-filter: blur(7px) brightness(0.7) saturate(1.2);
+}
+
+#chalice-recipes .overlay .list.chalice-items li.active {
+  background-color: rgba(218, 189, 154, 0.6);
+}
+
+html.backdropfilter #chalice-recipes .overlay .list.chalice-items li {
+  background-color: rgba(146, 146, 146, 0.2);
+}
+
+html.backdropfilter #chalice-recipes .overlay .list.chalice-items li.active {
+  background-color: rgba(218, 189, 154, 0.6);
+}
+
+#chalice-recipes .overlay .list.chalice-items li.active::before {
+  box-shadow: inset 0 0 0 2px rgba(218, 189, 154, 1);
+}
+
+html.backdropfilter #chalice-recipes .overlay .list.chalice-items li.active {
+  background-color: rgba(218, 189, 154, 0.4);
+}
+
+html.backdropfilter #chalice-recipes .overlay .list.chalice-items li.active::before {
+  box-shadow: inset 0 0 0 2px rgba(218, 189, 154, 1);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  #chalice-recipes > .padder {
+    grid-template-columns: 1fr;
+  }
+
+  #chalice-recipes .module.head {
+    padding: calc(3rem + 40px) 2rem 2rem;
+  }
+
+  #chalice-recipes .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    padding: calc(3rem + 40px) 3rem calc(3rem + 60px);
+    box-shadow: none;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  html.backdropfilter #chalice-recipes .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(17px) saturate(1.2);
+  }
+
+  #chalice-recipes .overlay .list.chalice-items li {
+    background-color: rgba(146, 146, 146, 0);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #chalice-recipes > .padder {
+    padding: 2rem;
+    grid-gap: 2rem;
+  }
+
+  #chalice-recipes .overlay {
+    padding: calc(2rem + 40px) 2rem calc(2rem + 60px);
+  }
+
+  #chalice-recipes .module .sub-header ~ .sub-header {
+    margin: 2rem 0 1rem;
+  }
+
+  #chalice-recipes .frame .ui .slots [class^="slot"] .slot-inner {
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  #chalice-recipes .frame .ui .slots [class^="slot"] .slot-inner .active-plug .image.dl.next-plug {
+    top: -17px;
+    left: -17px;
+    width: 82px;
+    height: 82px;
+  }
+
+  #chalice-recipes .frame .ui .slots .button.slot {
+    max-width: 48px;
+    max-height: 48px;
+  }
+  
+  #chalice-recipes .frame .ui .slots .button.slot .image {
+    max-width: 48px;
+  }
+  
+}
+
+
+
+
+
+
+
+#chalice-recipes .list.reward-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 7px;
+}
+
+#chalice-recipes .list.reward-items .list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 7px;
+}
+
+#chalice-recipes .list.reward-items li.apply {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+}
+
+#chalice-recipes .list.reward-items li {
+  padding: 0;
+  margin: 0;
+  height: initial;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+#chalice-recipes .list.reward-items li.apply {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+}
+
+#chalice-recipes .list.reward-items li.undiscovered {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#chalice-recipes .list.reward-items li .image.dl {
+  opacity: 0.4;
+}
+
+#chalice-recipes .list.reward-items li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1);
+}
+
+#chalice-recipes .list.reward-items li::before {
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.4);
+}
+
+#chalice-recipes .list.reward-items li .icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-basis: 48px;
+}
+
+#chalice-recipes .list.reward-items li.masterworked .icon::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0);
+  transition: box-shadow 0.25s, background-color 0.25s;
+}
+
+#chalice-recipes .list.reward-items li.masterworked .icon::before {
+  box-shadow: inset 0 0 0 2px rgba(185, 185, 185, 0);
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOS0wMi0xNVQyMzowMzoyMSsxMDowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTktMDYtMTNUMTU6Mjk6MjUrMTA6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTktMDYtMTNUMTU6Mjk6MjUrMTA6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjkyNTg2ZGQtZDI2OC1mYTRj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');
+  background-size: contain;
+}
+
+#chalice-recipes .list.reward-items li .image.dl {
+  opacity: 1;
+}
+
+#chalice-recipes .list.reward-items li.undiscovered .image.dl {
+  opacity: 0.4;
+}
+
+#chalice-recipes .list.reward-items li .text {
+  flex-basis: calc(100% - 48px - 1rem);
+  margin: 0 0 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#chalice-recipes .list.reward-items li .text .commonality {
+  margin: 0 1rem 0 0;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#chalice-recipes .list.reward-items li .text .description {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 1500px) {
+  #chalice-recipes .list.reward-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #chalice-recipes .list.reward-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #chalice-recipes .list.reward-items {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #chalice-recipes .list.reward-items .list {
+    grid-template-columns: 1fr 48px;
+  }
+
+  #chalice-recipes .list.reward-items li.apply {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #chalice-recipes .list.reward-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#chalice-recipes .list.chalice-items {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 7px;
+}
+
+#chalice-recipes .list.chalice-items .list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 7px;
+}
+
+#chalice-recipes .list.chalice-items li.apply {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  font-size: 18px;
+}
+
+#chalice-recipes .list.chalice-items li {
+  padding: 0;
+  margin: 0;
+  height: initial;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+
+#chalice-recipes .list.chalice-items li::before {
+  box-shadow: inset 0 0 0 2px rgb(185, 185, 185);
+}
+
+#chalice-recipes .list.chalice-items li .text {
+  display: none;
+}
+
+#chalice-recipes .list.chalice-items li .icon {
+  position: relative;
+  width: 100%;
+  height: unset;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#chalice-recipes .list.chalice-items li.subclass .icon .image {
+  transform: rotate(-45deg) scale(1.4);
+}
+
+@media screen and (max-width: 1280px) {
+  #chalice-recipes .list.chalice-items {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #chalice-recipes .list.chalice-items {
+    grid-template-columns: 1fr;
+  }
+
+  #chalice-recipes .overlay .list.chalice-items .list {
+    grid-template-columns: 1fr 48px;
+  }
+
+  #chalice-recipes .overlay .list.chalice-items li.apply {
+    display: grid;
+  }
+
+  #chalice-recipes .overlay .list.chalice-items li::before {
+    box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.4);
+  }
+
+  #chalice-recipes .overlay .list.chalice-items li.active::before {
+    box-shadow: inset 0 0 0 2px rgba(218, 189, 154, 1);
+  }
+  
+  #chalice-recipes .overlay .list.chalice-items li.active::before {
+    box-shadow: inset 0 0 0 1px rgba(218, 189, 154, 1);
+  }
+  
+  html.backdropfilter #chalice-recipes .overlay .list.chalice-items li.active::before {
+    box-shadow: inset 0 0 0 1px rgba(218, 189, 154, 1);
+  }
+
+  #chalice-recipes .overlay .list.chalice-items li .icon {
+    position: relative;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    flex-basis: 48px;
+  }
+  
+  #chalice-recipes .overlay .list.chalice-items li .text {
+    flex-basis: calc(100% - 48px - 1rem);
+    margin: 0 0 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+  #chalice-recipes .list.chalice-items {
+    
+  }
+}

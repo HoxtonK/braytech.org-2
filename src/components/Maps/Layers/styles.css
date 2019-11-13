@@ -1,0 +1,32 @@
+.map-omega .leaflet-background-pane {
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.map-omega .leaflet-background-pane .layer-background {
+  position: absolute;
+  left: 50%;
+  min-width: 2160px;
+  width: 112.5%;
+  transform: translateX(-50%);
+  transition: opacity 3s;
+}
+
+.map-omega .leaflet-overlay-pane .leaflet-image-layer {
+  transition: opacity 1s;
+}
+
+.map-omega.loading .leaflet-background-pane .layer-background,
+.map-omega.loading .leaflet-overlay-pane .leaflet-image-layer {
+  opacity: 0 !important;
+}
+
+.map-omega .leaflet-background-pane .layer-background.layer-background-upper {
+  top: -28%;
+}
+
+.map-omega .leaflet-background-pane .layer-background.layer-background-lower {
+  bottom: -18%;
+}

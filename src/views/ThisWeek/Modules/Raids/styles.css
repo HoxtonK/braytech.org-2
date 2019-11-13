@@ -1,0 +1,18 @@
+#this-week .module .raid-challenge {
+  display: grid;
+  grid-template-columns: 48px auto;
+  grid-gap: 1rem;
+  align-items: flex-start;
+}
+
+#this-week .module .raid-challenge .name {
+  margin: 0 0 3px;
+}
+
+#this-week .module .raid-challenge .description {
+}
+
+#this-week .module .raid-challenge .description p {
+  color: rgba(255, 255, 255, 0.4);
+  line-height: normal;
+}

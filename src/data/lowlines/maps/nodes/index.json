@@ -1,0 +1,5922 @@
+[
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1031266598,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Descent.Cavern.Warsat",
+      "number": 1
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 4055612072,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Descent.Chasm.Ledge",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 381956243,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Descent.Cave.Runes",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3541081426,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Subterrane.Cliffside",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1698656021,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Terminus.Console",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3240044932,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Flammable.Storage",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1046632799,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Dock.Silo",
+      "number": 7
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 677148329,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Reception.Overlook",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2268035590,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Checkpoint.Elevator",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3786878451,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Transit.Freight",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2444409480,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Plaza.Infestation",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3957860341,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Dock.Garage",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 738006194,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Transit.Foundation",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 156484287,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Core.Catwalk",
+      "number": 14
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1628739428,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Deck.Dampener",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2662731326,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Coolant.Ventilation",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3901710881,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Plaza.Console",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2892815744,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab.Elevator.Service",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1708307467,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab.Overhang.Node",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1349662538,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Approach.Arch",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3523064621,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo. Approach.Tree",
+      "number": 21
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 980824599,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Server.Stairwell",
+      "number": 22
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2516672582,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Observation.Door",
+      "number": 23
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3732386537,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab.Elevator.Right",
+      "number": 24
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3742434372,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Service.BackEnd",
+      "number": 25
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1034154197,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Gatehouse.Catwalk",
+      "number": 26
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2172120594,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab.Conveyor.Junction",
+      "number": 27
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 142015059,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab.Conveyor.Bridge",
+      "number": 28
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 135585929,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Dock.Outpost",
+      "number": 29
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3214839526,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Transit.Service",
+      "number": 30
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2870761015,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Approach.Cavern",
+      "number": 31
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 883696636,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Server.Heatshield",
+      "number": 32
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1556894012,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Observation.Valkyrie",
+      "number": 33
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2373259383,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Core.Brace",
+      "number": 34
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2720923690,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Drift.Subterrane.Chasm",
+      "number": 35
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 3790287757,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Control.Door",
+      "number": 36
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2096130528,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo.Observation.Core",
+      "number": 37
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 1040754817,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Futurescape.Ridgeline.Waterfall",
+      "number": 38
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 2544178564,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Aurora.Mindlab.Supplies",
+      "number": 39
+    },
+    "description": false
+  },
+  {
+    "checklistId": 365218222,
+    "checklistHash": 350766431,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Aurora.Mindlab.Observation",
+      "number": 40
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739524,
+    "screenshot": false,
+    "debug": {
+      "name": "The Length of a Chain | Part I",
+      "number": 1
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739527,
+    "screenshot": false,
+    "debug": {
+      "name": "The Length of a Chain | Part II",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739526,
+    "screenshot": false,
+    "debug": {
+      "name": "At the Gate | Part I",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739521,
+    "screenshot": false,
+    "debug": {
+      "name": "At the Gate | Part II",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739520,
+    "screenshot": false,
+    "debug": {
+      "name": "Through the Gate",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739523,
+    "screenshot": false,
+    "debug": {
+      "name": "In the Garden",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739522,
+    "screenshot": false,
+    "debug": {
+      "name": "On the Hunt",
+      "number": 7
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739533,
+    "screenshot": false,
+    "debug": {
+      "name": "After the Heart | Part I",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3448739532,
+    "screenshot": false,
+    "debug": {
+      "name": "After the Heart | Part II",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961938,
+    "screenshot": "/static/images/screenshots/lore/the-drain_the-forsaken-prince_3431961938.jpg",
+    "debug": {
+      "name": "Jolyon",
+      "number": 10
+    },
+    "description": "Outside the lost sector's chest room is a series of metal walking platforms. Beneath these platforms lay a small maze, at the end of which is a data cache."
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961939,
+    "screenshot": "/static/images/screenshots/lore/flooded-chasm_the-forsaken-prince_3431961939.jpg",
+    "debug": {
+      "name": "After the Fall",
+      "number": 11
+    },
+    "description": "A hard cache to find, this enigma is hidden at the end of a cave which has a small opening along the wall not far from the lost sector's chest. If you're having difficulting locating its orifice, increase your brightness in settings."
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961936,
+    "screenshot": "/static/images/screenshots/lore/excavation-site-xii_the-forsaken-prince_3431961936.jpg",
+    "debug": {
+      "name": "Kings",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961937,
+    "screenshot": false,
+    "debug": {
+      "name": "Fanatic | Part I",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961942,
+    "screenshot": false,
+    "debug": {
+      "name": "Fanatic | Part II",
+      "number": 14
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961943,
+    "screenshot": false,
+    "debug": {
+      "name": "The Severance",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961940,
+    "screenshot": false,
+    "debug": {
+      "name": "Fikrul",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961941,
+    "screenshot": false,
+    "debug": {
+      "name": "Docking",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961946,
+    "screenshot": false,
+    "debug": {
+      "name": "Petra",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3431961947,
+    "screenshot": false,
+    "debug": {
+      "name": "Free | Part I",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 655926402,
+    "recordHash": 3415184383,
+    "screenshot": false,
+    "debug": {
+      "name": "Free | Part II",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818871,
+    "recordHash": 1859033168,
+    "screenshot": false,
+    "debug": {
+      "name": "Archiloquy",
+      "number": 1
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818868,
+    "recordHash": 1859033171,
+    "screenshot": false,
+    "debug": {
+      "name": "Brephos I",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818869,
+    "recordHash": 1859033170,
+    "screenshot": false,
+    "debug": {
+      "name": "Brephos II",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818866,
+    "recordHash": 1859033173,
+    "screenshot": false,
+    "debug": {
+      "name": "Brephos III",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818867,
+    "recordHash": 1859033172,
+    "screenshot": false,
+    "debug": {
+      "name": "Cosmogyre I",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818864,
+    "recordHash": 1859033175,
+    "screenshot": false,
+    "debug": {
+      "name": "Cosmogyre II",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818865,
+    "recordHash": 1859033174,
+    "screenshot": false,
+    "debug": {
+      "name": "Cosmogyre III",
+      "number": 7
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818878,
+    "recordHash": 1859033177,
+    "screenshot": false,
+    "debug": {
+      "name": "Cosmogyre IV",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1370818879,
+    "recordHash": 1859033176,
+    "screenshot": false,
+    "debug": {
+      "name": "Ecstasiate I",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1387596457,
+    "recordHash": 1842255614,
+    "screenshot": false,
+    "debug": {
+      "name": "Ecstasiate II",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1387596456,
+    "recordHash": 1842255615,
+    "screenshot": false,
+    "debug": {
+      "name": "Ecstasiate III",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1387596459,
+    "recordHash": 1842255612,
+    "screenshot": false,
+    "debug": {
+      "name": "Fideicide I",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1387596458,
+    "recordHash": 1842255613,
+    "screenshot": false,
+    "debug": {
+      "name": "Fideicide II",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1387596461,
+    "recordHash": 1842255610,
+    "screenshot": false,
+    "debug": {
+      "name": "Fideicide III",
+      "number": 14
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1387596460,
+    "recordHash": 1842255611,
+    "screenshot": false,
+    "debug": {
+      "name": "Heresiology",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1297424116,
+    "checklistHash": 1387596463,
+    "recordHash": 1842255608,
+    "screenshot": false,
+    "debug": {
+      "name": "Imponent I",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305069,
+    "screenshot": false,
+    "debug": {
+      "name": "Ghost Hunter",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305068,
+    "screenshot": false,
+    "debug": {
+      "name": "The Chosen's Choice",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305067,
+    "screenshot": false,
+    "debug": {
+      "name": "The We Before Us",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305066,
+    "screenshot": "/static/images/screenshots/lore/shaft-13_ghost-stories_2121305066.jpg",
+    "debug": {
+      "name": "Don't Call Me Ghost",
+      "number": 5
+    },
+    "description": "In one of the corners of the uppermost floor of this construction is a barely open cupboard along the wall. Look inside."
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305065,
+    "screenshot": "/static/images/screenshots/lore/the-drain_ghost-stories_2121305065.jpg",
+    "debug": {
+      "name": "Compliments",
+      "number": 6
+    },
+    "description": "On the farthest side of the largest room, adjacent to the lost sector's chest room, is a large rock wall which has a path leading around into a small poorly lit room with a computer desk. On this desk is a defunct ghost."
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305064,
+    "screenshot": "/static/images/screenshots/lore/the-quarry_ghost-stories_2121305064.jpg",
+    "debug": {
+      "name": "No Rez for the Weary",
+      "number": 7
+    },
+    "description": "Right before the lost sector's primary space, on your left."
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305063,
+    "screenshot": "/static/images/screenshots/lore/arboretum_ghost-stories_2121305063.jpg",
+    "debug": {
+      "name": "Confession of Hope | Part One",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2121305062,
+    "screenshot": "/static/images/screenshots/lore/sirens-watch_ghost-stories_2121305062.jpg",
+    "debug": {
+      "name": "The Watchful Eye",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527484,
+    "screenshot": "/static/images/screenshots/lore/ds-quarters-2_ghost-stories_2104527484.jpg",
+    "debug": {
+      "name": "Into the Fray",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527485,
+    "screenshot": false,
+    "debug": {
+      "name": "Struck by Wonder",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527486,
+    "screenshot": false,
+    "debug": {
+      "name": "Confession of Hope | Part Two",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527487,
+    "screenshot": "/static/images/screenshots/lore/the-rift_ghost-stories_2104527487.jpg",
+    "debug": {
+      "name": "A Hero's Requiem",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527480,
+    "screenshot": false,
+    "debug": {
+      "name": "From Fallen Ground",
+      "number": 14
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527481,
+    "screenshot": false,
+    "debug": {
+      "name": "Ghost Community Theater Presents",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527482,
+    "screenshot": false,
+    "debug": {
+      "name": "Difference of Opinion",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527483,
+    "screenshot": false,
+    "debug": {
+      "name": "Protector of Ghosts",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527476,
+    "screenshot": false,
+    "debug": {
+      "name": "Savin",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2104527477,
+    "screenshot": false,
+    "debug": {
+      "name": "Pulled Pork",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2154860341,
+    "screenshot": false,
+    "debug": {
+      "name": "Who Guards the Guardians?",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2154860340,
+    "screenshot": false,
+    "debug": {
+      "name": "Whether Windmills or Cranes",
+      "number": 21
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2154860343,
+    "screenshot": false,
+    "debug": {
+      "name": "Batteries Not Included",
+      "number": 22
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1420597821,
+    "recordHash": 2154860342,
+    "screenshot": false,
+    "debug": {
+      "name": "To Map the Unknown",
+      "number": 23
+    },
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Pressure",
+      "number": 99
+    },
+    "checklistId": 1420597821,
+    "recordHash": 2121305070,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2754290383,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 1
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 4069164097,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3577247371,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2313471548,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2693527578,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2890414560,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2317648357,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 7
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3860391092,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3096918071,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3156467474,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Outskirts",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2473593253,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Outskirts",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 505173108,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Outskirts",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3557288846,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/winding-cove_region-chests_13.jpg",
+    "debug": {
+      "name": "Winding Cove",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3658842337,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/winding-cove_region-chests_14.jpg",
+    "debug": {
+      "name": "Winding Cove",
+      "number": 14
+    },
+    "description": "Up on the cliff, overlooking Winding Cove, near where Xûr sometimes appears."
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1116639056,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Winding Cove",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 72017611,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/firebase-hades_region-chests_16.jpg",
+    "debug": {
+      "name": "Firebase Hades",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3212130160,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/firebase-hades_region-chests_17.jpg",
+    "debug": {
+      "name": "Firebase Hades",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 97796737,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Firebase Hades",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 113362963,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/the-gulch_region-chests_19.jpg",
+    "debug": {
+      "name": "The Gulch",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2355206132,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/the-gulch_region-chests_20.jpg",
+    "debug": {
+      "name": "The Gulch",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 28658981,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/the-gulch_region-chests_21.jpg",
+    "debug": {
+      "name": "The Gulch",
+      "number": 21
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2482079866,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Sunken Isles",
+      "number": 22
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 576743835,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/sunken-isles_region-chests_23.jpg",
+    "debug": {
+      "name": "Sunken Isles",
+      "number": 23
+    },
+    "description": "Up in the very top left corner, on the rocks."
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3307732497,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/sunken-isles_region-chests_24.jpg",
+    "debug": {
+      "name": "Sunken Isles",
+      "number": 24
+    },
+    "description": "Left of the lost sector's entrance, poorly lit, behind some crates."
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 823939877,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/trostland_region-chests_25.jpg",
+    "debug": {
+      "name": "Trostland",
+      "number": 25
+    },
+    "description": "Behind the fast travel landing zone."
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 908643859,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Trostland",
+      "number": 26
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1085712440,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/trostland_region-chests_27.jpg",
+    "debug": {
+      "name": "Trostland",
+      "number": 27
+    },
+    "description": "In the back right room on the third floor of a damaged building."
+  },
+  {
+    "debug": {
+      "name": "The Sludge",
+      "number": 28
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 589814471,
+    "screenshot": "/static/images/screenshots/region-chests/the-sludge_region-chests_28.jpg",
+    "description": "Through the waterfall."
+  },
+  {
+    "debug": {
+      "name": "The Sludge",
+      "number": 29
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 2503906440,
+    "screenshot": "/static/images/screenshots/region-chests/the-sludge_region-chests_29.jpg",
+    "description": "Inside the causeway's ceiling."
+  },
+  {
+    "debug": {
+      "name": "The Sludge",
+      "number": 30
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 3609559330,
+    "screenshot": "/static/images/screenshots/region-chests/the-sludge_region-chests_30.jpg",
+    "description": "Through the rubbled brick wall."
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 89704164,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Siren's Watch",
+      "number": 31
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1956319555,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/sirens-watch_region-chests_32.jpg",
+    "debug": {
+      "name": "Siren's Watch",
+      "number": 32
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1375559682,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/sirens-watch_region-chests_33.jpg",
+    "debug": {
+      "name": "Siren's Watch",
+      "number": 33
+    },
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "The Empty Tank",
+      "number": 33
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 3817650588,
+    "recordHash": 1391735969,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 387879790,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/the-rig_region-chests_34.jpg",
+    "debug": {
+      "name": "The Rig",
+      "number": 34
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 92809392,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/the-rig_region-chests_35.jpg",
+    "debug": {
+      "name": "The Rig",
+      "number": 35
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 463653643,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rig",
+      "number": 36
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 4143709398,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Watcher's Grave",
+      "number": 37
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2049004329,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Watcher's Grave",
+      "number": 38
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1780053523,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Watcher's Grave",
+      "number": 39
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2925348591,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Exodus Black",
+      "number": 40
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3059588176,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Exodus Black",
+      "number": 41
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1281044779,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/exodus-black_region-chests_42.jpg",
+    "debug": {
+      "name": "Exodus Black",
+      "number": 42
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 131897336,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hallows",
+      "number": 43
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1295226450,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hallows",
+      "number": 44
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 379286227,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hallows",
+      "number": 45
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2662231509,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/the-cistern_region-chests_46.jpg",
+    "debug": {
+      "name": "The Cistern",
+      "number": 46
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1881681731,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/the-cistern_region-chests_47.jpg",
+    "debug": {
+      "name": "The Cistern",
+      "number": 47
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3128564200,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Cistern",
+      "number": 48
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1704777267,
+    "recordHash": 2994199542,
+    "screenshot": "/static/images/screenshots/region-chests/artifacts-edge_region-chests_49.jpg",
+    "debug": {
+      "name": "Artifact's Edge",
+      "number": 49
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2779832084,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/artifacts-edge_region-chests_50.jpg",
+    "debug": {
+      "name": "Artifact's Edge",
+      "number": 50
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 4128910789,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/artifacts-edge_region-chests_51.jpg",
+    "debug": {
+      "name": "Artifact's Edge",
+      "number": 51
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2414643433,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/glade-of-echoes_region-chests_52.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 52
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 4048519991,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/glade-of-echoes_region-chests_53.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 53
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 517025716,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/region-chests/glade-of-echoes_region-chests_54.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 54
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1965760095,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 55
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 93401344,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 56
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 722167505,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 57
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2809244994,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Lighthouse",
+      "number": 58
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3811207701,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Lighthouse",
+      "number": 59
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 781161764,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Lighthouse",
+      "number": 60
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 4084570599,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Lighthouse",
+      "number": 61
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1353530822,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Lighthouse",
+      "number": 62
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 4157158378,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 63
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2270250077,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 64
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 1250639948,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 65
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2495538001,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 66
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3644688446,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 67
+    },
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3739130591,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 68
+    },
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Divalian Mists",
+      "number": 72
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 2700275579,
+    "recordHash": 2419556790,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Rheasilvia",
+      "number": 76
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 1109476065,
+    "recordHash": 2358176597,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "The Strand",
+      "number": 80
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 3986286066,
+    "recordHash": 2769541312,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "The Cobble",
+      "number": 86
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 341637691,
+    "recordHash": 444152197,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Four-Horn Gulch",
+      "number": 98
+    },
+    "checklistId": 1697465175,
+    "checklistHash": 847545115,
+    "recordHash": 3428487153,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3947020272,
+    "screenshot": "/static/images/screenshots/region-chests/archers-line_region-chests_100.jpg",
+    "description": false,
+    "debug": {
+      "name": "Archer's Line",
+      "number": 100
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3812883599,
+    "screenshot": "/static/images/screenshots/region-chests/archers-line_region-chests_101.jpg",
+    "description": false,
+    "debug": {
+      "name": "Archer's Line",
+      "number": 101
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 731133614,
+    "screenshot": "/static/images/screenshots/region-chests/archers-line_region-chests_102.jpg",
+    "description": false,
+    "debug": {
+      "name": "Archer's Line",
+      "number": 102
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3147488613,
+    "screenshot": "/static/images/screenshots/region-chests/sorrows-harbor_region-chests_103.jpg",
+    "description": false,
+    "debug": {
+      "name": "Sorrow's Harbor",
+      "number": 103
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3364328658,
+    "screenshot": "/static/images/screenshots/region-chests/sorrows-harbor_region-chests_104.jpg",
+    "description": false,
+    "debug": {
+      "name": "Sorrow's Harbor",
+      "number": 104
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2448388435,
+    "screenshot": "/static/images/screenshots/region-chests/sorrows-harbor_region-chests_105.jpg",
+    "description": false,
+    "debug": {
+      "name": "Sorrow's Harbor",
+      "number": 105
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 2499619401,
+    "screenshot": "/static/images/screenshots/region-chests/hellmouth_region-chests_106.jpg",
+    "description": false,
+    "debug": {
+      "name": "Hellmouth",
+      "number": 106
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 340933878,
+    "screenshot": "/static/images/screenshots/region-chests/hellmouth_region-chests_107.jpg",
+    "description": false,
+    "debug": {
+      "name": "Hellmouth",
+      "number": 107
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 74989591,
+    "screenshot": "/static/images/screenshots/region-chests/hellmouth_region-chests_108.jpg",
+    "description": false,
+    "debug": {
+      "name": "Hellmouth",
+      "number": 108
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 204962005,
+    "screenshot": "/static/images/screenshots/region-chests/anchor-of-light_region-chests_109.jpg",
+    "description": false,
+    "debug": {
+      "name": "Anchor of Light",
+      "number": 109
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3138619650,
+    "screenshot": "/static/images/screenshots/region-chests/anchor-of-light_region-chests_110.jpg",
+    "description": false,
+    "debug": {
+      "name": "Anchor of Light",
+      "number": 110
+    }
+  },
+  {
+    "checklistId": 1697465175,
+    "checklistHash": 3719379523,
+    "screenshot": "/static/images/screenshots/region-chests/anchor-of-light_region-chests_111.jpg",
+    "description": false,
+    "debug": {
+      "name": "Anchor of Light",
+      "number": 111
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 4062796495,
+    "screenshot": "/static/images/screenshots/jade-rabbits/anchor-of-light_jade-rabbits_4062796495.jpg",
+    "description": false,
+    "debug": {
+      "number": 1
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 269847098,
+    "screenshot": "/static/images/screenshots/jade-rabbits/hellmouth_jade-rabbits_269847098.jpg",
+    "description": false,
+    "debug": {
+      "number": 2
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 957600697,
+    "screenshot": "/static/images/screenshots/jade-rabbits/archers-line_jade-rabbits_957600697.jpg",
+    "description": false,
+    "debug": {
+      "name": "Archer's Line",
+      "number": 3
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 2293092716,
+    "screenshot": "/static/images/screenshots/jade-rabbits/sorrows-harbor_jade-rabbits_2293092716.jpg",
+    "description": false,
+    "debug": {
+      "name": "Sorrow's Harbor",
+      "number": 4
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 2779900411,
+    "screenshot": "/static/images/screenshots/jade-rabbits/k1-logistics_jade-rabbits_2779900411.jpg",
+    "description": "After completing the sector, proceed to the exit and find the subject on the way out.",
+    "debug": {
+      "number": 5
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 3728157446,
+    "screenshot": "/static/images/screenshots/jade-rabbits/k1-revelation_jade-rabbits_3728157446.jpg",
+    "description": "Requires a Firewall Data Fragment. Acquire prerequisite through Eris Morn.",
+    "debug": {
+      "name": "K1 Revelation",
+      "number": 6
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 3977481189,
+    "screenshot": "/static/images/screenshots/jade-rabbits/circle-of-bones_jade-rabbits_3977481189.jpg",
+    "description": "Entering the Circle of Bones via The Gatehouse, turn right and proceed to follow the loop around the Hellmouth. Before reaching the next junction, turn on your heel and look beneath the platform to find two jade eyes piercing through your Traveler-given light.",
+    "debug": {
+      "name": "Circle of Bones",
+      "number": 7
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 1568227000,
+    "screenshot": "/static/images/screenshots/jade-rabbits/chamber-of-night_jade-rabbits_1568227000.jpg",
+    "description": false,
+    "debug": {
+      "name": "Chamber of Night",
+      "number": 8
+    }
+  },
+  {
+    "checklistId": 1912364094,
+    "checklistHash": 2115406343,
+    "screenshot": "/static/images/screenshots/jade-rabbits/shrine-of-oryx_jade-rabbits_2115406343.jpg",
+    "description": false,
+    "debug": {
+      "name": "Shrine of Oryx",
+      "number": 9
+    }
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2920200623,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 1
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1533707526,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2286037801,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 15952112,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 706033843,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Giant's Scar",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2191600255,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Excavation Site II",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1823844950,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Excavation Site II",
+      "number": 7
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2738322873,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Excavation Site II",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2612420553,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Terrabase Charon",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2738178364,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Terrabase Charon",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1117495887,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Terrabase Charon",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1468797866,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Terrabase Charon",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2787444525,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Terrabase Charon",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1852491429,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Wraith Mines",
+      "number": 14
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3497811400,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Wraith Mines",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 813021547,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Wraith Mines",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2507692969,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2208993308,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3141855791,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 601336330,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1495525517,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Oasis",
+      "number": 21
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2926351942,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 22
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 59454447,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 23
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3804543196,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 24
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2390321485,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 25
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1814005450,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Rupture",
+      "number": 26
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3326352133,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Spine Burrows",
+      "number": 27
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 635128104,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Spine Burrows",
+      "number": 28
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1427733666,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Endless Gate",
+      "number": 29
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2033620375,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Warmind Vault JYS-2",
+      "number": 30
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 375526862,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Warmind Vault JYS-2",
+      "number": 31
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3765685361,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Warmind Vault JYS-2",
+      "number": 32
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2799709240,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Pyramidion",
+      "number": 33
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 619741013,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Pyramidion",
+      "number": 34
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 81948082,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Pyramidion",
+      "number": 35
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1157589714,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/maevic-square_ghost-scans_36.jpg",
+    "debug": {
+      "name": "Maevic Square",
+      "number": 36
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2868885819,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/maevic-square_ghost-scans_37.jpg",
+    "debug": {
+      "name": "Maevic Square",
+      "number": 37
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 967037272,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/maevic-square_ghost-scans_38.jpg",
+    "debug": {
+      "name": "Maevic Square",
+      "number": 38
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2768204331,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/outskirts_ghost-scans_39.jpg",
+    "debug": {
+      "name": "Outskirts",
+      "number": 39
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 145185218,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/outskirts_ghost-scans_40.jpg",
+    "debug": {
+      "name": "Outskirts",
+      "number": 40
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3849148005,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/outskirts_ghost-scans_41.jpg",
+    "debug": {
+      "name": "Outskirts",
+      "number": 41
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1561360340,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/outskirts_ghost-scans_42.jpg",
+    "debug": {
+      "name": "Outskirts",
+      "number": 42
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3578984807,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/outskirts_ghost-scans_43.jpg",
+    "debug": {
+      "name": "Outskirts",
+      "number": 43
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3222380274,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/firebase-hades_ghost-scans_44.jpg",
+    "debug": {
+      "name": "Legion's Anchor",
+      "number": 44
+    },
+    "description": "To the right, just off of the strike's beat and path, under a ramp."
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1284663771,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/winding-cove_ghost-scans_45.jpg",
+    "debug": {
+      "name": "Winding Cove",
+      "number": 45
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1001598066,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/winding-cove_ghost-scans_46.jpg",
+    "debug": {
+      "name": "Winding Cove",
+      "number": 46
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1427361604,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/firebase-hades_ghost-scans_47.jpg",
+    "debug": {
+      "name": "Firebase Hades",
+      "number": 47
+    },
+    "description": "On the ceiling of a platform that extends above some large ammunition."
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3446252721,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/firebase-hades_ghost-scans_48.jpg",
+    "debug": {
+      "name": "Firebase Hades",
+      "number": 48
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 97567758,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/firebase-hades_ghost-scans_49.jpg",
+    "debug": {
+      "name": "Firebase Hades",
+      "number": 49
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2209645019,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/firebase-hades_ghost-scans_50.jpg",
+    "debug": {
+      "name": "Firebase Hades",
+      "number": 50
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3448616917,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sojourners-camp_ghost-scans_51.jpg",
+    "debug": {
+      "name": "Sojourner's Camp",
+      "number": 51
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1333617848,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sojourners-camp_ghost-scans_52.jpg",
+    "debug": {
+      "name": "Sojourner's Camp",
+      "number": 52
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2451662235,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sojourners-camp_ghost-scans_53.jpg",
+    "debug": {
+      "name": "Sojourner's Camp",
+      "number": 53
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1483671366,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-gulch_ghost-scans_54.jpg",
+    "debug": {
+      "name": "The Gulch",
+      "number": 54
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2911741167,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-gulch_ghost-scans_55.jpg",
+    "debug": {
+      "name": "The Gulch",
+      "number": 55
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2361862620,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-gulch_ghost-scans_56.jpg",
+    "debug": {
+      "name": "The Gulch",
+      "number": 56
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1326408520,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sunken-isles_ghost-scans_57.jpg",
+    "debug": {
+      "name": "Sunken Isles",
+      "number": 57
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3976055845,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sunken-isles_ghost-scans_58.jpg",
+    "debug": {
+      "name": "Sunken Isles",
+      "number": 58
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 696550530,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sunken-isles_ghost-scans_59.jpg",
+    "debug": {
+      "name": "Sunken Isles",
+      "number": 59
+    },
+    "description": "Top rear corner of this garage."
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2761367130,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/salt-mines_ghost-scans_60.jpg",
+    "debug": {
+      "name": "Salt Mines",
+      "number": 60
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 854884291,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/salt-mines_ghost-scans_61.jpg",
+    "debug": {
+      "name": "Salt Mines",
+      "number": 61
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1141127808,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/salt-mines_ghost-scans_62.jpg",
+    "debug": {
+      "name": "Salt Mines",
+      "number": 62
+    },
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Trostland",
+      "number": 63
+    },
+    "checklistId": 2360931290,
+    "checklistHash": 2980987172,
+    "screenshot": "/static/images/screenshots/ghost-scans/trostland_ghost-scans_63.jpg",
+    "description": "An item lays on the front seat of a rusty truck."
+  },
+  {
+    "debug": {
+      "name": "Trostland",
+      "number": 64
+    },
+    "checklistId": 2360931290,
+    "checklistHash": 1426068241,
+    "screenshot": "/static/images/screenshots/ghost-scans/trostland_ghost-scans_64.jpg",
+    "description": "A Fallen house banner hangs between two buildings."
+  },
+  {
+    "debug": {
+      "name": "Trostland",
+      "number": 65
+    },
+    "checklistId": 2360931290,
+    "checklistHash": 2372350830,
+    "screenshot": "/static/images/screenshots/ghost-scans/trostland_ghost-scans_65.jpg",
+    "description": "On the uppermost level of a damaged building, in the darkest corner, is a small green toolbox."
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 4187728059,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/trostland_ghost-scans_66.jpg",
+    "debug": {
+      "name": "Trostland",
+      "number": 66
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2285879512,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/trostland_ghost-scans_67.jpg",
+    "debug": {
+      "name": "Trostland",
+      "number": 67
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1273441503,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Echion Hold",
+      "number": 68
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3334635926,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-sludge_ghost-scans_69.jpg",
+    "debug": {
+      "name": "The Sludge",
+      "number": 69
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 532635327,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-sludge_ghost-scans_70.jpg",
+    "debug": {
+      "name": "The Sludge",
+      "number": 70
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1901808940,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-sludge_ghost-scans_71.jpg",
+    "debug": {
+      "name": "The Sludge",
+      "number": 71
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2582598949,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-tunnels_ghost-scans_72.jpg",
+    "debug": {
+      "name": "The Tunnels",
+      "number": 72
+    },
+    "description": "One of the minor rooms along the tunnels servers as an access way to an auxiliary area. Search the farthest corner."
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 4227918920,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-tunnels_ghost-scans_73.jpg",
+    "debug": {
+      "name": "The Tunnels",
+      "number": 73
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2467921825,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/arboretum_ghost-scans_77.jpg",
+    "debug": {
+      "name": "Arboretum",
+      "number": 77
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2370332724,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/arboretum_ghost-scans_78.jpg",
+    "debug": {
+      "name": "Arboretum",
+      "number": 78
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 92886727,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/arboretum_ghost-scans_79.jpg",
+    "debug": {
+      "name": "Arboretum",
+      "number": 79
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2099860274,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/festering-halls_ghost-scans_80.jpg",
+    "debug": {
+      "name": "Festering Halls",
+      "number": 80
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1640698523,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/festering-halls_ghost-scans_81.jpg",
+    "debug": {
+      "name": "Festering Halls",
+      "number": 81
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 522654136,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/festering-halls_ghost-scans_82.jpg",
+    "debug": {
+      "name": "Festering Halls",
+      "number": 82
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3809028134,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/solarium_ghost-scans_83.jpg",
+    "debug": {
+      "name": "Solarium",
+      "number": 83
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3286134225,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-rig_ghost-scans_84.jpg",
+    "debug": {
+      "name": "The Rig",
+      "number": 84
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 504509156,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-rig_ghost-scans_85.jpg",
+    "debug": {
+      "name": "The Rig",
+      "number": 85
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2296400119,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-rig_ghost-scans_86.jpg",
+    "debug": {
+      "name": "The Rig",
+      "number": 86
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3594270226,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-rig_ghost-scans_87.jpg",
+    "debug": {
+      "name": "The Rig",
+      "number": 87
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 4090383285,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-rig_ghost-scans_88.jpg",
+    "debug": {
+      "name": "The Rig",
+      "number": 88
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2488492993,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/tidal-anchor_ghost-scans_89.jpg",
+    "debug": {
+      "name": "Tidal Anchor",
+      "number": 89
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3815223124,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/tidal-anchor_ghost-scans_90.jpg",
+    "debug": {
+      "name": "Tidal Anchor",
+      "number": 90
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 369549035,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sirens-watch_ghost-scans_91.jpg",
+    "debug": {
+      "name": "Siren's Watch",
+      "number": 91
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2424480898,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sirens-watch_ghost-scans_92.jpg",
+    "debug": {
+      "name": "Siren's Watch",
+      "number": 92
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1409018917,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sirens-watch_ghost-scans_93.jpg",
+    "debug": {
+      "name": "Siren's Watch",
+      "number": 93
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3416198548,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sirens-watch_ghost-scans_94.jpg",
+    "debug": {
+      "name": "Siren's Watch",
+      "number": 94
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3595366409,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sinking-docks_ghost-scans_95.jpg",
+    "debug": {
+      "name": "Sinking Docks",
+      "number": 95
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3296563836,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sinking-docks_ghost-scans_96.jpg",
+    "debug": {
+      "name": "Sinking Docks",
+      "number": 96
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2376738191,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/sinking-docks_ghost-scans_97.jpg",
+    "debug": {
+      "name": "Sinking Docks",
+      "number": 97
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 274074864,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 98
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1531993101,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 99
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 637803914,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 100
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3178323375,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 101
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2245460892,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Tangle",
+      "number": 102
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3621126393,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Chamber of Stone",
+      "number": 103
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3267068662,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Mists",
+      "number": 104
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1888720159,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Mists",
+      "number": 105
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3216317068,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Mists",
+      "number": 106
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 138682577,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Watcher's Grave",
+      "number": 107
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1652024804,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Watcher's Grave",
+      "number": 108
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3443915767,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Watcher's Grave",
+      "number": 109
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3994204292,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Chamber of Water",
+      "number": 110
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 301010312,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hallows",
+      "number": 111
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3416588901,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hallows",
+      "number": 112
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 4007593410,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hallows",
+      "number": 113
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2014746732,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Sunken Cavern",
+      "number": 114
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 491541817,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Sunken Cavern",
+      "number": 115
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 826274860,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/artifacts-edge_ghost-scans_116.jpg",
+    "debug": {
+      "name": "Artifact's Edge",
+      "number": 116
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3959793642,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-cistern_ghost-scans_117.jpg",
+    "debug": {
+      "name": "The Cistern",
+      "number": 117
+    },
+    "description": "Use the wall, as pictured, to climb above this particle beam."
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3903162131,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-cistern_ghost-scans_118.jpg",
+    "debug": {
+      "name": "The Cistern",
+      "number": 118
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2916483792,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-cistern_ghost-scans_119.jpg",
+    "debug": {
+      "name": "The Cistern",
+      "number": 119
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 850025481,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-cistern_ghost-scans_120.jpg",
+    "debug": {
+      "name": "The Cistern",
+      "number": 120
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 394292070,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/the-cistern_ghost-scans_121.jpg",
+    "debug": {
+      "name": "The Cistern",
+      "number": 121
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2241654182,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/pools-of-luminance_ghost-scans_122.jpg",
+    "debug": {
+      "name": "Pools of Luminance",
+      "number": 122
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 777902543,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/pools-of-luminance_ghost-scans_123.jpg",
+    "debug": {
+      "name": "Pools of Luminance",
+      "number": 123
+    },
+    "description": "Enter the wall and follow the path for a time. You'll reach a stream of radiolaria. Heading forwards and upwards, you'll notice rays of light shining from behind some boulders on your right. Investigate them and find a small opening at the source of the light. Follow the light to the artifact."
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 186016854,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/glade-of-echos_ghost-scans_124.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 124
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 553772159,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/glade-of-echos_ghost-scans_125.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 125
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2623699692,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/glade-of-echos_ghost-scans_126.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 126
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 287051485,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/glade-of-echos_ghost-scans_127.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 127
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1240361690,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/glade-of-echos_ghost-scans_128.jpg",
+    "debug": {
+      "name": "Glade of Echoes",
+      "number": 128
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1450715904,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/exodus-black_ghost-scans_129.jpg",
+    "debug": {
+      "name": "Exodus Black",
+      "number": 129
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2117645021,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/exodus-black_ghost-scans_130.jpg",
+    "debug": {
+      "name": "Exodus Black",
+      "number": 130
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3070955226,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/exodus-black_ghost-scans_131.jpg",
+    "debug": {
+      "name": "Exodus Black",
+      "number": 131
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2384365695,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/exodus-black_ghost-scans_132.jpg",
+    "debug": {
+      "name": "Exodus Black",
+      "number": 132
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 159325932,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/ghost-scans/exodus-black_ghost-scans_133.jpg",
+    "debug": {
+      "name": "Exodus Black",
+      "number": 133
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1272530121,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Chamber of Sky",
+      "number": 134
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 4135304289,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "EX-077 Command",
+      "number": 135
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 332249208,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Prodromus Down",
+      "number": 136
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2871705493,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Prodromus Down",
+      "number": 137
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2580075029,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 138
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 40618744,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 139
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1942467291,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 140
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 4125357326,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 141
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3179074993,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 142
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1160183876,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 143
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2189340887,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 144
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3952893274,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Courtyard",
+      "number": 145
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3361818035,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 146
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3035465354,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 147
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3929654541,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 148
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 348155036,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 149
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1281017519,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 150
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 4189491718,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 151
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 646854697,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 152
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3631646504,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Hangar",
+      "number": 153
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 50709803,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bazaar",
+      "number": 154
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1722657986,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bazaar",
+      "number": 155
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1131653477,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bazaar",
+      "number": 156
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3138833108,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bazaar",
+      "number": 157
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 861490279,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bazaar",
+      "number": 158
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3069418910,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bazaar",
+      "number": 159
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1812102977,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bazaar",
+      "number": 160
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 2127236170,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Farm",
+      "number": 161
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1711258227,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Farm",
+      "number": 162
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 1763506864,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Farm",
+      "number": 163
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2360931290,
+    "checklistHash": 3249685481,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Farm",
+      "number": 164
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118078,
+    "screenshot": "/static/images/screenshots/lore/archers-light_necrotic-cyphers_4212118078.jpg",
+    "description": false,
+    "debug": {
+      "name": "I.I: Of Tattered Blood and Broken Bone",
+      "number": 1
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118079,
+    "screenshot": "/static/images/screenshots/lore/hellmouth_necrotic-cyphers_4212118079.jpg",
+    "description": false,
+    "debug": {
+      "name": "I.II: Of Tattered Blood and Broken Bone",
+      "number": 2
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118076,
+    "screenshot": "/static/images/screenshots/lore/archers-light_necrotic-cyphers_4212118076.jpg",
+    "description": false,
+    "debug": {
+      "name": "I.III: Of Tattered Blood and Broken Bone",
+      "number": 3
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118077,
+    "screenshot": "/static/images/screenshots/lore/archers-light_necrotic-cyphers_4212118077.jpg",
+    "description": false,
+    "debug": {
+      "name": "I.IV: Of Tattered Blood and Broken Bone",
+      "number": 4
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118074,
+    "screenshot": "/static/images/screenshots/lore/anchor-of-light_necrotic-cyphers_4212118074.jpg",
+    "description": false,
+    "debug": {
+      "name": "II: An Audience with Slaughter",
+      "number": 5
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118075,
+    "screenshot": "/static/images/screenshots/lore/anchor-of-light_necrotic-cyphers_4212118075.jpg",
+    "description": false,
+    "debug": {
+      "name": "III: Ritualistic Circle Pit",
+      "number": 6
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118072,
+    "screenshot": "/static/images/screenshots/lore/sorrows-harbor_necrotic-cyphers_4212118072.jpg",
+    "description": false,
+    "debug": {
+      "name": "IV: Blood Sport",
+      "number": 7
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118073,
+    "screenshot": "/static/images/screenshots/lore/sorrows-harbor_necrotic-cyphers_4212118073.jpg",
+    "description": false,
+    "debug": {
+      "name": "V: A Sinister Plot",
+      "number": 8
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118070,
+    "screenshot": "/static/images/screenshots/lore/temple-of-crota_necrotic-cyphers_4212118070.jpg",
+    "description": false,
+    "debug": {
+      "name": "VI: Blood Sport",
+      "number": 9
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 4212118071,
+    "screenshot": "/static/images/screenshots/lore/circle-of-bones_necrotic-cyphers_4212118071.jpg",
+    "description": false,
+    "debug": {
+      "name": "VII: The Severed and the Unmade",
+      "number": 10
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468509,
+    "screenshot": "/static/images/screenshots/lore/chamber-of-night_necrotic-cyphers_2028468509.jpg",
+    "description": false,
+    "debug": {
+      "name": "VIII: A Sacrifice of Self",
+      "number": 11
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468508,
+    "screenshot": "/static/images/screenshots/lore/the-worlds-grave_necrotic-cyphers_2028468508.jpg",
+    "description": false,
+    "debug": {
+      "name": "IX.I: The Unmaking",
+      "number": 12
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468511,
+    "screenshot": "/static/images/screenshots/lore/the-gatehouse_necrotic-cyphers_2028468511.jpg",
+    "description": false,
+    "debug": {
+      "name": "IX.II: The Unmaking",
+      "number": 13
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468510,
+    "screenshot": "/static/images/screenshots/lore/lunar-battlegrounds_necrotic-cyphers_2028468510.jpg",
+    "description": false,
+    "debug": {
+      "name": "X: Faith in Bone",
+      "number": 14
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468505,
+    "screenshot": "/static/images/screenshots/lore/sanctuary_necrotic-cyphers_2028468505.jpg",
+    "description": false,
+    "debug": {
+      "name": "XI: The Anti-Logic",
+      "number": 15
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468504,
+    "screenshot": "/static/images/screenshots/lore/pit-of-heresy_necrotic-cyphers_2028468504.jpg",
+    "description": "Enter the dungeon and head to the tower farthest right. Retain some altitude if possible. On the farthest side of the farthest tower, below its foot, is a cypher.",
+    "activityHash": 1375089621,
+    "debug": {
+      "name": "VIII.X: Apocrypha",
+      "number": 16
+    }
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468507,
+    "screenshot": "/static/images/screenshots/lore/pit-of-heresy_necrotic-cyphers_2028468507.jpg",
+    "description": "Complete the Necropolis encounter and proceed towards The Pit. Once at the wall of paths, climb and turn around. To the right of the hall is a small ledge along the moonstone wall. Use it to step to the upper level of the hallway and proceed to the farthest right side.",
+    "debug": {
+      "name": "IX.X: Apocrypha",
+      "number": 17
+    },
+    "activityHash": 1375089621
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468506,
+    "screenshot": "/static/images/screenshots/lore/pit-of-heresy_necrotic-cyphers_2028468506.jpg",
+    "description": "Complete the Tunnels of Despair encounter. Before making your way deeper by traversing the height traps, climb carefully to their higest level.",
+    "debug": {
+      "name": "IX.X.I: Apocrypha",
+      "number": 18
+    },
+    "activityHash": 1375089621
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468501,
+    "screenshot": "/static/images/screenshots/lore/pit-of-heresy_necrotic-cyphers_2028468501.jpg",
+    "description": "Drop down into the Tunnels of Despair and keep right. Enter at the first crouch-way and follow it to its end. You'll see a red door. Standing at the red door turn 70° clockwise. You'll be staring at a boulder. To the right of the boulder is the prize you seek.",
+    "debug": {
+      "name": "IX.X.II: Apocrypha",
+      "number": 19
+    },
+    "activityHash": 1375089621
+  },
+  {
+    "checklistId": 2474271317,
+    "recordHash": 2028468500,
+    "screenshot": "/static/images/screenshots/lore/pit-of-heresy_necrotic-cyphers_2028468500.jpg",
+    "description": "In the middlest crouch-way tunnel, closest to the green gas pit where you find the solar orb. Entering the tunnel from the green gas pit side, it will quickly widen into a small room. Stop, turn 180°, and look upwards.",
+    "debug": {
+      "name": "XI.X: Apocrypha",
+      "number": 20
+    },
+    "activityHash": 1375089621
+  },
+  {
+    "debug": {
+      "name": "Katabasis",
+      "number": 9
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1101252171,
+    "recordHash": 3024450468,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Palingenesis II",
+      "number": 14
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1118029885,
+    "recordHash": 3024450464,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Imponent III",
+      "number": 16
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1118029880,
+    "recordHash": 2974117604,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Nigh I",
+      "number": 28
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1067696994,
+    "recordHash": 3024450471,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Imponent V",
+      "number": 30
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1067696999,
+    "recordHash": 3024450469,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Palingenesis I",
+      "number": 33
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1084474582,
+    "recordHash": 3024450465,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Imponent IV",
+      "number": 35
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1118029882,
+    "recordHash": 2974117605,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Nigh II",
+      "number": 38
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1084474577,
+    "recordHash": 3024450470,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Imponent II",
+      "number": 40
+    },
+    "checklistId": 2609997025,
+    "checklistHash": 1067696996,
+    "recordHash": 2974117611,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Rheasilvia",
+      "number": 9
+    },
+    "checklistId": 2726513366,
+    "checklistHash": 2576690974,
+    "recordHash": 473797693,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2396353243,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 1
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1940327752,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2195137425,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1587021054,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3129904887,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 4157946388,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 694083773,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 7
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 469307546,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1544879171,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Core Terminus",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1647038864,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Core Terminus",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1426667374,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2646836353,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2665635000,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 230993931,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 14
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3336709962,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 225769517,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 4073240388,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2250860135,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 540619062,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 4136367049,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2349056649,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Aurora Reach",
+      "number": 21
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2025841142,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab: Rasputin",
+      "number": 22
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1097686451,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab: Rasputin",
+      "number": 23
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3533574080,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Aurora Reach",
+      "number": 24
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3605407829,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 25
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1494352690,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Olympus Descent",
+      "number": 26
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1379369263,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 27
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2564969772,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Olympus Descent",
+      "number": 28
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2233867329,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Ma'adim Subterrane",
+      "number": 29
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3934324270,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 30
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1645477936,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 31
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1473251939,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 32
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 249065638,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 33
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 2847032313,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 34
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3820608348,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 35
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 4186273247,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 36
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1326643362,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 37
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 4203150661,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Dynamo Approach",
+      "number": 38
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3311015016,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Alton Dynamo",
+      "number": 39
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 3767040507,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Glacial Drift",
+      "number": 40
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1502183275,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Olympus Descent",
+      "number": 41
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 4090043800,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab: Rasputin",
+      "number": 42
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1420566113,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Mindlab: Rasputin",
+      "number": 43
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 200500046,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "BrayTech Futurescape",
+      "number": 44
+    },
+    "description": false
+  },
+  {
+    "checklistId": 2955980198,
+    "checklistHash": 1359222727,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Ma'adim Subterrane",
+      "number": 45
+    },
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Grove of Ulan-Tan",
+      "number": 3
+    },
+    "checklistId": 3142056444,
+    "checklistHash": 4137615299,
+    "recordHash": 1277163032,
+    "screenshot": false,
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2777193860,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/outskirts_lost-sectors_whispered-falls.jpg",
+    "debug": {
+      "name": "Whispered Falls",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3240560483,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/outskirts_lost-sectors_the-drain.jpg",
+    "debug": {
+      "name": "The Drain",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3402131234,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/outskirts_lost-sectors_scavengers-den.jpg",
+    "debug": {
+      "name": "Scavenger's Den",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 815928620,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/winding-cove_lost-sectors_the-weep.jpg",
+    "debug": {
+      "name": "The Weep",
+      "number": 7
+    },
+    "description": "The entrance to this lost sector is found firstly through the ceiling of this tiny volcano, secondly keep left and, ..."
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 4091723403,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/firebase-hades_lost-sectors_the-pit.jpg",
+    "debug": {
+      "name": "The Pit",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2554253964,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/firebase-hades_lost-sectors_pathfinders-crash.jpg",
+    "debug": {
+      "name": "Pathfinder's Crash",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3850160541,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/firebase-hades_lost-sectors_excavation-site-xii.jpg",
+    "debug": {
+      "name": "Excavation Site XII",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 1850051473,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/winding-cove_lost-sectors_flooded-chasm.jpg",
+    "debug": {
+      "name": "Flooded Chasm",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 1505712119,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/sunken-isles_lost-sectors_skydock-iv.jpg",
+    "debug": {
+      "name": "Skydock IV",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 245987256,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/sunken-isles_lost-sectors_the-quarry.jpg",
+    "debug": {
+      "name": "The Quarry",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Atrium",
+      "number": 14
+    },
+    "checklistId": 3142056444,
+    "checklistHash": 526088259,
+    "screenshot": "/static/images/screenshots/lost-sectors/trostland_lost-sectors_atrium.jpg",
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Terminus East",
+      "number": 15
+    },
+    "checklistId": 3142056444,
+    "checklistHash": 2954440164,
+    "screenshot": "/static/images/screenshots/lost-sectors/trostland_lost-sectors_terminus-east.jpg",
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Widow's Walk",
+      "number": 16
+    },
+    "checklistId": 3142056444,
+    "checklistHash": 1306638037,
+    "screenshot": "/static/images/screenshots/lost-sectors/trostland_lost-sectors_widows-walk.jpg",
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 874424041,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/the-sludge_lost-sectors_cavern-of-souls.jpg",
+    "debug": {
+      "name": "Cavern of Souls",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3010602390,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/the-sludge_lost-sectors_hallowed-grove.jpg",
+    "debug": {
+      "name": "Hallowed Grove",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2508300599,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/the-sludge_lost-sectors_shaft-13.jpg",
+    "debug": {
+      "name": "Shaft 13",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 1719798656,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/sirens-watch_lost-sectors_methane-flush.jpg",
+    "debug": {
+      "name": "Methane Flush",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3267113018,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/the-rig_lost-sectors_ds-quarters-2.jpg",
+    "debug": {
+      "name": "DS Quarters-2",
+      "number": 21
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3359286509,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/the-rig_lost-sectors_cargo-bay-3.jpg",
+    "debug": {
+      "name": "Cargo Bay 3",
+      "number": 22
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2485656913,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/exodus-black_lost-sectors_the-rift.jpg",
+    "debug": {
+      "name": "The Rift",
+      "number": 23
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2248063191,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/the-cistern_lost-sectors_the-conflux.jpg",
+    "debug": {
+      "name": "The Conflux",
+      "number": 24
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2069372641,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/artifacts-edge_lost-sectors_the-orrery.jpg",
+    "debug": {
+      "name": "The Orrery",
+      "number": 25
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2806770339,
+    "recordHash": null,
+    "screenshot": "/static/images/screenshots/lost-sectors/glade-of-echoes_lost-sectors_the-carrion-pit.jpg",
+    "debug": {
+      "name": "The Carrion Pit",
+      "number": 26
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 925785517,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Ancient's Haunt",
+      "number": 27
+    },
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Pariah's Refuge",
+      "number": 28
+    },
+    "checklistId": 3142056444,
+    "checklistHash": 3107552723,
+    "screenshot": "/static/images/screenshots/lost-sectors/fields-of-glass_lost-sectors_pariahs-refuge.jpg",
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Core Terminus",
+      "number": 29
+    },
+    "checklistId": 3142056444,
+    "checklistHash": 3205937151,
+    "screenshot": "/static/images/screenshots/lost-sectors/braytech-futurescape_lost-sectors_core-terminus.jpg",
+    "description": false
+  },
+  {
+    "debug": {
+      "name": "Ma'adim Subterrane",
+      "number": 30
+    },
+    "checklistId": 3142056444,
+    "checklistHash": 2025886454,
+    "screenshot": "/static/images/screenshots/lost-sectors/glacial-drift_lost-sectors_maadim-subterrane.jpg",
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 592877507,
+    "recordHash": 3308633273,
+    "screenshot": false,
+    "debug": {
+      "name": "Shipyard AWO-43",
+      "number": 31
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 4232901662,
+    "recordHash": 3517489196,
+    "screenshot": false,
+    "debug": {
+      "name": "Kingship Dock",
+      "number": 32
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2693451640,
+    "recordHash": 641038864,
+    "screenshot": false,
+    "debug": {
+      "name": "Wolfship Turbine",
+      "number": 34
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 1134123378,
+    "recordHash": 376008854,
+    "screenshot": false,
+    "debug": {
+      "name": "Trapper's Cave",
+      "number": 35
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3360907267,
+    "recordHash": 4143851405,
+    "screenshot": false,
+    "debug": {
+      "name": "Bay of Drowned Wishes",
+      "number": 36
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 486022069,
+    "recordHash": 2574072230,
+    "screenshot": false,
+    "debug": {
+      "name": "Aphelion's Rest",
+      "number": 37
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 97924869,
+    "recordHash": 1641495327,
+    "screenshot": false,
+    "debug": {
+      "name": "Chamber of Starlight",
+      "number": 38
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 1949102307,
+    "screenshot": "/static/images/screenshots/lost-sectors/archers-line_lost-sectors_k1-logistics.jpg",
+    "description": false,
+    "debug": {
+      "name": "K1 Logistics",
+      "number": 39
+    }
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 4102839450,
+    "screenshot": "/static/images/screenshots/lost-sectors/sorrows-harbor_lost-sectors_k1-revelation.jpg",
+    "description": false,
+    "debug": {
+      "name": "K1 Revelation",
+      "number": 40
+    }
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 3978091702,
+    "screenshot": "/static/images/screenshots/lost-sectors/hellmouth_lost-sectors_k1-crew-quarters.jpg",
+    "description": false,
+    "debug": {
+      "name": "K1 Crew Quarters",
+      "number": 41
+    }
+  },
+  {
+    "checklistId": 3142056444,
+    "checklistHash": 2955806106,
+    "screenshot": "/static/images/screenshots/lost-sectors/anchor-of-light_lost-sectors_k1-communion.jpg",
+    "description": false,
+    "debug": {
+      "name": "K1 Communion",
+      "number": 42
+    }
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019960,
+    "screenshot": false,
+    "debug": {
+      "name": "Revanche II",
+      "number": 1
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019963,
+    "screenshot": false,
+    "debug": {
+      "name": "Revanche III",
+      "number": 2
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019962,
+    "screenshot": false,
+    "debug": {
+      "name": "Revanche IV",
+      "number": 3
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019965,
+    "screenshot": false,
+    "debug": {
+      "name": "Revanche V",
+      "number": 4
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019964,
+    "screenshot": false,
+    "debug": {
+      "name": "Telic I",
+      "number": 5
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019967,
+    "screenshot": false,
+    "debug": {
+      "name": "Telic II",
+      "number": 6
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019966,
+    "screenshot": false,
+    "debug": {
+      "name": "Tyrannocide I",
+      "number": 7
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019953,
+    "screenshot": false,
+    "debug": {
+      "name": "Tyrannocide II",
+      "number": 8
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 276019952,
+    "screenshot": false,
+    "debug": {
+      "name": "Tyrannocide III",
+      "number": 9
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242246,
+    "screenshot": false,
+    "debug": {
+      "name": "Tyrannocide IV",
+      "number": 10
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242247,
+    "screenshot": false,
+    "debug": {
+      "name": "Tyrannocide V",
+      "number": 11
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242244,
+    "screenshot": false,
+    "debug": {
+      "name": "Regent",
+      "number": 12
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242245,
+    "screenshot": false,
+    "debug": {
+      "name": "Illyn",
+      "number": 13
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242242,
+    "screenshot": false,
+    "debug": {
+      "name": "Nitrogen",
+      "number": 14
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242243,
+    "screenshot": false,
+    "debug": {
+      "name": "Refusal",
+      "number": 15
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242240,
+    "screenshot": false,
+    "debug": {
+      "name": "Fleet",
+      "number": 16
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242241,
+    "screenshot": "/static/images/screenshots/lore/scavengers-den_the-awoken-of-the-reef_259242241.jpg",
+    "debug": {
+      "name": "Of Earth and the Reef",
+      "number": 17
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242254,
+    "screenshot": "/static/images/screenshots/lore/sinking-docks_the-awoken-of-the-reef_259242254.jpg",
+    "debug": {
+      "name": "Pilgrimage",
+      "number": 18
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 259242255,
+    "screenshot": "/static/images/screenshots/lore/the-conflux_the-awoken-of-the-reef_259242255.jpg",
+    "debug": {
+      "name": "Flayed",
+      "number": 19
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 242464659,
+    "screenshot": false,
+    "debug": {
+      "name": "Gensym Scribe",
+      "number": 20
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 242464658,
+    "screenshot": false,
+    "debug": {
+      "name": "Exegesis",
+      "number": 21
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 242464657,
+    "screenshot": false,
+    "debug": {
+      "name": "King's Wrath",
+      "number": 22
+    },
+    "description": false
+  },
+  {
+    "checklistId": 3305936921,
+    "recordHash": 242464656,
+    "screenshot": false,
+    "debug": {
+      "name": "Emissary",
+      "number": 23
+    },
+    "description": false
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 3365966558,
+    "screenshot": false,
+    "debug": {
+      "name": "Red Legion, Black Oil",
+      "number": 1
+    },
+    "description": false,
+    "activityHash": 122988657
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1236319313,
+    "screenshot": false,
+    "debug": {
+      "name": "Anti-Anti-Air",
+      "number": 2
+    },
+    "description": false,
+    "activityHash": 1228327586
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2829005633,
+    "screenshot": false,
+    "debug": {
+      "name": "Dark Alliance",
+      "number": 3
+    },
+    "description": false,
+    "activityHash": 3002511278
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 567965726,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Stop and Go",
+      "number": 4
+    },
+    "description": false,
+    "activityHash": 3780356141
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 4294254332,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Getting Your Hands Dirty",
+      "number": 5
+    },
+    "description": false,
+    "activityHash": 1829866365
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1028576328,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Unsafe at Any Speed",
+      "number": 6
+    },
+    "description": false,
+    "activityHash": 1971154629
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 362030994,
+    "screenshot": false,
+    "debug": {
+      "name": "A Frame Job",
+      "number": 7
+    },
+    "description": false,
+    "activityHash": 2174556965
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2910437552,
+    "screenshot": false,
+    "debug": {
+      "name": "Calling Them Home",
+      "number": 8
+    },
+    "description": false,
+    "activityHash": 3304835347
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 3935103948,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Reversing the Polarity",
+      "number": 9
+    },
+    "description": false,
+    "activityHash": 539897061
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1560430124,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Poor Reception",
+      "number": 10
+    },
+    "description": false,
+    "activityHash": 1159314159
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 3256129871,
+    "screenshot": false,
+    "debug": {
+      "name": "Supply and Demand",
+      "number": 11
+    },
+    "description": false,
+    "activityHash": 320680002
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1857289065,
+    "screenshot": false,
+    "debug": {
+      "name": "No Safe Distance",
+      "number": 12
+    },
+    "description": false,
+    "activityHash": 1254990192
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 68735378,
+    "screenshot": false,
+    "debug": {
+      "name": "Cliffhanger",
+      "number": 13
+    },
+    "description": false,
+    "activityHash": 3500791146
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1962795426,
+    "screenshot": false,
+    "debug": {
+      "name": "Unexpected Guests",
+      "number": 14
+    },
+    "description": false,
+    "activityHash": 2949941834
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1938916192,
+    "screenshot": false,
+    "debug": {
+      "name": "Arecibo",
+      "number": 15
+    },
+    "description": false,
+    "activityHash": 622895925
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 3789580564,
+    "screenshot": false,
+    "debug": {
+      "name": "Road Rage",
+      "number": 16
+    },
+    "description": false,
+    "activityHash": 1824067376
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1613294042,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Postmodern Prometheus",
+      "number": 17
+    },
+    "description": false,
+    "activityHash": 1651979106
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2192627023,
+    "screenshot": false,
+    "debug": {
+      "name": "Unbreakable",
+      "number": 18
+    },
+    "description": false,
+    "activityHash": 1289867188
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2453810416,
+    "screenshot": false,
+    "debug": {
+      "name": "Release",
+      "number": 19
+    },
+    "description": false,
+    "activityHash": 2665134323
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2731809302,
+    "screenshot": false,
+    "debug": {
+      "name": "Exodus Siege",
+      "number": 20
+    },
+    "description": false,
+    "activityHash": 1981289329
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 4184575069,
+    "screenshot": false,
+    "debug": {
+      "name": "Invitation from the Emperor",
+      "number": 21
+    },
+    "description": false,
+    "activityHash": 1063969232
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1210828643,
+    "screenshot": false,
+    "debug": {
+      "name": "Hack the Planet",
+      "number": 22
+    },
+    "description": false,
+    "activityHash": 359488722
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 65676844,
+    "screenshot": false,
+    "debug": {
+      "name": "Deep Conversation",
+      "number": 23
+    },
+    "description": false,
+    "activityHash": 963938931
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2679676863,
+    "screenshot": false,
+    "debug": {
+      "name": "Lost Crew",
+      "number": 24
+    },
+    "description": false,
+    "activityHash": 1225970098
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1705076671,
+    "screenshot": false,
+    "debug": {
+      "name": "Deathless",
+      "number": 25
+    },
+    "description": false,
+    "activityHash": 3277510674
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 107870839,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Thief of Thieves",
+      "number": 26
+    },
+    "description": false,
+    "activityHash": 789332628
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 225793782,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Siren Song",
+      "number": 27
+    },
+    "description": false,
+    "activityHash": 3211568383
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1297379016,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bad Neighbors",
+      "number": 28
+    },
+    "description": false,
+    "activityHash": 3645117987
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 844419501,
+    "recordHash": 1144140061,
+    "screenshot": false,
+    "debug": {
+      "name": "Signal Light",
+      "number": 29
+    },
+    "description": false,
+    "activityHash": 2307090074
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1942564430,
+    "recordHash": 1522954160,
+    "screenshot": false,
+    "debug": {
+      "name": "Not Even the Darkness",
+      "number": 30
+    },
+    "description": false,
+    "activityHash": 2067233851
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2580399170,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Up and Up",
+      "number": 31
+    },
+    "description": false,
+    "activityHash": 1725302079
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 3642813504,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "Bug in the System",
+      "number": 32
+    },
+    "description": false,
+    "activityHash": 1279862229
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 390214624,
+    "recordHash": null,
+    "screenshot": false,
+    "debug": {
+      "name": "The Runner",
+      "number": 33
+    },
+    "description": false,
+    "activityHash": 1570598249
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1509536061,
+    "screenshot": false,
+    "debug": {
+      "name": "Deathly Tremors",
+      "number": 34
+    },
+    "description": false,
+    "activityHash": 1294490226
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 437556607,
+    "screenshot": false,
+    "debug": {
+      "name": "Hephaestus",
+      "number": 35
+    },
+    "description": false,
+    "activityHash": 340004423
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 361578967,
+    "screenshot": false,
+    "debug": {
+      "name": "Psionic Potential",
+      "number": 36
+    },
+    "description": false,
+    "activityHash": 2302677459
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 3357269531,
+    "screenshot": false,
+    "debug": {
+      "name": "Incursion",
+      "number": 37
+    },
+    "description": false,
+    "activityHash": 2966841322
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1126566222,
+    "recordHash": 2052987728,
+    "screenshot": false,
+    "debug": {
+      "name": "Target: The Trickster",
+      "number": 38
+    },
+    "description": false,
+    "activityHash": 1042784002
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2789836294,
+    "recordHash": 2216522217,
+    "screenshot": false,
+    "debug": {
+      "name": "Target: The Hangman",
+      "number": 39
+    },
+    "description": false,
+    "activityHash": 952862146
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 2243679480,
+    "recordHash": 2133906881,
+    "screenshot": false,
+    "debug": {
+      "name": "Target: The Rifleman",
+      "number": 40
+    },
+    "description": false,
+    "activityHash": 2504933700
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 3723964334,
+    "recordHash": 3853730685,
+    "screenshot": false,
+    "debug": {
+      "name": "Target: The Rider",
+      "number": 41
+    },
+    "description": false,
+    "activityHash": 1429621744
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 806941660,
+    "recordHash": 267060719,
+    "screenshot": false,
+    "debug": {
+      "name": "Target: The Mad Bomber",
+      "number": 42
+    },
+    "description": false,
+    "activityHash": 1449366986
+  },
+  {
+    "checklistId": 4178338182,
+    "checklistHash": 1735547533,
+    "recordHash": 3393552539,
+    "screenshot": false,
+    "debug": {
+      "name": "Target: The Mindbender",
+      "number": 43
+    },
+    "description": false,
+    "activityHash": 3926419686
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078235,
+    "screenshot": "/static/images/screenshots/lore/archers-line_lunas-lost_3390078235.jpg",
+    "description": false,
+    "debug": {
+      "name": "Ghost Fragment: Gunnvor's Ghost",
+      "number": 1
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078234,
+    "screenshot": "/static/images/screenshots/lore/the-worlds-grave_lunas-lost_3390078234.jpg",
+    "description": false,
+    "debug": {
+      "name": "Ghost Fragment: Sai Mota's Ghost",
+      "number": 2
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078233,
+    "screenshot": "/static/images/screenshots/lore/shrine-of-oryx_lunas-lost_3390078233.jpg",
+    "description": false,
+    "debug": {
+      "name": "Ghost Fragment: Gimble-4's Ghost",
+      "number": 3
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078232,
+    "screenshot": "/static/images/screenshots/lore/the-gatehouse_lunas-lost_3390078232.jpg",
+    "description": "Enter the The Gatehouse via the HellMouth and follow it to a well-lit circular room. Along the windowed-wall on the right is what you seek.",
+    "debug": {
+      "name": "Ghost Fragment: Eris Morn's Ghost",
+      "number": 4
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078239,
+    "screenshot": "/static/images/screenshots/lore/summoning-pits_lunas-lost_3390078239.jpg",
+    "description": false,
+    "debug": {
+      "name": "Ghost Fragment: Toland's Ghost",
+      "number": 5
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078238,
+    "screenshot": "/static/images/screenshots/lore/lunar-battlegrounds_lunas-lost_3390078238.jpg",
+    "description": "At the side on the hidden side of the pictured module.",
+    "debug": {
+      "name": "Ghost Fragment: Vyhar's Ghost",
+      "number": 6
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078237,
+    "screenshot": "/static/images/screenshots/lore/anchor-of-light_lunas-lost_3390078237.jpg",
+    "description": false,
+    "debug": {
+      "name": "Ghost Fragment: Lonesome Ghost",
+      "number": 7
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078236,
+    "screenshot": "/static/images/screenshots/lore/pit-of-heresy_lunas-lost_3390078236.jpg",
+    "description": "In the Tunnels of Despair, on a cliff ledge adjacent to the green gas pit.",
+    "debug": {
+      "name": "Ghost Fragment: Omar Agah's Ghost",
+      "number": 8
+    },
+    "activityHash": 1375089621
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078227,
+    "screenshot": "/static/images/screenshots/lore/circle-of-bones_lunas-lost_3390078227.jpg",
+    "description": false,
+    "debug": {
+      "name": "Ghost Fragment: Eriana-3's Ghost",
+      "number": 9
+    }
+  },
+  {
+    "checklistId": 4285512244,
+    "recordHash": 3390078226,
+    "screenshot": "/static/images/screenshots/lore/hellmouth_lunas-lost_3390078226.jpg",
+    "description": false,
+    "debug": {
+      "name": "Ghost Fragment: Vell Tarlowe's Ghost",
+      "number": 10
+    }
+  },
+  {
+    "vendorHash": 1735426333,
+    "bubbleHash": 1461622515,
+    "screenshot": "/static/images/screenshots/vendors/vendors_ana-bray-2.jpg"
+  },
+  {
+    "vendorHash": 2398407866,
+    "bubbleHash": 2822410613,
+    "screenshot": "/static/images/screenshots/vendors/vendors_brother-vance-2.jpg"
+  },
+  {
+    "vendorHash": 396892126,
+    "bubbleHash": 3091570009,
+    "screenshot": "/static/images/screenshots/vendors/vendors_devrim-kay-2.jpg"
+  },
+  {
+    "vendorHash": 1576276905,
+    "bubbleHash": 4205285323,
+    "screenshot": "/static/images/screenshots/vendors/vendors_failsafe-2.jpg"
+  },
+  {
+    "vendorHash": 1062861569,
+    "bubbleHash": 4035573696,
+    "screenshot": "/static/images/screenshots/vendors/vendors_sloane-2.jpg"
+  },
+  {
+    "vendorHash": 1616085565,
+    "bubbleHash": 240420607,
+    "screenshot": "/static/images/screenshots/vendors/vendors_eris-morn-2.jpg"
+  },
+  {
+    "vendorHash": 3411552308,
+    "bubbleHash": 240420607,
+    "screenshot": "/static/images/screenshots/vendors/vendors_lectern-of-enchantment-2.jpg"
+  }
+]

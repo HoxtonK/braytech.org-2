@@ -1,0 +1,236 @@
+.seasonal-artifact {
+  position: relative;
+}
+
+.seasonal-artifact .spinner.mini {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.seasonal-artifact .image.artifact {
+  top: -20%;
+  width: 100%;
+  padding-bottom: 100%;
+  height: unset;
+}
+
+.seasonal-artifact .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+.seasonal-artifact .artifact {
+  display: grid;
+  grid-template-columns: 64px auto;
+  grid-gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.seasonal-artifact .artifact .icon {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.seasonal-artifact .artifact .icon .image {
+  box-shadow: inset 0 0 0 2px rgb(204, 204, 204);
+}
+
+.seasonal-artifact .artifact .text {
+  position: relative;
+  overflow: hidden;
+}
+
+.seasonal-artifact .artifact .text .name {
+  font-family: 'nhg text';
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1;
+  color: rgb(238, 238, 238);
+  margin: -3px 0 10px 0px;
+}
+
+.seasonal-artifact .artifact .text .type {
+  font-family: 'nhg text';
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.seasonal-artifact .artifact .description {
+  grid-column: span 2;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 600px;
+}
+
+
+
+.seasonal-artifact .tiers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.seasonal-artifact .tiers .tier {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.seasonal-artifact .tiers .tier:first-child::before,
+.seasonal-artifact .tiers .tier::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 2px;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+}
+
+.seasonal-artifact .tiers .tier:first-child::before,
+.seasonal-artifact .tiers .tier:last-child::after {
+  height: calc(100% + 10px);
+}
+
+.seasonal-artifact .tiers .tier:first-child::before {
+  right: unset;
+  left: -1px;
+}
+
+.seasonal-artifact .tiers .tier.available {
+  background-color: rgba(49, 139, 144, 0.6);
+}
+
+.seasonal-artifact .tiers .tier.available:not(:last-child)::after  {
+  background-color: rgba(10, 243, 243, 0.5);
+}
+
+.seasonal-artifact .tiers .tier.available.last::after  {
+  background-color: rgba(10, 243, 243, 0.8);
+}
+
+.seasonal-artifact .tiers .tier .list.inventory-items {
+  grid-template-columns: 1fr;
+}
+
+.seasonal-artifact .tiers .tier .list.inventory-items li {
+  padding: 4px;
+}
+
+.seasonal-artifact .tiers .tier .list.inventory-items li.unavailable .icon .image {
+  filter: unset;
+}
+
+.seasonal-artifact .tiers .tier .list.inventory-items li.unavailable .icon .image {
+  opacity: 0.5;
+}
+
+.seasonal-artifact .tiers .tier .list.inventory-items li.unavailable .icon .image.background {
+  opacity: 0.5;
+}
+
+.seasonal-artifact .tiers .tier:not(.available) .list.inventory-items li.unavailable .icon .image {
+  opacity: 0.3;
+}
+
+.seasonal-artifact .tiers .tier:not(.available) .list.inventory-items li.unavailable .icon .image.background {
+  opacity: 0.2;
+}
+
+.seasonal-artifact .tiers .tier .list.inventory-items li .icon .cost {
+  position: absolute;
+  top: 8px;
+  right: 11px;
+  font-size: 14px;
+  font-family: 'nhg text';
+  color: #fff;
+  pointer-events: none;  
+}
+
+.seasonal-artifact .tiers .tier .list.inventory-items li.unavailable .icon .cost {
+  opacity: 0.5;
+}
+
+
+.seasonal-artifact .progression .integers {
+  margin: 18px 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.seasonal-artifact .progression .integers .name {
+  margin: 0 0 7px;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.seasonal-artifact .progression .integers .value {
+  position: relative;
+  height: 18px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.seasonal-artifact .progression .integers .value.power {
+  color: #e5d163;
+}
+
+.seasonal-artifact .progression .progress-bar ~ p {
+  margin: 0.8rem 0 0.4rem;
+}
+
+.seasonal-artifact .progression .progress-bar .fill {
+  background-color: #1c9b9b;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .seasonal-artifact .artifact {
+    grid-template-columns: 48px auto;
+  }
+  
+  .seasonal-artifact .artifact .icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .seasonal-artifact .artifact .icon .image {
+    box-shadow: inset 0 0 0 2px rgb(204, 204, 204);
+  }
+
+  .seasonal-artifact .artifact .text .name {
+    font-size: 26px;
+    margin: -1px 0 6px 0;
+  }
+  
+  .seasonal-artifact .artifact .text .type {
+    font-size: 18px;
+    line-height: 16px;
+  }
+  
+  .seasonal-artifact .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .seasonal-artifact .tiers .tier .list.inventory-items li .icon .cost {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 12px;
+  }
+
+}

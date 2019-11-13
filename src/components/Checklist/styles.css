@@ -1,0 +1,80 @@
+.list.checklist-items li {
+  position: relative;
+  padding: 0;
+  margin: 0 0 14px;
+  line-height: 1.4;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: auto minmax(1rem, 48px);
+  align-items: flex-start;
+  height: unset;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.list.checklist-items li .check-box {
+  width: 100%;
+}
+
+.list.checklist-items li .button {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  width: calc(100% - 12px);
+  height: 100%;
+  justify-content: center;
+  margin: 0 0 0 12px;
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.list.checklist-items li:hover .button {
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.list.checklist-items li .button a {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  padding: 0 0.4rem;
+  opacity: 0;
+}
+
+.list.checklist-items li .button a span {
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+.list.checklist-items li:hover .button a {
+  opacity: 0.6;
+}
+
+.list.checklist-items li:hover .button a:hover {
+  opacity: 1;
+}
+
+.list.checklist-items li .location {
+  grid-row: 2/3;
+  padding: 0 0 0 24px;
+  margin: 4px 0 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.list.checklist-items li.completed {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.list.checklist-items li.completed .location {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+  .list.checklist-items li {
+    grid-template-columns: auto minmax(1rem, 48px);
+  }
+
+  .list.checklist-items li .button {
+    opacity: 1;
+    pointer-events: unset;
+  }
+}

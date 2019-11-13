@@ -1,0 +1,311 @@
+#multiplayer {
+  padding: 4rem 3rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 3rem;
+}
+
+#multiplayer .module-l1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+  align-content: start;
+}
+
+#multiplayer .module-l1:last-child {
+  grid-gap: 0;
+}
+
+#multiplayer .sub-header ~ .sub-header {
+  margin: 3rem 0 1rem;
+}
+
+#multiplayer .content.head .page-header {
+  margin-bottom: 0;
+}
+
+#multiplayer .content.views {
+  
+}
+
+#multiplayer .content.views .list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 60px);
+  grid-gap: 3px;
+}
+
+#multiplayer .content.views .list li {
+  display: grid;
+  margin: 0;
+  height: 60px;
+  justify-content: center;
+}
+
+#multiplayer .content.views .list li .icon {
+  font-size: 32px;
+}
+
+#multiplayer .content.views .list li::before {
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.4);
+}
+
+#multiplayer .content.views .list li.linked:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 2;
+}
+
+#multiplayer .content.views .list li a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 1);
+  color: #fff;
+}
+
+#multiplayer .content.views .list li a:hover {
+  color: #fff;
+}
+
+#multiplayer .content.career {
+  /* display: none; */
+}
+
+#multiplayer .content.career .sub-header {
+  margin: 0 0 1rem;
+}
+
+#multiplayer .content.career .doms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+#multiplayer .content.career h4 {
+  margin: 0 0 1rem;
+  font-size: 16px;
+}
+
+#multiplayer .content.career h4 ~ h4 {
+  margin: 1.5rem 0 1rem;
+}
+
+#multiplayer .content.career .highlight {
+  margin: 0 0 1rem;
+}
+
+#multiplayer .content.career .highlight:last-child {
+  margin: 0;
+}
+
+#multiplayer .content.career .highlight .name {
+  margin: 7px 0 0;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#multiplayer .content.career .highlight .value {
+  font-size: 18px;
+  line-height: 1;
+}
+
+#multiplayer .content.career .highlight .value.progress {
+  margin: 0 0 10px;
+}
+
+#multiplayer .content .modes li {
+  height: unset;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+#multiplayer .content .modes li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1);
+  z-index: 2;
+}
+
+#multiplayer .content .modes li .icon {
+  background-color: rgba(255, 255, 255, 0.04);
+  height: 96px;
+  width: 96px;
+}
+
+#multiplayer .content .modes li .icon svg .polygon.inner {
+  animation: rotate-linear 20s infinite linear;
+  transform-origin: center;
+}
+
+#multiplayer .content .modes li .icon svg .polygon.inner.ani {
+  opacity: 0 !important;
+}
+
+#multiplayer .content .modes li .icon svg .falling-1,
+#multiplayer .content .modes li .icon svg .falling-2,
+#multiplayer .content .modes li .icon svg .falling-3 {
+  transform-origin: center center;
+  /* animation: rotate-linear 2s infinite linear; */
+  animation: crucible-modes-falling-leaf 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+#multiplayer .content .modes li .icon svg .falling-2 {
+  animation-delay: 1s;
+}
+
+#multiplayer .content .modes li .icon svg .falling-3 {
+  animation-delay: 1.5s;
+}
+
+#multiplayer .content .modes li .text {
+  width: calc(100% - 96px);
+  height: 96px;
+  padding: 10px 1rem;
+  display: grid;
+  grid-template-columns: auto 72px;
+}
+
+#multiplayer .content .modes li .text .name {
+  font-size: 16px;
+}
+
+#multiplayer .content .modes li .text .minor-stats {
+  align-self: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+#multiplayer .content .modes li .text .stat {
+  
+}
+
+#multiplayer .content .modes li .text .stat .name {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#multiplayer .content .modes li .text .stat .value {
+  margin: 7px 0 0;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#multiplayer .content .modes li .text .kdr {
+  text-align: right;
+  align-self: flex-start;
+  grid-column: 2/2;
+  grid-row: 1/3;
+}
+
+#multiplayer .content .modes li .text .kdr .name {
+  font-size: 16px;
+}
+
+#multiplayer .content .modes li .text .kdr .value {
+  font-size: 32px;
+  line-height: 28px;
+}
+
+#multiplayer .content .modes li .text .no-stats {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  display: grid;
+  justify-content: center;
+}
+
+#multiplayer .content .modes li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: background-color 0.25s, box-shadow 0.25s;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0);
+}
+
+#multiplayer .content .modes li a.active::before {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 1);
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+  #multiplayer {
+    grid-template-columns: 0.8fr 2fr;
+  }
+
+  #multiplayer .module-l1:nth-child(2) {
+    grid-template-columns: 1fr;
+  }
+  
+  #multiplayer .content.career {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  #multiplayer {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  #multiplayer {
+    padding: 3rem 2rem 2rem;
+    grid-gap: 2rem;
+  }
+
+  #multiplayer .content .modes li .icon {
+    height: 72px;
+    width: 72px;
+  }
+
+  #multiplayer .content .modes li .text {
+    width: calc(100% - 66px);
+    height: 72px;
+    padding: 8px 1rem;
+    grid-template-columns: auto 48px;
+  }
+
+  #multiplayer .content .modes li .text .name {
+    font-size: 14px;
+  }
+
+  #multiplayer .content .modes li .text .minor-stats {
+    margin: 6px 0 0;
+  }
+
+  #multiplayer .content .modes li .text .stat .value {
+    margin: 3px 0 0;
+    font-size: 14px;
+  }
+
+  #multiplayer .content .modes li .text .stat .name {
+    font-size: 12px;
+  }
+
+  #multiplayer .content .modes li .text .kdr .value {
+    margin: 5px 0 0;
+    font-size: 18px;
+    line-height: 14px;
+  }
+
+  #multiplayer ul.list.reports {
+    margin: 0 0 0 calc(-2rem + 4px);
+    width: calc(100% + 4rem - 8px);
+  }
+
+}

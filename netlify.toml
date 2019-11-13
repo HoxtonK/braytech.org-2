@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  REACT_APP_BETA = "true"
+  REACT_APP_GA_TRACKING_ID_BETA = "UA-86401488-14"
+  REACT_APP_BUNGIE_CLIENT_ID = "28861"
+  REACT_APP_BUNGIE_CLIENT_SECRET = "l8Fw8O2ZRV7GtYoMW2XloCcWwm1wfIQKYUY8zbq3ejY"
+  REACT_APP_BUNGIE_API_KEY = "1ec6e24ea36b4d0984b59f85f25fe4c8"
+
+[[headers]]
+  for = "/service-worker.js"
+
+  [headers.values]
+    cache-control = "max-age=0,no-cache,no-store,must-revalidate"

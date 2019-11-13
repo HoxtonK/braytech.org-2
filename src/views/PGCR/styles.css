@@ -1,0 +1,25 @@
+#pgcr {
+  padding: 0;
+  display: grid;
+  grid-gap: 3rem;
+}
+
+#pgcr.loading {
+  padding: 3rem;
+}
+
+#pgcr .list.reports > li {
+  margin: 0;
+}
+
+#pgcr .list.reports li > .head {
+  padding-bottom: 30%;
+}
+
+#pgcr .list.reports li > .head .detail {
+  padding: 3rem;
+}
+
+#pgcr .list.reports li .entries {
+  padding: 1rem 3rem;
+}

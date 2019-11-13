@@ -1,0 +1,12 @@
+#maps {
+  padding: 0;
+  display: grid;
+  margin: -40px auto 0;
+  width: 100%;
+  max-width: unset;
+}
+
+#maps .map-omega {
+  height: 100vh;
+}
+

@@ -1,0 +1,494 @@
+{
+  "braytech_purple_rune": {
+    "displayProperties": {
+      "description": "A purple rune. Purple runes include; Rune of Joy, Rune of the Beast, and Rune of Jubilation.",
+      "name": "Purple Rune",
+      "icon": "/static/images/extracts/ui/rune_purple.png",
+      "localIcon": true,
+      "hasIcon": true
+    },
+    "backgroundColor": {
+      "colorHash": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemTypeDisplayName": "Material",
+    "uiItemDisplayStyle": "",
+    "itemTypeAndTierDisplayName": "Legendary Material",
+    "displaySource": "",
+    "inventory": {
+      "maxStackSize": 1,
+      "bucketTypeHash": 2422292810,
+      "recoveryBucketTypeHash": 0,
+      "tierTypeHash": 4008398120,
+      "isInstanceItem": false,
+      "nonTransferrableOriginal": false,
+      "tierTypeName": "Legendary",
+      "tierType": 5,
+      "expirationTooltip": "",
+      "expiredInActivityMessage": "",
+      "expiredInOrbitMessage": "",
+      "suppressExpirationWhenObjectivesComplete": true
+    },
+    "sourceData": {
+      "exclusive": 0,
+      "vendorSources": []
+    },
+    "plug": {
+      "insertionRules": [],
+      "plugCategoryIdentifier": "penumbra.runes.legendary.rune0",
+      "plugCategoryHash": 415109986,
+      "onActionRecreateSelf": false,
+      "actionRewardSiteHash": 0,
+      "actionRewardItemOverrideHash": 0,
+      "insertionMaterialRequirementHash": 0,
+      "previewItemOverrideHash": 0,
+      "enabledMaterialRequirementHash": 0,
+      "enabledRules": [],
+      "uiPlugLabel": "",
+      "plugStyle": 0,
+      "isPseudoPlug": false,
+      "plugAvailability": 0,
+      "alternateUiPlugLabel": "",
+      "alternatePlugStyle": 0,
+      "isDummyPlug": false
+    },
+    "acquireRewardSiteHash": 0,
+    "acquireUnlockHash": 0,
+    "investmentStats": [],
+    "perks": [
+      {
+        "requirementDisplayString": "",
+        "perkHash": 2458424464,
+        "perkVisibility": 0
+      }
+    ],
+    "allowActions": true,
+    "doesPostmasterPullHaveSideEffects": true,
+    "nonTransferrable": true,
+    "itemCategoryHashes": [3109687656],
+    "specialItemType": 0,
+    "itemType": 20,
+    "itemSubType": 0,
+    "classType": 3,
+    "equippable": false,
+    "defaultDamageType": 0,
+    "isWrapper": false,
+    "hash": 2149082452,
+    "index": 7779,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "braytech_red_rune": {
+    "displayProperties": {
+      "description": "A red rune. Red runes include; Rune of Ambition, Rune of Gluttony, and Rune of Cunning.",
+      "name": "Red Rune",
+      "icon": "/static/images/extracts/ui/rune_red.png",
+      "localIcon": true,
+      "hasIcon": true
+    },
+    "backgroundColor": {
+      "colorHash": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemTypeDisplayName": "Material",
+    "uiItemDisplayStyle": "",
+    "itemTypeAndTierDisplayName": "Legendary Material",
+    "displaySource": "",
+    "inventory": {
+      "maxStackSize": 1,
+      "bucketTypeHash": 2422292810,
+      "recoveryBucketTypeHash": 0,
+      "tierTypeHash": 4008398120,
+      "isInstanceItem": false,
+      "nonTransferrableOriginal": false,
+      "tierTypeName": "Legendary",
+      "tierType": 5,
+      "expirationTooltip": "",
+      "expiredInActivityMessage": "",
+      "expiredInOrbitMessage": "",
+      "suppressExpirationWhenObjectivesComplete": true
+    },
+    "sourceData": {
+      "exclusive": 0,
+      "vendorSources": []
+    },
+    "plug": {
+      "insertionRules": [],
+      "plugCategoryIdentifier": "penumbra.runes.legendary.rune3",
+      "plugCategoryHash": 415109986,
+      "onActionRecreateSelf": false,
+      "actionRewardSiteHash": 0,
+      "actionRewardItemOverrideHash": 0,
+      "insertionMaterialRequirementHash": 0,
+      "previewItemOverrideHash": 0,
+      "enabledMaterialRequirementHash": 0,
+      "enabledRules": [],
+      "uiPlugLabel": "",
+      "plugStyle": 0,
+      "isPseudoPlug": false,
+      "plugAvailability": 0,
+      "alternateUiPlugLabel": "",
+      "alternatePlugStyle": 0,
+      "isDummyPlug": false
+    },
+    "acquireRewardSiteHash": 0,
+    "acquireUnlockHash": 0,
+    "investmentStats": [],
+    "perks": [
+      {
+        "requirementDisplayString": "",
+        "perkHash": 2458424464,
+        "perkVisibility": 0
+      }
+    ],
+    "allowActions": true,
+    "doesPostmasterPullHaveSideEffects": true,
+    "nonTransferrable": true,
+    "itemCategoryHashes": [3109687656],
+    "specialItemType": 0,
+    "itemType": 20,
+    "itemSubType": 0,
+    "classType": 3,
+    "equippable": false,
+    "defaultDamageType": 0,
+    "isWrapper": false,
+    "hash": 2149082452,
+    "index": 7779,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "braytech_green_rune": {
+    "displayProperties": {
+      "description": "A green rune. Green runes include; Rune of War, Rune of Pride, and Rune of Desire.",
+      "name": "Green Rune",
+      "icon": "/static/images/extracts/ui/rune_green.png",
+      "localIcon": true,
+      "hasIcon": true
+    },
+    "backgroundColor": {
+      "colorHash": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemTypeDisplayName": "Material",
+    "uiItemDisplayStyle": "",
+    "itemTypeAndTierDisplayName": "Legendary Material",
+    "displaySource": "",
+    "inventory": {
+      "maxStackSize": 1,
+      "bucketTypeHash": 2422292810,
+      "recoveryBucketTypeHash": 0,
+      "tierTypeHash": 4008398120,
+      "isInstanceItem": false,
+      "nonTransferrableOriginal": false,
+      "tierTypeName": "Legendary",
+      "tierType": 5,
+      "expirationTooltip": "",
+      "expiredInActivityMessage": "",
+      "expiredInOrbitMessage": "",
+      "suppressExpirationWhenObjectivesComplete": true
+    },
+    "sourceData": {
+      "exclusive": 0,
+      "vendorSources": []
+    },
+    "plug": {
+      "insertionRules": [],
+      "plugCategoryIdentifier": "penumbra.runes.legendary.rune6",
+      "plugCategoryHash": 415109986,
+      "onActionRecreateSelf": false,
+      "actionRewardSiteHash": 0,
+      "actionRewardItemOverrideHash": 0,
+      "insertionMaterialRequirementHash": 0,
+      "previewItemOverrideHash": 0,
+      "enabledMaterialRequirementHash": 0,
+      "enabledRules": [],
+      "uiPlugLabel": "",
+      "plugStyle": 0,
+      "isPseudoPlug": false,
+      "plugAvailability": 0,
+      "alternateUiPlugLabel": "",
+      "alternatePlugStyle": 0,
+      "isDummyPlug": false
+    },
+    "acquireRewardSiteHash": 0,
+    "acquireUnlockHash": 0,
+    "investmentStats": [],
+    "perks": [
+      {
+        "requirementDisplayString": "",
+        "perkHash": 2458424464,
+        "perkVisibility": 0
+      }
+    ],
+    "allowActions": true,
+    "doesPostmasterPullHaveSideEffects": true,
+    "nonTransferrable": true,
+    "itemCategoryHashes": [3109687656],
+    "specialItemType": 0,
+    "itemType": 20,
+    "itemSubType": 0,
+    "classType": 3,
+    "equippable": false,
+    "defaultDamageType": 0,
+    "isWrapper": false,
+    "hash": 2149082452,
+    "index": 7779,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "braytech_blue_rune": {
+    "displayProperties": {
+      "description": "A blue rune. Blue runes include; Rune of Excess, Rune of Wealth, and Rune of Pleasure.",
+      "name": "Blue Rune",
+      "icon": "/static/images/extracts/ui/rune_blue.png",
+      "localIcon": true,
+      "hasIcon": true
+    },
+    "backgroundColor": {
+      "colorHash": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemTypeDisplayName": "Material",
+    "uiItemDisplayStyle": "",
+    "itemTypeAndTierDisplayName": "Legendary Material",
+    "displaySource": "",
+    "inventory": {
+      "maxStackSize": 1,
+      "bucketTypeHash": 2422292810,
+      "recoveryBucketTypeHash": 0,
+      "tierTypeHash": 4008398120,
+      "isInstanceItem": false,
+      "nonTransferrableOriginal": false,
+      "tierTypeName": "Legendary",
+      "tierType": 5,
+      "expirationTooltip": "",
+      "expiredInActivityMessage": "",
+      "expiredInOrbitMessage": "",
+      "suppressExpirationWhenObjectivesComplete": true
+    },
+    "sourceData": {
+      "exclusive": 0,
+      "vendorSources": []
+    },
+    "plug": {
+      "insertionRules": [],
+      "plugCategoryIdentifier": "penumbra.runes.legendary.rune9",
+      "plugCategoryHash": 415109986,
+      "onActionRecreateSelf": false,
+      "actionRewardSiteHash": 0,
+      "actionRewardItemOverrideHash": 0,
+      "insertionMaterialRequirementHash": 0,
+      "previewItemOverrideHash": 0,
+      "enabledMaterialRequirementHash": 0,
+      "enabledRules": [],
+      "uiPlugLabel": "",
+      "plugStyle": 0,
+      "isPseudoPlug": false,
+      "plugAvailability": 0,
+      "alternateUiPlugLabel": "",
+      "alternatePlugStyle": 0,
+      "isDummyPlug": false
+    },
+    "acquireRewardSiteHash": 0,
+    "acquireUnlockHash": 0,
+    "investmentStats": [],
+    "perks": [
+      {
+        "requirementDisplayString": "",
+        "perkHash": 2458424464,
+        "perkVisibility": 0
+      }
+    ],
+    "allowActions": true,
+    "doesPostmasterPullHaveSideEffects": true,
+    "nonTransferrable": true,
+    "itemCategoryHashes": [3109687656],
+    "specialItemType": 0,
+    "itemType": 20,
+    "itemSubType": 0,
+    "classType": 3,
+    "equippable": false,
+    "defaultDamageType": 0,
+    "isWrapper": false,
+    "hash": 2149082452,
+    "index": 7779,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "braytech_no_rune": {
+    "displayProperties": {
+      "description": "Insert a rune into this slot",
+      "name": "Empty slot",
+      "icon": "/static/images/extracts/ui/0560-00006055.png",
+      "localIcon": true,
+      "hasIcon": true
+    },
+    "backgroundColor": {
+      "colorHash": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemTypeDisplayName": "Action",
+    "uiItemDisplayStyle": "",
+    "itemTypeAndTierDisplayName": "Legendary Material",
+    "displaySource": "",
+    "inventory": {
+      "maxStackSize": 1,
+      "bucketTypeHash": 2422292810,
+      "recoveryBucketTypeHash": 0,
+      "tierTypeHash": 4008398120,
+      "isInstanceItem": false,
+      "nonTransferrableOriginal": false,
+      "tierTypeName": "Common",
+      "tierType": 1,
+      "expirationTooltip": "",
+      "expiredInActivityMessage": "",
+      "expiredInOrbitMessage": "",
+      "suppressExpirationWhenObjectivesComplete": true
+    },
+    "sourceData": {
+      "exclusive": 0,
+      "vendorSources": []
+    },
+    "plug": {
+      "insertionRules": [],
+      "plugCategoryIdentifier": "penumbra.runes.legendary.rune20",
+      "plugCategoryHash": 415109986,
+      "onActionRecreateSelf": false,
+      "actionRewardSiteHash": 0,
+      "actionRewardItemOverrideHash": 0,
+      "insertionMaterialRequirementHash": 0,
+      "previewItemOverrideHash": 0,
+      "enabledMaterialRequirementHash": 0,
+      "enabledRules": [],
+      "uiPlugLabel": "",
+      "plugStyle": 0,
+      "isPseudoPlug": false,
+      "plugAvailability": 0,
+      "alternateUiPlugLabel": "",
+      "alternatePlugStyle": 0,
+      "isDummyPlug": false
+    },
+    "acquireRewardSiteHash": 0,
+    "acquireUnlockHash": 0,
+    "investmentStats": [],
+    "perks": [
+      {
+        "requirementDisplayString": "",
+        "perkHash": 2458424464,
+        "perkVisibility": 0
+      }
+    ],
+    "allowActions": true,
+    "doesPostmasterPullHaveSideEffects": true,
+    "nonTransferrable": true,
+    "itemCategoryHashes": [3109687656],
+    "specialItemType": 0,
+    "itemType": 20,
+    "itemSubType": 0,
+    "classType": 3,
+    "equippable": false,
+    "defaultDamageType": 0,
+    "isWrapper": false,
+    "hash": 2149082452,
+    "index": 7779,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "braytech_remove_rune": {
+    "displayProperties": {
+      "description": "Remove any runes from this slot",
+      "name": "Empty slot",
+      "icon": "/static/images/extracts/ui/0560-00006055.png",
+      "localIcon": true,
+      "hasIcon": true
+    },
+    "backgroundColor": {
+      "colorHash": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "alpha": 0
+    },
+    "itemTypeDisplayName": "Action",
+    "uiItemDisplayStyle": "",
+    "itemTypeAndTierDisplayName": "Legendary Material",
+    "displaySource": "",
+    "inventory": {
+      "maxStackSize": 1,
+      "bucketTypeHash": 2422292810,
+      "recoveryBucketTypeHash": 0,
+      "tierTypeHash": 4008398120,
+      "isInstanceItem": false,
+      "nonTransferrableOriginal": false,
+      "tierTypeName": "Common",
+      "tierType": 1,
+      "expirationTooltip": "",
+      "expiredInActivityMessage": "",
+      "expiredInOrbitMessage": "",
+      "suppressExpirationWhenObjectivesComplete": true
+    },
+    "sourceData": {
+      "exclusive": 0,
+      "vendorSources": []
+    },
+    "plug": {
+      "insertionRules": [],
+      "plugCategoryIdentifier": "penumbra.runes.legendary.rune21",
+      "plugCategoryHash": 415109986,
+      "onActionRecreateSelf": false,
+      "actionRewardSiteHash": 0,
+      "actionRewardItemOverrideHash": 0,
+      "insertionMaterialRequirementHash": 0,
+      "previewItemOverrideHash": 0,
+      "enabledMaterialRequirementHash": 0,
+      "enabledRules": [],
+      "uiPlugLabel": "",
+      "plugStyle": 0,
+      "isPseudoPlug": false,
+      "plugAvailability": 0,
+      "alternateUiPlugLabel": "",
+      "alternatePlugStyle": 0,
+      "isDummyPlug": false
+    },
+    "acquireRewardSiteHash": 0,
+    "acquireUnlockHash": 0,
+    "investmentStats": [],
+    "perks": [
+      {
+        "requirementDisplayString": "",
+        "perkHash": 2458424464,
+        "perkVisibility": 0
+      }
+    ],
+    "allowActions": true,
+    "doesPostmasterPullHaveSideEffects": true,
+    "nonTransferrable": true,
+    "itemCategoryHashes": [3109687656],
+    "specialItemType": 0,
+    "itemType": 20,
+    "itemSubType": 0,
+    "classType": 3,
+    "equippable": false,
+    "defaultDamageType": 0,
+    "isWrapper": false,
+    "hash": 2149082452,
+    "index": 7779,
+    "redacted": false,
+    "blacklisted": false
+  }
+}

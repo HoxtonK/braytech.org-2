@@ -1,0 +1,206 @@
+.quest-line {
+  display: grid;
+  grid-template-columns: 1.2fr 1.8fr;
+}
+
+.quest-line .module:last-child {
+  padding-left: 3rem;
+}
+
+.quest-line > .header {
+  grid-column: 1/3;
+  margin: 0 0 2rem;
+}
+
+.quest-line > .header .name {
+  position: relative;
+  padding: 10px 0;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+.quest-line > .header .name::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.quest-line > .header .name::after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.quest-line .displaySource {
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.quest-line .list.inventory-items.as-tab {
+  grid-template-columns: 1fr;
+}
+
+.quest-line .sources {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.quest-line .vendor .name {
+  font-size: 16px;
+  margin: 0 0 4px;
+}
+
+.quest-line .vendor .faction {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.quest-line .current-step {
+  position: relative;
+  margin: 20px 0 0;
+}
+
+.quest-line .rewards ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px;
+}
+
+.quest-line .rewards ul li:last-child {
+  margin: 0;
+}
+
+.quest-line .rewards ul li .icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  margin: 0 10px 0 0;
+}
+
+.quest-line .steps {
+  display: grid;
+  grid-gap: 2rem;
+}
+
+.quest-line .steps .step .header {
+  display: grid;
+  grid-template-columns: minmax(28px, min-content) auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  grid-gap: 16px;
+  margin-bottom: 10px;
+}
+
+.quest-line .steps .step .header .number {
+  height: 28px;
+  font-size: 16px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quest-line .steps .step.completed .header .number {
+  background-color: rgba(90, 163, 102, 0.8);
+}
+
+.quest-line .steps .step .header .name {
+  height: 28px;
+  font-size: 16px;
+  display: grid;
+  align-content: center;
+}
+
+.quest-line .steps .step .description {
+
+}
+
+.quest-line .steps .step .objectives {
+  margin-top: 1rem;
+}
+
+.quest-line .steps .step .objectives .list.record-items {
+  grid-template-columns: 1fr;
+  margin: 1rem 0 2rem;
+}
+
+.quest-line .steps .step .objectives .list.record-items:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1500px) {
+
+  .quest-line .sources {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  .quest-line {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .quest-line > .header {
+    grid-column: unset;
+    margin: 0;
+  }
+
+  .quest-line .module:last-child {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .quest-line .current-step {
+    padding: 20px 0 22px;
+  }
+
+  .quest-line .current-step::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: -3rem;
+    width: calc(100% + 6rem);
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    z-index: 0;
+  }
+
+  .quest-line .current-step > * {
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .quest-line {
+    grid-gap: 20px;
+  }
+
+  .quest-line > .header .name {
+    font-size: 24px;
+  }
+
+  .quest-line .current-step::before {
+    left: -2rem;
+    width: calc(100% + 4rem);
+  }
+
+}

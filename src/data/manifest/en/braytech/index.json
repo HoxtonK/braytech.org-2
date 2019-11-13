@@ -1,0 +1,114 @@
+{
+  "platform_xbox": {
+    "displayProperties": {
+      "name": "Xbox",
+      "description": "The platform to which this profile belongs."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Platform"
+  },
+  "platform_playstation": {
+    "displayProperties": {
+      "name": "Playstation",
+      "description": "The platform to which this profile belongs."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Platform"
+  },
+  "platform_steam": {
+    "displayProperties": {
+      "name": "Steam",
+      "description": "The platform to which this profile belongs."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Platform"
+  },
+  "platform_battlenet": {
+    "displayProperties": {
+      "name": "Battle.net",
+      "description": "The platform to which this profile belongs."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Platform"
+  },
+  "warmind": {
+    "displayProperties": {
+      "name": "Darth Sidious",
+      "description": "Tom Chapman, creator and engineer of Braytech."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Admin"
+  },
+  "patron-vip": {
+    "displayProperties": {
+      "name": "VIP Patron",
+      "description": "A very generous and valued patron of Braytech."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Commendation"
+  },
+  "patron": {
+    "displayProperties": {
+      "name": "Patron",
+      "description": "A generous patron of Braytech."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Commendation"
+  },
+  "commonality": {
+    "displayProperties": {
+      "name": "Commonality",
+      "description": "Percentage of players who are indexed by VOLUSPA who've acquired or redeemed this entry."
+    },
+    "itemType": 1
+  },
+  "score": {
+    "displayProperties": {
+      "name": "Score value",
+      "description": "This record's score value."
+    },
+    "itemType": 1
+  },
+  "record_intervals": {
+    "displayProperties": {
+      "name": "Record intervals",
+      "description": "Some records have intervals. Different intervals have varied requirements and score values."
+    },
+    "itemType": 1
+  },
+  "character_bound": {
+    "displayProperties": {
+      "name": "Character bound",
+      "description": "These items are character-bound. This means that each character discovers them uniquely."
+    },
+    "itemType": 1
+  },
+  "coverage": {
+    "displayProperties": {
+      "name": "Coverage",
+      "description": "This translation's coverage represented by percentage."
+    },
+    "itemType": 1
+  },
+  "total_resets": {
+    "displayProperties": {
+      "name": "Total resets",
+      "description": "In an effort to better match other Braytech data, total resets counts only those since and inclusive of Season 4"
+    },
+    "itemType": 1
+  },
+  "glory_streak_calc": {
+    "displayProperties": {
+      "name": "Win streak",
+      "description": "Win streaks are calculated by loading match history, post game carnage reports, for each of your characters."
+    },
+    "itemType": 1
+  },
+  "glory_wins_until": {
+    "displayProperties": {
+      "name": "Wins until rank",
+      "description": "Number of matches required to achieve the displayed milestone rank assuming a constant streak of the displayed.\n\nThis means that if you have a streak of 1, it is assumed that you will maintain a streak of 1 with no losses."
+    },
+    "itemType": 1
+  }
+}

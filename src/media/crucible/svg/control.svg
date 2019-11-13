@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.40449 204.40449">
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="base0">
+      <circle id="circle_circle4" data-name="circle circle4" cx="102.25304" cy="102.11232" r="73.26325" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.75px;opacity: 0.02"/>
+      <circle id="circle_circle3" data-name="circle circle3" cx="102.25304" cy="102.11232" r="69.77452" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.75px;opacity: 0.05"/>
+      <circle id="circle_circle2" data-name="circle circle2" cx="102.25304" cy="102.11232" r="67.12316" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.75px;opacity: 0.1"/>
+      <circle id="circle_circle1" data-name="circle circle1" cx="102.25304" cy="102.11232" r="65.10946" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.75px;opacity: 0.15"/>
+    </g>
+    <g id="control">
+      <circle id="orange" cx="102.2127" cy="101.98807" r="55.64531" transform="translate(-1.31182 202.6443) rotate(-89.13214)" style="fill: #cc3c1d;opacity: 0.8"/>
+      <g style="opacity: 0.6000000000000001">
+        <path d="M102.21274,148.31309l-46.32539-46.325,46.32539-46.325,46.325,46.325Zm-45.19414-46.325,45.19414,45.19375,45.19375-45.19375L102.21274,56.79434Z" style="fill: #fff"/>
+        <path d="M102.21274,144.15371,60.04711,101.98809l42.16563-42.16563,42.16562,42.16563ZM61.17836,101.98809l41.03438,41.03437,41.03437-41.03437L102.21274,60.95371Z" style="fill: #fff"/>
+        <path d="M102.21274,135.35371,68.84711,101.98809l33.36563-33.36563,33.36562,33.36563ZM69.97836,101.98809l32.23438,32.23437,32.23437-32.23437L102.21274,69.75371Z" style="fill: #fff"/>
+      </g>
+      <g>
+        <path d="M102.21274,160.0334a58.04532,58.04532,0,1,1,58.04492-58.04531A58.11077,58.11077,0,0,1,102.21274,160.0334Zm0-113.69063a55.64532,55.64532,0,1,0,55.64492,55.64532A55.70815,55.70815,0,0,0,102.21274,46.34277Z" style="fill: #fff"/>
+        <path d="M102.21274,164.38809a62.4,62.4,0,1,1,62.4-62.4A62.47049,62.47049,0,0,1,102.21274,164.38809Zm0-124a61.6,61.6,0,1,0,61.6,61.6A61.6697,61.6697,0,0,0,102.21274,40.38809Z" style="fill: #fff;opacity: 0.30000000000000004"/>
+      </g>
+      <path d="M110.22529,35.44917l-7.97417-5.42973L94.277,35.44917l-27.90152-.2v60.291a1.13212,1.13212,0,0,1,0,.66045v36.48608c4.08008-1.66118,26.94434-11.06611,27.90152-11.62246V36.57344l5.11176,2.76069V159.03306h5.72471V39.33418l5.111-2.7603V68.58994c.04814.0482.09731.0982.14541.14624-.04785.47261-.09068.8959-.14541,1.43682v2.35308c.00893.0062.01665.0142.02563.02036v6.94179h-.02563v41.94253c1.42378.51953,23.34526,9.35972,27.82529,11.19961V35.44917Z" style="fill: #fff"/>
+      <g>
+        <rect x="99.58678" y="179.40379" width="5.33253" height="5.33253" transform="translate(158.6922 -18.97673) rotate(45)" style="fill: #fff"/>
+        <rect x="109.82048" y="172.43762" width="5.33253" height="5.33253" transform="translate(156.76375 -28.2534) rotate(45)" style="fill: #fff"/>
+        <rect x="89.27217" y="172.43762" width="5.33253" height="5.33253" transform="translate(150.74529 -13.72355) rotate(45)" style="fill: #fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

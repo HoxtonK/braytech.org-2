@@ -1,0 +1,250 @@
+{
+  "emotes": {
+    "displayProperties": {
+      "description": "",
+      "name": "Emotes",
+      "icon": "/static/images/extracts/ui/037e-00004631.png",
+      "localIcon": true,
+      "hasIcon": true
+    },
+    "nodeType": 1,
+    "scope": 1,
+    "children": {
+      "presentationNodes": [
+        {
+          "presentationNodeHash": "emotes_season1"
+        },
+        {
+          "presentationNodeHash": "emotes_season2"
+        },
+        {
+          "presentationNodeHash": "emotes_season3"
+        },
+        {
+          "presentationNodeHash": "emotes_season4"
+        },
+        {
+          "presentationNodeHash": "emotes_season5"
+        },
+        {
+          "presentationNodeHash": "emotes_season6"
+        },
+        {
+          "presentationNodeHash": "emotes_season7"
+        }
+      ],
+      "collectibles": [],
+      "records": []
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      3066887728
+    ],
+    "hash": "emotes",
+    "index": 433,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "emotes_season1": {
+    "displayProperties": {
+      "description": "",
+      "name": "Season 1",
+      "hasIcon": false
+    },
+    "nodeType": 1,
+    "scope": 0,
+    "children": {
+      "presentationNodes": [],
+      "collectibles": [],
+      "records": [],
+      "plugs": [95537029,566102034,1045929536,1045929537,265428940,267290351,646486611,683947069,930064526,955394464,1046955906,1449701838,1471723144,1711459689,2225838050,2871095181,3134905452,3163467796,3342375124,3830186047,4049365947,814933120,874877120,924779391,1280248869,1444655707,1533012008,1539578239,2038017661,2294119165,2541494210,2916219759,3958460049,48790291,1560678953,1588254578,1897536429,2032131120,2381907801,2542725780,2671982863,2834933816,2925817709,3184938442,3389746221],
+      "comments": "class specific emotes such as sits and waves aren't return in plugSets: [2016937064,2087899461,181754010,452400791,33795475,3953986336]. city dance 3134905452 is also missing"
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      "emotes"
+    ],
+    "hash": "emotes_season1",
+    "index": 434,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "emotes_season2": {
+    "displayProperties": {
+      "description": "",
+      "name": "Season 2",
+      "hasIcon": false
+    },
+    "nodeType": 1,
+    "scope": 0,
+    "children": {
+      "presentationNodes": [],
+      "collectibles": [],
+      "records": [],
+      "plugs": [421712807,4111030162,717948749,3494199208,596833222,80303715,799898425,1546934407,2381763476,2592651789,3826786378,367778392,2764644855,3809722908,4097227155,108864186,530968313,964176440,3210179545,3397849259,3969346718,2134318165]
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      "emotes"
+    ],
+    "hash": "emotes_season2",
+    "index": 434,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "emotes_season3": {
+    "displayProperties": {
+      "description": "",
+      "name": "Season 3",
+      "hasIcon": false
+    },
+    "nodeType": 1,
+    "scope": 0,
+    "children": {
+      "presentationNodes": [],
+      "collectibles": [],
+      "records": [],
+      "plugs": [253898492,530754878,569940092,870041067,961496619,3179188489,3244569127,3340490891,159967058,285267633,396134792,1628538405,2041281101,2114877381,2427328578,2610757989,2775819545,2919938481,3075556640,3412439828,3672748946,3985546802,621701973,1008495915,1073496778,1229016681,1348805779,1599949358,2284035163,2925370359,3518794540,4119095630]
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      "emotes"
+    ],
+    "hash": "emotes_season3",
+    "index": 434,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "emotes_season4": {
+    "displayProperties": {
+      "description": "",
+      "name": "Season 4",
+      "hasIcon": false
+    },
+    "nodeType": 1,
+    "scope": 0,
+    "children": {
+      "presentationNodes": [],
+      "collectibles": [],
+      "records": [],
+      "plugs": [28673365,132405572,375770440,704532774,1332836182,1617583310,1863079869,2024188850,2611996036,3201469151,3848868583,3925270067,171748061,937162783,1036776535,1314734302,1338552830,2604685098,3256616328,3665594271,4080789277,448262266,503951839,896553940,1267161032,2217132045,2748215252]
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      "emotes"
+    ],
+    "hash": "emotes_season4",
+    "index": 434,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "emotes_season5": {
+    "displayProperties": {
+      "description": "",
+      "name": "Season 5",
+      "hasIcon": false
+    },
+    "nodeType": 1,
+    "scope": 0,
+    "children": {
+      "presentationNodes": [],
+      "collectibles": [],
+      "records": [],
+      "plugs": [801733632,815877596,1280540149,1708415886,2480779718,3510138048,3921851413,3990400405,4025684881,985639543,1552953172,1725443969,2556098840,2760383682,2799886702,3166802179,3539322898,3893300466,4189709583,1372151242,1740156933,2005133719,2321189501,2346609008,2528830834,383973261]
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      "emotes"
+    ],
+    "hash": "emotes_season5",
+    "index": 434,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "emotes_season6": {
+    "displayProperties": {
+      "description": "",
+      "name": "Season 6",
+      "hasIcon": false
+    },
+    "nodeType": 1,
+    "scope": 0,
+    "children": {
+      "presentationNodes": [],
+      "collectibles": [],
+      "records": [],
+      "plugs": [1652440677,1936179816,2218275250,2272950849,2422643144,3559259728,240371989,429106713,442845394,1552235509,2134292552,2873996295,2879093413,3035129091,3217972777,3225062820,3325808341,3946927545,4128095381,925771554,1005293753,3517258101,3558549449]
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      "emotes"
+    ],
+    "hash": "emotes_season6",
+    "index": 434,
+    "redacted": false,
+    "blacklisted": false
+  },
+  "emotes_season7": {
+    "displayProperties": {
+      "description": "",
+      "name": "Season 7",
+      "hasIcon": false
+    },
+    "nodeType": 1,
+    "scope": 0,
+    "children": {
+      "presentationNodes": [],
+      "collectibles": [],
+      "records": [],
+      "plugs": [377681571,1849697741,1858216083,2231816495,2931525672,4009267290,4114677048,28833378,319183094,403465735,854833035,908677920,1081767429,1324309776,1482931023,4096637925,1668956766,2070010145,4179243516,4189539716]
+    },
+    "displayStyle": 0,
+    "screenStyle": 0,
+    "requirements": {
+      "entitlementUnavailableMessage": ""
+    },
+    "disableChildSubscreenNavigation": false,
+    "parentNodeHashes": [
+      "emotes"
+    ],
+    "hash": "emotes_season7",
+    "index": 434,
+    "redacted": false,
+    "blacklisted": false
+  }
+}

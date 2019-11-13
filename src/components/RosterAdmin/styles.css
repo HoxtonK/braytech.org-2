@@ -1,0 +1,73 @@
+.list.roster.admin.pending {
+  margin: 0 0 1rem;
+}
+
+.list.roster.admin.pending .row:first-child::before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: none;
+}
+
+.list.roster.admin .row > ul {
+  width: 100%;
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: minmax(180px, 270px) calc(38px * 3) minmax(120px, 400px) minmax(80px, 110px) minmax(80px, 110px) minmax(80px, 110px) auto;
+}
+
+.list.roster.admin .row > ul .col.actions {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.list.roster.admin .row:not(.header) > ul .col.actions .button {
+  margin: 0;
+  min-width: unset;
+}
+
+.list.roster.admin .row:not(.header) > ul .col.actions .button.primed {
+  background-color: rgb(220, 81, 59);
+}
+
+@media screen and (max-width: 1359px) {
+  .list.roster.admin .row > ul {
+    grid-template-columns: minmax(180px, 270px) calc(38px * 3) minmax(120px, 400px) minmax(80px, 110px) minmax(80px, 110px) auto;
+  }
+
+  .list.roster .row > ul .col.weeklyXp {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .list.roster.admin .row > ul {
+    grid-template-columns: minmax(180px, 270px) calc(38px * 3) minmax(120px, 400px) minmax(80px, 110px) minmax(80px, 110px) auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list.roster.admin .row > ul {
+    grid-template-columns: minmax(180px, 270px) calc(38px * 3) minmax(120px, 400px) minmax(80px, 110px);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .list.roster.admin .row > ul {
+    grid-template-columns: minmax(180px, 270px) calc(38px * 3) minmax(120px, 400px);
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .list.roster.admin .row > ul {
+    grid-template-columns: minmax(120px, 270px) minmax(120px, 400px);
+    grid-gap: 16px;
+  }
+}

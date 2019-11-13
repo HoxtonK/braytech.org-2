@@ -1,0 +1,266 @@
+.map-omega {
+  position: relative;
+  height: 600px;
+  background-color: #060606;
+  color: #ffffff;
+}
+
+.map-omega .loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+
+.map-omega.loading .loading {
+  opacity: 1;
+}
+
+.map-omega.debug .leaflet-grab {
+  cursor: default;
+}
+
+.map-omega .control {
+  transition: opacity 0.5s;
+}
+
+.map-omega.loading .control {
+  opacity: 0;
+}
+
+html.backdropfilter .map-omega .control li {
+  background-color: transparent;
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+.map-omega .control .list li::before {
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.2);
+}
+
+.map-omega .control.visible .list li.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.map-omega .control .list li:hover::before {
+  box-shadow: inset 0 0 0 1px #d6d6d6;
+}
+
+.map-omega .control .list li:hover::before {
+  background-color: rgba(214, 214, 214, 0.4);
+}
+
+.map-omega .control:not(.visible) li:not(.active) {
+  display: none;
+}
+
+.map-omega .control li.disabled {
+  pointer-events: none;
+}
+
+.map-omega .control li.disabled .text {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.map-omega .control li .text {
+  padding: 0 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: space-between;
+}
+
+.map-omega .control li:last-child {
+  margin: 0;
+}
+
+.map-omega .controls.left {
+  position: fixed;
+  top: calc(3rem + 40px);
+  left: 3rem;
+  width: 310px;
+  z-index: 2;
+}
+
+.map-omega .control.characters {
+  margin: 0 0 1rem;
+}
+
+.map-omega .control.characters li {
+  height: unset;
+  cursor: pointer;
+}
+
+.map-omega .control.characters .character-emblem {
+  width: 100%;
+  height: 0;
+  padding-bottom: calc(96 / 474 * 100%);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5)
+}
+
+.map-omega .control.characters .character-emblem .wrapper .image.emblem.missing {
+  width: calc(96 / 474 * 100% - 37px);
+  height: calc(100% - 35px);
+  top: 14px;
+  left: 14px;
+}
+
+.map-omega .control.characters .character-emblem .wrapper .displayName {
+  left: 20%;
+  top: 14%;
+  font-size: 18px;
+}
+
+.map-omega .control.characters .character-emblem .wrapper .group {
+  left: 20%;
+  top: 53%;
+  font-size: 13px;
+}
+
+.map-omega .control.characters .character-emblem .wrapper .light {
+  top: 10%;
+  right: 2%;
+  font-size: 26px;
+}
+
+.map-omega .control.characters .character-emblem .wrapper .light::before {
+  font-size: 11px;
+  left: -12px;
+}
+
+.map-omega .control.characters .character-emblem .wrapper .level {
+  top: 51%;
+  right: 2%;
+  font-size: 14px;
+  display: none;
+}
+
+.map-omega .control.characters .character-emblem .wrapper .progress-bar {
+  height: 7px;
+}
+
+.map-omega .control.destinations {
+  position: relative;
+}
+
+.map-omega .control.destinations li .text {
+  grid-template-columns: auto 24px;
+}
+
+.map-omega .control.destinations li .text .name {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.map-omega .control.destinations li .text .loading {
+  display: grid;
+  justify-content: right;
+}
+
+.map-omega .control.destinations li .text .loading .spinner {
+  width: 18px;
+  height: 18px;
+}
+
+.map-omega .control.zoom {
+  position: fixed;
+  top: calc(3rem + 40px);
+  right: 3rem;
+  width: 38px;
+  z-index: 2;
+}
+
+.map-omega .control.zoom li {
+  cursor: pointer;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 1);
+}
+
+.map-omega .control.zoom li .text {
+  padding: 0;
+  font-size: 12px;
+  justify-content: center;
+}
+
+.map-omega .leaflet-container  {
+  background-color: transparent;
+  height: 100%;
+  z-index: 2;
+}
+
+.map-omega .interaction-none {
+  pointer-events: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .map-omega .controls.left {
+    top: calc(2rem + 40px);
+    left: 2rem;
+    width: calc(100% - 4rem);
+  }
+
+  .map-omega .control.characters .character-emblem,
+  .map-omega .control.characters .character-emblem .wrapper {
+    padding-bottom: 0;
+    height: 38px;
+    background-color: transparent;
+  }
+
+  .map-omega .control.characters .character-emblem .wrapper .group,
+  .map-omega .control.characters .character-emblem .wrapper .level,
+  .map-omega .control.characters .character-emblem .wrapper .progress-bar {
+    display: none;
+  }
+
+  .map-omega .control.characters .character-emblem .wrapper .image.emblem,
+  .map-omega .control.characters .character-emblem .wrapper .displayName,
+  .map-omega .control.characters .character-emblem .wrapper .light {
+    position: relative;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
+  }
+
+  .map-omega .control.characters .character-emblem .wrapper {
+    display: grid;
+    grid-template-columns: calc(38px + 16px) 1fr min-content;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .map-omega .control.characters .character-emblem .wrapper .image.emblem {
+    background-size: 580%;
+    background-position: left top;
+    width: 38px;
+  }
+
+  .map-omega .control.characters .character-emblem .wrapper .displayName {
+    font-size: 16px;
+  }
+
+  .map-omega .control.characters .character-emblem .wrapper .light {
+    padding: 0 1rem 0 0;
+    font-size: 16px;
+  }
+
+  .map-omega .control.characters .character-emblem .wrapper .light::before {
+    left: -8px;
+    top: 3px;
+    font-size: 7px;
+  }
+
+}

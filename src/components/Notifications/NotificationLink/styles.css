@@ -1,0 +1,362 @@
+#notification-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 21;
+  display: grid;
+  align-content: center;
+  -webkit-overflow-scrolling: touch;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#notification-overlay .wrapper-outer {
+  position: relative;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#notification-overlay .background .border-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(180, 180, 180, 0.6);
+}
+
+#notification-overlay .background .acrylic {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 1rem);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+html.backdropfilter #notification-overlay .background .border-top {
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+html.backdropfilter #notification-overlay .background .acrylic {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+#notification-overlay .wrapper-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0;
+  padding: 1rem 0 0;
+  font-size: 14px;
+}
+
+#notification-overlay .wrapper-inner > div {
+
+}
+
+#notification-overlay .wrapper-inner > div:first-child {
+  display: grid;
+  justify-content: right;
+  background-image: linear-gradient(to right, rgba(140, 140, 140, 0), rgba(140, 140, 140, 0.2));
+}
+
+#notification-overlay.error .wrapper-inner > div:first-child {
+  background-image: linear-gradient(to right, rgba(220, 81, 59, 0), rgba(220, 81, 59, 0.2));
+}
+
+#notification-overlay .wrapper-inner div .icon {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin: 2rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#notification-overlay .wrapper-inner .text .name {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem 2rem;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  line-height: 1.6;
+}
+
+#notification-overlay .wrapper-inner .text .description {
+  padding: 1rem 2rem;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  max-width: calc(600px + 4rem);
+}
+
+#notification-overlay .wrapper-inner .text .description ul {
+  list-style-type: disc;
+  padding: 0 0 0 2rem;  
+  margin: 0 0 1rem;
+}
+
+#notification-overlay .wrapper-inner .text .description ul li {
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+
+#notification-overlay .wrapper-inner.has-image > div:first-child {
+  justify-content: unset;
+}
+
+#notification-overlay .wrapper-inner.has-image div .icon {
+  margin: 0;
+  width: 100%;
+  height: unset;
+  padding-bottom: 56%;
+}
+
+#notification-overlay .wrapper-inner.has-image div .icon .image {
+  background-size: cover;
+  background-position-x: right;
+}
+
+#notification-overlay.error .background .border-top,
+html.backdropfilter #notification-overlay.error .background .border-top {
+  background-color: rgb(220, 81, 59);
+}
+
+#notification-overlay .sticky-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#notification-overlay .sticky-nav-inner {
+  padding: 3rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper.light-mode #notification-overlay .sticky-nav .destiny-key span {
+  color: #333;
+}
+
+.wrapper.light-mode #notification-overlay .sticky-nav.ultra-black {
+  background-color: hsla(0, 0%, 0%, 0.6);
+}
+
+html.backdropfilter .wrapper.light-mode #notification-overlay .sticky-nav {
+  background-color: hsla(0, 0%, 3%, 0.8);
+}
+
+
+@media screen and (max-width: 600px) {
+  #notification-overlay {
+    display: block;
+    overflow-y: scroll;
+  }
+
+  #notification-overlay .wrapper-inner {
+    grid-template-columns: min-content auto;
+    grid-template-columns: auto;
+    padding: 1rem 0 0;
+  }
+
+  #notification-overlay .wrapper-inner div .icon {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: none;
+  }
+
+  #notification-overlay .wrapper-inner .text .name {
+    padding: 1.4rem 2rem 1rem;
+    font-size: 18px;
+  }
+  
+  #notification-overlay .wrapper-inner .text .description {
+    font-size: 14px;
+  }
+
+  #notification-overlay .wrapper-inner.has-image {
+    grid-template-columns: 1fr;
+  }
+
+  #notification-overlay .sticky-nav-inner {
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+
+
+#notification-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 22;
+  display: grid;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 0.25s;
+  cursor: pointer;
+}
+
+#notification-bar:hover {
+  background-color: rgba(17, 17, 17, 0.4);
+}
+
+#notification-bar .wrapper-outer {
+  position: relative;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#notification-bar .background .border-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(220, 81, 59);
+}
+
+#notification-bar .background .acrylic {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 6px);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+html.backdropfilter #notification-bar .background .border-top {
+  background-color: rgb(220, 81, 59);
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+html.backdropfilter #notification-bar .background .acrylic {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+#notification-bar .wrapper-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0;
+  padding: 6px 0 1rem;
+  font-size: 14px;
+}
+
+#notification-bar .wrapper-inner > div {
+
+}
+
+#notification-bar .wrapper-inner > div:first-child {
+  display: grid;
+  justify-content: right;
+}
+
+#notification-bar .wrapper-inner div .icon {
+  position: relative;
+  margin: 0.75rem 1rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 38px;
+  height: 38px;
+  font-size: 21px;
+}
+
+#notification-bar .wrapper-inner div .icon::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 0 2px white;
+  border-radius: 100%;
+  opacity: 0.2;
+}
+
+#notification-bar .wrapper-inner .text {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-gap: 1rem;
+  font-size: 18px;
+}
+
+#notification-bar .wrapper-inner .text .name {
+  color: white;
+  white-space: nowrap;
+}
+
+#notification-bar .wrapper-inner .text .description {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 1rem 0 0;
+  max-width: calc(600px + 4rem);
+}
+
+#notification-bar .wrapper-inner .text .name p,
+#notification-bar .wrapper-inner .text .description p {
+  line-height: 1.4;
+}
+
+#notification-bar .wrapper-inner .text .description ul {
+  list-style-type: disc;
+  padding: 0 0 0 2rem;  
+  margin: 0 0 1rem;
+}
+
+#notification-bar .wrapper-inner .text .description ul li {
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  #notification-bar {
+    display: block;
+    overflow-y: scroll;
+  }
+
+  #notification-bar .wrapper-inner {
+    grid-template-columns: min-content auto;
+    padding: 6px 0 1rem;
+  }
+
+  #notification-bar .wrapper-inner div .icon {
+    margin: 0.75rem 2rem 0 2rem;
+  }
+
+  #notification-bar .wrapper-inner .text {
+    grid-template-columns: 1fr;
+    grid-gap: 6px;
+  }
+
+  #notification-bar .wrapper-inner .text .name {
+    font-size: 14px;
+  }
+  
+  #notification-bar .wrapper-inner .text .description {
+    font-size: 14px;
+  }
+}

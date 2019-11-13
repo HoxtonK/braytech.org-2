@@ -1,0 +1,228 @@
+#suggestions {
+  padding: 0;
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#suggestions > .module.head {
+  padding: 4rem 3rem 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#suggestions > .module.head .page-header {
+  margin-bottom: 0rem;
+}
+
+#suggestions > .padder {
+  width: 100%;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 3rem;
+}
+
+#suggestions .module.suggestions .list {
+  margin: 1rem 0 0;
+}
+
+#suggestions .module.suggestions .list .linked.dev {
+  background-color: rgba(229, 209, 99, 0.4);
+}
+
+#suggestions .module.suggestions .list .linked.live {
+  background-color: rgba(90, 163, 102, 0.6);
+}
+
+#suggestions .module.suggestions .list .linked .text {
+  width: 100%;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 50px auto 117px;
+  font-size: 16px;
+}
+
+#suggestions .module.suggestions .list .linked .text .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#suggestions .module.suggestions .list .linked .text .created-on {
+  text-align: right;
+}
+
+#suggestions .module.suggestions .form {
+  margin: 0 0 2rem;
+}
+
+#suggestions .module.suggestions .form .field textarea {
+  height: 280px;
+}
+
+#suggestions .check-box .check.ed::before {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#suggestions .module.suggestions .form .field.disabled {
+  pointer-events: none;
+}
+
+#suggestions .module.suggestions .form .field.disabled textarea {
+  color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.025);
+}
+
+#suggestions .module.detail .header {  
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#suggestions .module.detail .header .name {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+#suggestions .module.detail .header .created-on {
+  font-size: 16px;
+}
+
+#suggestions .module.detail .header::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#suggestions .module.detail .header::after {
+  content: ' ';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#suggestions .module.detail .description {
+  margin: 0 0 2rem;
+}
+
+#suggestions .module.detail .description p {
+  font-size: 16px;
+}
+
+#suggestions .module.detail .request {
+  margin: 0 0 1rem;
+  padding: 0 0 0 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+#suggestions .module.detail .request p {
+  white-space: pre-wrap;
+}
+
+#suggestions .module.detail .meta {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0 0 0 1rem;
+  display: grid;
+  grid-template-columns: minmax(140px, 170px) minmax(100px, 270px);
+  justify-content: space-between;
+  margin: 0 0 2rem;
+  height: 38px;
+}
+
+#suggestions .module.detail .meta .votes {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto auto;
+  align-items: center;
+  font-size: 18px;
+}
+
+#suggestions .module.detail .meta .button.upvote {
+  width: 38px;
+  justify-content: center;
+  margin: 0;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  #suggestions > .padder {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #suggestions > .padder {
+    padding: 4rem 3rem 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #suggestions > .module.head {
+    padding: 3rem 2rem 2rem;
+  }
+
+  #suggestions .module .sub-header:not(:first-child) {
+    margin: 2rem 0 1rem;
+  }
+
+  #suggestions > .padder {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+    grid-gap: 2rem;
+  }
+
+  #suggestions.detail > .padder {
+    padding: 3rem 2rem 2rem;
+  }
+
+  
+
+  #suggestions .module.suggestions .list .linked .text {
+    grid-template-columns: 40px auto 90px;
+    font-size: 14px;
+  }
+
+  #suggestions .module.detail .header .name {
+    font-size: 24px;
+  }
+
+  #suggestions .module.detail .header .created-on {
+    font-size: 14px;
+  }
+
+  #suggestions .module.detail .meta {  
+    margin: 0 0 1rem;
+    grid-template-columns: 140px minmax(100px, 270px);
+  }
+
+  #suggestions .module.detail .meta .votes {
+    font-size: 14px;
+  }
+
+  #suggestions .module.detail .description {
+    margin: 0 0 1rem;
+  }
+
+  #suggestions .module.detail .description p {
+    font-size: 14px;
+  }
+}
+
+
+

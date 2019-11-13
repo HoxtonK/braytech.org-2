@@ -1,0 +1,307 @@
+#now {
+  padding: 0;
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#now .group {
+  width: 100%;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+#now .group.head {
+  padding: 4rem 3rem 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#now .group.head .module .text p {
+  font-size: 16px;
+}
+
+#now .group.head .module .text p:last-child {
+  font-size: 14px;
+}
+
+#now .column.double {
+  grid-column: span 2;
+}
+
+#now .group .module .module-header {
+  margin: 24px 0 20px;
+}
+
+#now .module .sub-header ~ .sub-header {
+  margin: 3rem 0 1rem;
+}
+
+#now .module .module-header {
+  position: relative;
+  margin: 48px 0 0;
+}
+
+#now .module .module-header .sub-name,
+#now .module h3 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#now .module .module-header .sub-name {
+  font-size: 18px;
+}
+
+#now .module .module-header::after {
+  content: ' ';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 16px;
+  border-bottom: 3px solid #ffffff;
+  opacity: 0.2;
+}
+
+#now .module .page-header .sub-title,
+#now .module .module-header .sub-title {
+  margin: 0 0 3px;
+  font-size: 18px;
+}
+
+#now .module .module-header .name {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+#now .module .aside {
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#now .module .list.activities {
+  display: grid;
+  grid-gap: 3px;
+}
+
+#now .module .list.activities li {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+#now .module .list.activities li > div:not(.name) {
+  display: grid;
+  grid-template-columns: auto 50px;
+  grid-gap: 6px;
+  text-align: right;
+}
+
+#now .module .list.activities li .name {
+  font-size: 16px;
+}
+
+#now .module .list.activities li .time {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#now .module .list.activities li .light {
+  color: #e5d163;
+}
+
+#now .module .list.activities li .light span {
+  position: relative;
+  margin: 0 0 0 8px;
+}
+
+#now .module .list.activities li .light span::before {
+  content: 'l';
+  position: absolute;
+  top: 3px;
+  left: -7px;
+  font-family: 'destiny' !important;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#now .module .list.modifiers li {
+  padding: 0 0rem;
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-template-rows: 1fr;
+  align-items: start;
+  height: unset;
+  margin: 0 0 14px;
+}
+
+#now .module .list.modifiers li:last-child {
+  margin: 0;
+}
+
+#now .module .list.modifiers li .icon {
+  padding: 3px 0 0;
+}
+
+#now .module .list.modifiers li .icon .image {
+  position: relative;
+  height: 32px;
+  width: 32px;
+}
+
+#now .module .list.modifiers li .text {
+  margin: 0 0 0 1rem;
+  font-size: 14px;
+}
+
+#now .module .list.modifiers li .text .name {
+  margin: 0 0 3px;
+}
+
+#now .module .list.modifiers li .text .description {
+  white-space: pre-line;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+#now .module .ranks {
+  margin: 25px 0 0;
+}
+
+#now .module .ranks > div {
+  position: relative;
+  font-size: 14px;
+  line-height: 10px;
+}
+
+#now .module .clan-roster {
+  position: relative;
+}
+
+#now .module .clan-roster .refresh {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#now .seasonal-artifact .tiers {
+  margin: 0 0 20px;
+}
+
+#now .season-pass {
+  grid-template-columns: 1fr 30px 2fr 30px;
+  grid-gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.025);
+}
+
+#now .auth-upsell {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#now .auth-upsell .wrap {
+  grid-column: 2/4;
+}
+
+
+@media screen and (max-width: 1440px) {
+  #now .group {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #now .season-pass {
+    grid-template-columns: 1fr 30px 2fr 30px;
+  }
+
+  #now .auth-upsell {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  #now .auth-upsell .wrap {
+    grid-column: 2/5;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #now .group {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #now .auth-upsell {
+    grid-template-columns: 1fr;
+  }
+
+  #now .auth-upsell .wrap {
+    grid-column: unset;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #now .season-pass {
+    grid-template-columns: 30px 2fr 30px;
+  }
+
+  #now .auth-upsell {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #now .group,
+  #now .group.head {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  #now .group.head {
+    padding-top: 3rem;
+  }
+
+  #now .column.double {
+    grid-column: unset;
+  }
+
+  #now .season-pass {
+    grid-template-columns: 30px 2fr 30px;
+    grid-gap: 10px;
+  }
+
+  #now .auth-upsell {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  #now .module .sub-header ~ .sub-header {
+    margin: 2rem 0 1rem;
+  }
+
+  #now h3 {
+    margin: 0 0 1rem;
+  }
+
+  #now .module .module-header .name {
+    font-size: 27px;
+  }
+}

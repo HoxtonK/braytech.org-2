@@ -1,0 +1,224 @@
+#this-week {
+  padding: 0;
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#this-week .column.double {
+  grid-column: span 2;
+}
+
+#this-week .group {
+  width: 100%;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+#this-week .group.head {
+  padding: 4rem 3rem 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#this-week .group.head .module .text p {
+  font-size: 16px;
+}
+
+#this-week .group.head .module .text p:last-child {
+  font-size: 14px;
+}
+
+#this-week .group .module .module-header {
+  margin: 24px 0 20px;
+}
+
+#this-week .module .sub-header ~ .sub-header {
+  margin: 3rem 0 1rem;
+}
+
+#this-week .module .module-header {
+  position: relative;
+  margin: 48px 0 0;
+}
+
+#this-week .module .module-header .sub-name,
+#this-week .module h3 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#this-week .module .module-header .sub-name {
+  font-size: 18px;
+}
+
+#this-week .module .module-header::after {
+  content: ' ';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 16px;
+  border-bottom: 3px solid #ffffff;
+  opacity: 0.2;
+}
+
+#this-week .module .page-header .sub-title,
+#this-week .module .module-header .sub-title {
+  margin: 0 0 3px;
+  font-size: 18px;
+}
+
+#this-week .module .module-header .name {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+
+
+
+#this-week .module .aside {
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#this-week .module .record-items,
+#this-week .module .collection-items,
+#this-week .module .inventory-items {
+  grid-template-columns: 1fr;
+}
+
+#this-week .column.double .module .record-items,
+#this-week .column.double .module .collection-items,
+#this-week .column.double .module .inventory-items {
+  grid-template-columns: 1fr 1fr;
+}
+
+#this-week .module .list.modifiers li {
+  padding: 0 0rem;
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-template-rows: 1fr;
+  align-items: start;
+  height: unset;
+  margin: 0 0 14px;
+}
+
+#this-week .module .list.modifiers li:last-child {
+  margin: 0;
+}
+
+#this-week .module .list.modifiers li .icon {
+  padding: 3px 0 0;
+}
+
+#this-week .module .list.modifiers li .icon .image {
+  position: relative;
+  height: 32px;
+  width: 32px;
+}
+
+#this-week .module .list.modifiers li .text {
+  margin: 0 0 0 1rem;
+  font-size: 14px;
+}
+
+#this-week .module .list.modifiers li .text .name {
+  margin: 0 0 3px;
+}
+
+#this-week .module .list.modifiers li .text .description {
+  white-space: pre-line;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+#this-week .group .column.shattered-throne {
+  grid-column: span 2;
+}
+
+#this-week .group .column.shattered-throne .module .record-items {
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+  #this-week .group {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #this-week .group .column.shattered-throne {
+    grid-column: span 3;
+  }
+
+  #this-week .group .column.shattered-throne .module .record-items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #this-week .group {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #this-week .group .column.shattered-throne {
+    grid-column: span 2;
+  }
+
+  #this-week .group .column.shattered-throne .module .record-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #this-week .group,
+  #this-week .group.head {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  #this-week .column.double {
+    grid-column: unset;
+  }
+
+  #this-week .column.double .module .record-items,
+  #this-week .column.double .module .collection-items,
+  #this-week .column.double .module .inventory-items {
+    grid-template-columns: 1fr;
+  }
+
+  #this-week .group.head {
+    padding-top: 3rem;
+  }
+
+  #this-week .module .sub-header ~ .sub-header {
+    margin: 2rem 0 1rem;
+  }
+
+  #this-week h3 {
+    margin: 0 0 1rem;
+  }
+
+  #this-week .module .module-header .name {
+    font-size: 27px;
+  }
+
+  #this-week .group .column.shattered-throne {
+    grid-column: unset;
+  }
+
+  #this-week .group .column.shattered-throne .module .record-items {
+    grid-template-columns: 1fr;
+  }
+}

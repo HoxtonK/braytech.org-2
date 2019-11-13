@@ -1,0 +1,121 @@
+.list.collection-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 7px;
+}
+
+.list.collection-items li {
+  padding: 0;
+  margin: 0;
+  height: initial;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.list.collection-items li.completed {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.list.collection-items li::before {
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.4);
+}
+
+.list.collection-items li .icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-basis: 48px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.list.collection-items li .icon .image.dl {
+  opacity: 0.4;
+}
+
+.list.collection-items li.completed .icon .image.dl {
+  opacity: 1;
+}
+
+.list.collection-items li .text {
+  flex-basis: calc(100% - 48px - 1rem);
+  margin: 0 0 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list.collection-items li .text .commonality {
+  margin: 0 1rem 0 0;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.list.collection-items li .text .description {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.list.collection-items li .objectives {
+  margin: 1rem 0 0;
+  padding: 0 0 0 calc(48px + 1rem);
+  flex-basis: calc(100% - 48px - 1rem);
+}
+
+.list.collection-items li .objectives .progress {
+  margin: 0 0 3px;
+}
+
+.list.collection-items li .objectives .progress:last-child {
+  margin: 0;
+}
+
+.list.collection-items li.highlight::before {
+  animation: animation-background-highlight 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+.list.collection-items .all-completed {
+  grid-column: 1/-1;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.list.collection-items .all-completed:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.list.collection-items .all-completed::before {
+  box-shadow: none;
+}
+
+.list.collection-items .all-completed .properties {
+  grid-template-columns: 1fr;
+  padding: 0;
+}
+
+.list.collection-items .all-completed .properties .text {
+  margin: 0;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+@media screen and (max-width: 1280px) {
+  .list.collection-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list.collection-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+}

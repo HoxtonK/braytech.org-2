@@ -1,0 +1,71 @@
+{
+  "platform_xbox": {
+    "displayProperties": {
+      "name": "Xbox",
+      "description": "The platform to which this profile belongs."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Platform"
+  },
+  "platform_playstation": {
+    "displayProperties": {
+      "name": "Playstation",
+      "description": "The platform to which this profile belongs."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Platform"
+  },
+  "platform_pc": {
+    "displayProperties": {
+      "name": "PC",
+      "description": "The platform to which this profile belongs."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Platform"
+  },
+  "warmind": {
+    "displayProperties": {
+      "name": "Darth Sidious",
+      "description": "Tom Chapman, creator and engineer of Braytech."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Admin"
+  },
+  "patron-vip": {
+    "displayProperties": {
+      "name": "VIP Patron",
+      "description": "A very generous and valued patron of Braytech."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Commendation"
+  },
+  "patron": {
+    "displayProperties": {
+      "name": "Patron",
+      "description": "A generous patron of Braytech."
+    },
+    "itemType": 1,
+    "itemTypeDisplayName": "Commendation"
+  },
+  "commonality": {
+    "displayProperties": {
+      "name": "Commonality",
+      "description": "A representation of the number of players who've acquired or redeemed this entry."
+    },
+    "itemType": 1
+  },
+  "score": {
+    "displayProperties": {
+      "name": "Score value",
+      "description": "This record's score value."
+    },
+    "itemType": 1
+  },
+  "character_bound": {
+    "displayProperties": {
+      "name": "Character bound",
+      "description": "These items are character-bound. This means that each character discovers them uniquely."
+    },
+    "itemType": 1
+  }
+}

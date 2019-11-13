@@ -1,0 +1,23 @@
+.matches {
+  position: relative;
+}
+
+.matches > .spinner {
+  position: absolute;
+  top: -2.5rem;
+  right: 0;
+}
+
+.matches .pages {
+  display: grid;
+  grid-template-columns: 200px 200px auto;
+  grid-gap: 3px;
+  margin: 2rem 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  .matches .pages {
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem 0 0;
+  }
+}

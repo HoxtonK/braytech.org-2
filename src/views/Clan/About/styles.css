@@ -1,0 +1,194 @@
+#clan.about .module.banner {
+  grid-column: 2/4;
+  position: relative;
+}
+
+#clan.about .module.banner .button.customise {
+  max-width: unset;
+  width: 92%;
+  margin: 0 auto;
+}
+
+#clan.about .module.about {
+  grid-column: 4/7;
+}
+
+#clan.about .module.progression {
+  grid-column: 7/9;
+}
+
+#clan.about .module.roster {
+  grid-column: 9/11;
+}
+
+#clan.about .module.about > .name {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+#clan.about .module.about .members {
+  font-size: 16px;
+}
+
+#clan.about .module.about .members::before {
+  content: '//\00A0';
+}
+
+#clan.about .module.about .bio {
+  margin: 20px 0 0;
+}
+
+#clan.about .module.about .bio p {
+  font-size: 16px;
+  max-width: 700px;
+}
+
+#clan.about .module.about .bio ul {
+  list-style-type: disc;
+  padding: 0 0 0 2rem;
+  margin: 0 0 1rem;
+}
+
+#clan.about .module.about .bio ul li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+
+#clan.about .module.progression .progress-bar {
+  margin: 20px 0 0;
+}
+
+#clan.about .module.progression .progress-bar.level-6 .bar.full .fill {
+  background-color: rgba(198, 160, 6, 0.8);
+}
+
+#clan.about .module.progression .clan-rewards li {
+  display: flex;
+  position: relative;
+  padding: 0;
+  margin: 0 0 10px;
+  line-height: 1.4;
+  align-items: flex-start;
+  pointer-events: none;
+}
+
+#clan.about .module.progression .clan-rewards li .check-box {
+  flex-basis: 100%;
+}
+
+#clan.about .module.progression .clan-rewards li .check-box .text span {
+  color: rgba(255, 255, 255, 1);
+}
+
+#clan.about .module.progression .banner-perks li {
+  padding: 0;
+  margin: 0 0 14px;
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: 48px auto;
+  grid-gap: 10px;
+  align-items: flex-start;
+  opacity: 0.5;
+}
+
+#clan.about .module.progression .banner-perks li.active {
+  opacity: 1;
+}
+
+#clan.about .module.progression .banner-perks li .icon {
+  position: relative;
+  height: unset;
+  padding-bottom: 100%;
+}
+
+#clan.about .module.progression .banner-perks li .text .name {
+  margin: 0 0 4px;
+}
+
+#clan.about .module.progression .banner-perks li .text .description {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#clan.about .module.roster .spinner,
+#clan.about .module.roster .list.roster {
+  margin: 20px 0 0;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+  #clan.about .module.banner {
+    display: none;
+  }
+
+  #clan.about .module.about {
+    grid-column: 2/5;
+  }
+  
+  #clan.about .module.progression {
+    grid-column: 5/8;
+  }
+  
+  #clan.about .module.roster {
+    grid-column: 8/11;
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+  #clan.about {
+    grid-template-columns: 60px 1fr 1fr;
+  }
+
+  #clan.about .module.views {
+    grid-row: 1/3;
+  }
+
+  #clan.about .module.about {
+    grid-column: 2/3;
+  }
+  
+  #clan.about .module.progression {
+    grid-column: 3/4;
+  }
+
+  #clan.about .module.roster {
+    grid-row: 2/3;
+    grid-column: 2/4;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  #clan.about {
+    grid-template-columns: 40px 1fr;
+  }
+
+  #clan.about .module.about > .name {
+    font-size: 24px;
+  }
+
+  #clan.about .module.about,
+  #clan.about .module.progression,
+  #clan.about .module.roster {
+    grid-row: unset;
+    grid-column: 2/4;
+  }
+
+  #clan.about .module.views {
+    grid-row: 1/4;
+  }
+
+  #clan.about .module.about .bio p {
+    font-size: 14px;
+  }
+
+}

@@ -1,0 +1,116 @@
+.group-search {
+  min-height: 420px;
+}
+
+.group-search .result > .text,
+.group-search .result > .spinner {
+  margin: 2rem 0;
+  font-size: 16px;
+}
+
+.group-search .result .clan {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.group-search .result .clan .banner .canvas {
+  position: relative;
+  height: 100%;
+  padding: 10px 0 0;
+}
+
+.group-search .result .clan .banner .canvas canvas {
+  width: 100%;
+}
+
+.group-search .result .clan .details {
+  padding: 2rem 0 0 1.5rem;
+  display: grid;
+  align-content: space-between;
+}
+
+.group-search .result .clan .details .name {
+  position: relative;
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0 0 7px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.group-search .result .clan .details .name::before {
+  content: ' ';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 1.3rem;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.group-search .result .clan .details .name .tag {
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0 0 0 7px;
+  vertical-align: 11px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.group-search .result .clan .details .memberCount {
+  position: relative;
+  text-transform: uppercase;
+  margin: 0 0 32px;
+  font-size: 16px;
+}
+
+.group-search .result .clan .details .memberCount::before {
+  content: ' ';
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  width: 0.5rem;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.group-search .result .clan .details .motto {
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 0 0 1rem;
+}
+
+.group-search .result .clan .details .bio {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.group-search .result .clan .details .button {
+  margin: 1rem 0 0;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .group-search {
+    min-height: 300px;
+  }
+
+  .group-search .result .clan {
+    grid-template-columns: 1fr;
+  }
+
+  .group-search .result .clan .banner {
+    display: none;
+  }
+
+  .group-search .result .clan .details {
+    padding: 1rem 0 0 0;
+  }
+
+}

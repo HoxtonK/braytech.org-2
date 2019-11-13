@@ -1,0 +1,28 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://braytech.org/</loc>
+    <lastmod>2019-01-22T18:32:50+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://braytech.org/clan</loc>
+    <lastmod>2019-01-22T18:32:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://braytech.org/collections</loc>
+    <lastmod>2019-01-22T18:32:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://braytech.org/triumphs</loc>
+    <lastmod>2019-01-22T18:32:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://braytech.org/checklists</loc>
+    <lastmod>2019-01-22T18:32:50+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://braytech.org/this-week</loc>
+    <lastmod>2019-01-22T18:32:50+00:00</lastmod>
+  </url>
+</urlset>

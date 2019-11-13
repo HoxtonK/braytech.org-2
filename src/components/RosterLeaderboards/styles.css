@@ -1,0 +1,67 @@
+
+.module .module-header ~ .list.leaderboard {
+  margin: 1rem 0 0;
+}
+
+.list.leaderboard ~ .button {
+  margin: 1rem 0 0;
+}
+
+.list.leaderboard .row {
+  display: grid;
+}
+
+.list.leaderboard > .row > ul {
+  display: grid;
+  grid-template-columns: minmax(200px, 270px) calc(40px + 1rem) 90px;
+}
+
+.list.leaderboard .row ul .col.rank {
+  padding: 0 0 0 1rem;
+}
+
+.list.leaderboard .row ul .col.rank,
+.list.leaderboard .row ul .col.value {
+  font-size: 16px;
+}
+
+.list.leaderboard .row:first-child::before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: none;
+}
+
+.list.leaderboard .row::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: unset;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: none;
+}
+
+.list.leaderboard .row.self ul::before {
+  content: '\e90f';
+  position: absolute;
+  top: 12px;
+  left: -18px;
+  font-family: 'destiny' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  z-index: 2;
+  pointer-events: none;
+}

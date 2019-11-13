@@ -1,0 +1,192 @@
+.bungie-auth .text ~ .button {
+  margin: 1rem 0 0;
+}
+
+.bungie-auth .member {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bungie-auth .member .details {
+  position: absolute;  
+  bottom: 2rem;
+  left: 1rem;
+  display: grid;
+  grid-template-columns: 48px auto;
+  grid-gap: 1rem;
+}
+
+.bungie-auth .member .details .icon {
+  position: relative;
+  height: unset;
+  padding-bottom: 100%;
+}
+
+.bungie-auth .member .details .icon.shadow {
+  box-shadow: 0 15px 25px 10px rgba(0,0,0,0.4);
+}
+
+.bungie-auth .member .details .text {
+  position: relative;
+  display: grid;
+  align-content: center;
+}
+
+.bungie-auth .member .image.background {
+  position: relative;
+  height: unset;
+  padding-bottom: 39%;
+  background-size: cover;
+}
+
+.bungie-auth .member .image.background.dl {
+  opacity: 0.8;
+}
+
+.bungie-auth .member .displayName {
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.bungie-auth .member .firstAccess {
+  font-size: 12px;
+  margin: 1px 0 1px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bungie-auth .member ~ .button {
+  margin: 1rem 0 0;
+}
+
+.bungie-auth .memberships {
+  margin: 1rem 0 0;
+  max-width: 300px;
+}
+
+.bungie-auth .memberships .list li {
+  padding: 0 1rem 0 0;
+  cursor: pointer;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 56px 1fr 24px;
+}
+
+.bungie-auth .memberships .list li.linked:hover {
+  z-index: 3;
+}
+
+.bungie-auth .memberships .list li.linked span {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem 0 0;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4CAF50;
+}
+
+.bungie-auth .memberships .list li.linked span.destiny-platform_playstation {
+  background-color: #3F51B5;
+}
+
+.bungie-auth .memberships .list li.linked span.destiny-platform_steam {
+  background-color: #0a1b48;
+}
+
+.bungie-auth .memberships .list li.linked span.destiny-platform_battlenet {
+  background-color: #009ae4;
+}
+
+.bungie-auth .memberships .list li.linked .displayName {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+
+.bungie-auth .memberships .list li.linked .crosssave {
+  width: 24px;
+  height: 24px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABACAMAAABhoqomAAACplBMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////89sGvxAAAA4XRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGxwdHh8gISIjJCUmJygqKywtLi8wMTIzNTY3ODk6Ozw9PkBBQkNERkhJSktMTU5PUFFSU1RVVldYWltcXl9gYWJjZGVmZ2hpamtsbm9wcXJzdHZ3eHl6e3x9fn+AgYKEhYaHiImLjY6TlJWXmJmcnZ6foKGio6Slpqiqq6ytrq+wsbK0tba4ubq7vL6/wMHCw8TFxsfIysvMzc7P0NHS09TV1tna29zd3t/h4uPk5ebn6Onq6+zt7u/w8fLz9PX29/j5+vv8/f4nBwphAAAEeUlEQVR4AaXV/1cUex3H8eewX1iQm1vc2+UCXe4VJNNIMzOBUkFLKNK0TMNKK6M00dIslUpNM9TKkkrTUktFhTIjTc0vhpWZKCrGqojA6z/p7Hxml13YXRjv48eZc54z8znv8x6Sy1jHUBsCvIhv/sciXlrHWtwjp1tTiDdN3Tm4t1v6NvE2SbtxbfKAdJx4zdLAZNw6Lel/acTyhCSdxqUahb2bWBMVNh9X0tsVtgTmVhtV8BmF3QzgxjLZtsB1OYp5v2yfx40Nsv0SjsqxHG+3wta/yDu1wY/k2A+/VlgtbsyW7Q58R457PhYrbBZujJetF1YoooKxPZJUhBuvyBjDYkU0QpMkZePGSzLyqFbEwwAfMXVXZLweU9ISrMuSeOulc/BZ1yV/opJm4b0heXAjKONlFko6IqMZFkhB3MiVEaBWuuS/IqMS64/KwY1psj2BemkeH5dx2cukvqm4MV+2dtiqVrDOyqiDzTW48fXowTSpFCiT0Z2PbwZuNMq2F/5ygLBDMv5g4U6bbN+AjnGEFfUqcskV/zPZPkbexuh/xXju7uNKZeTwRjpG4LqMO3m4sFG2fxFjap+Mi2MZvRbZ9hFrvRzNmYzWO/uVYM96TslxYtSp5TJyhzzgn3KcHMvotMrWxhDveyLH3/MZ0VQfxTLWMlRVvxy3Z5CaVb8Ltss2kMswn1NEX71FCvnH+sYTDMl2nARWKOpoPsl4vhrSnugw6dMk8sV+RXSvTCOhigvS41ze0SXbLR8JffKZov46m+HKmp1D3ipjDUlM79Cgkx8iTmDpeYX9zUdxr2yPgiT0JrzrnGK0LfYTVXhLtudTsE7I2Ehi9R+F9B8q1r8LiTgmY/XgeN8Pkliw81sWVN5WjGM45sr4jUVhSMaXSGalfvsyBHcpxlxsvquyXcwicEHGJS/JeK/ovxXAtD8p6qqPsDpnGeVi/VSOGST3YUl7s8GqOa+IOoDshwq7Nz5mA+0hlX2S7n4hDazqP8t4mA3sMHM4DhbJ8eAVUnn1kSRdqACY0vhYYTtgQp8U2v+pLJjXK8d331tSVl5ZVV5awCBfXklpedWc8rKSSVtka51jAVkLm0JS3wQONm+qyAD4RK/iDfx+kX2DrJl1jWc7lMDFZWMAMiq3nDmEH8PXqTihbeMAPKU/ONen5G56MdKJWqUYXRuCgDWz8a5S+xrD+dsV0fP9IPDqmhsayT/8JLBAjkMFQP7OpxpZDYlYrQq7Uw289uNejUILiX1QkpreDoF1ISXS29XVrVgfIIkmPa0FZrZriM4jDUumF2QQNqZo1rJtLfY87ieZN65NhsztihM6sLSQYTwla1ueFJCUF95zTTGeH6xJx0grX/SVurq65QvKX/diC5DK/JAG3W94jUG533sg49n5xto3Sclq0KDOVZnEy1z9QFHX1lgk5f+5ono2Bxku2NCjqJ/4SSL9sKJOFZFY8RlFHU6S8v9OEY9XWCRjffnpCCnPQUVcnUgqk64r4lcehtspR//PXiK1t/2iX47tRPwfVcEmDF7dyMsAAAAASUVORK5CYII=");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .bungie-auth .member .details {
+    bottom: 1rem;
+  }
+
+  .bungie-auth .memberships {
+    max-width: unset;
+  }
+}
+
+
+
+
+
+
+.bungie-auth.no-auth {
+  padding: 4rem 3rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.bungie-auth.no-auth.inline {
+  padding: 0;
+}
+
+.bungie-auth.no-auth .properties {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bungie-auth.no-auth .properties .name {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 0 0 7px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 7px;
+  margin-bottom: 1rem;
+}
+
+.bungie-auth.no-auth .properties .description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+}
+
+.bungie-auth.no-auth .properties .description ~ .button,
+.bungie-auth.no-auth .properties .description ~ .spinner {
+  margin: 1rem 0 0;
+}
+
+@media screen and (max-width: 600px) {
+
+  .bungie-auth.no-auth {
+    padding: 3rem 2rem 2rem;
+  }
+
+  .bungie-auth.no-auth.inline {
+    padding: 0;
+  }
+
+  .bungie-auth.no-auth .properties .name {
+    font-size: 24px;
+  }
+  
+  .bungie-auth.no-auth .properties .description {
+    font-size: 14px;
+  }  
+
+}

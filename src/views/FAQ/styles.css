@@ -1,0 +1,113 @@
+#faq {
+  padding: 0;
+  display: grid;
+  margin: -40px auto 0;
+  width: 100%;
+}
+
+#faq > .module.head {
+  padding: calc(4rem + 40px) 3rem 3rem;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#faq > .module.head .page-header {
+  margin-bottom: 0rem;
+}
+
+#faq > .padder {
+  width: 100%;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 400px auto;
+  grid-gap: 3rem;
+}
+
+#faq .module.overview ul li {
+  line-height: 1.2;
+  font-size: 14px;
+}
+
+#faq .module h4 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  margin: 2rem 0 14px;
+}
+
+#faq .module h4:first-child {
+  margin: 0 0 14px;
+}
+
+#faq .module.faq .qa {
+  margin: 20px 0 2rem;
+}
+
+#faq .module.faq .qa:first-child {
+  margin: 0 0 2rem;
+}
+
+#faq .module.faq .qa .q {
+  font-size: 20px;
+  margin: 0 0 1rem;
+}
+
+#faq .module.faq .qa .a {
+  font-size: 16px;
+  max-width: 800px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#faq .module.faq .qa .a .markdown {
+  margin: 0 0 1rem;
+}
+
+#faq .module.faq .qa .a ul,
+#faq .module.faq .qa .a ol {
+  list-style-type: disc;
+  padding: 0 0 0 2rem;  
+  margin: 0 0 1rem;
+}
+
+#faq .module.faq .qa .a ol {
+  list-style-type: decimal;
+}
+
+#faq .module.faq .qa .a ul li,
+#faq .module.faq .qa .a ol li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+#faq .module.faq .qa .a ol li {
+  line-height: 2;
+}
+
+#faq .module.faq .qa .list.record-items {
+  max-width: 500px;
+  margin: 1rem 0 0;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  #faq > .padder {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #faq > .module.head {
+    padding: calc(3rem + 40px) 2rem 2rem;
+  }
+
+  #faq > .padder {
+    grid-gap: 2rem;
+    padding: 2rem;
+  }
+
+  #faq .module.faq .qa .q {
+    font-size: 18px;
+  }
+  
+  #faq .module.faq .qa .a {
+    font-size: 14px;
+  }
+}

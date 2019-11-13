@@ -1,0 +1,92 @@
+.progress-bar {
+  display: flex;
+  height: 20px;
+  margin: 0 0 4px;
+}
+
+.progress-bar.chunky {
+  height: 28px;
+}
+
+.progress-bar:last-child {
+  margin: 0;
+}
+
+.progress-bar .check {
+  position: relative;
+  flex-basis: 20px;
+  margin: 0 8px 0 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+.progress-bar .check::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  margin: 3px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.25s;
+}
+
+.progress-bar .check.ed::before {
+  background-color: #5aa366;
+}
+
+.progress-bar .bar {
+  flex-basis: calc(100% - 28px);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.progress-bar .bar.full {
+  flex-basis: 100%;
+}
+
+.progress-bar .bar .text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.progress-bar .bar .text .description {
+  flex: 1 1 auto;
+  padding: 0 0 0 8px;
+  display: flex;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.progress-bar .bar .text .fraction {
+  flex: 1 0 auto;
+  text-align: right;
+  padding: 0 8px 0 0;
+}
+
+.progress-bar .bar .fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-color: #5aa366;
+  transition: background-color 0.25s;
+}
+
+.wrapper.dark-mode .progress-bar .check:not(.ed)::before {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.wrapper.dark-mode .progress-bar .bar {
+  background-color: rgba(0, 0, 0, 0.1);
+}

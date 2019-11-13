@@ -1,0 +1,829 @@
+#tooltip {
+  position: fixed;
+  width: 440px;
+  pointer-events: none;
+  z-index: 2000;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 1;
+  will-change: transform;
+  opacity: 0;
+  --background-body: 238, 238, 238;
+  --dark: 0, 0, 0;
+  --light: 255, 255, 255;
+  --accent: 0, 0, 255;
+  --exotic: 48, 61%, 50%;
+  --legendary: 279, 36%, 29%;
+  --rare: 213, 34%, 48%;
+  --uncommon: 126, 35%, 32%;
+  --common: 0, 0%, 80%;
+  --exoticDark: 48, 71%, 5%;
+  --legendaryDark: 279, 36%, 5%;
+  --rareDark: 213, 34%, 6%;
+  --uncommonDark: 126, 35%, 5%;
+  --commonDark: 0, 0%, 7%;
+  --strikeAlpha: 203, 31%, 13%;
+  --strikeBeta: 203, 32%, 8%;
+}
+
+#tooltip.visible {
+  opacity: 1;
+}
+
+#tooltip .acrylic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: brightness(1.2) blur(3px);
+}
+
+#tooltip .frame {
+  position: relative;
+}
+
+#tooltip .header {
+  padding: 12px 16px 10px;
+  margin: 0;
+  background-color: hsla(var(--common), 0.9);
+  color: #fff;
+  font-family: 'nhg text';
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#tooltip .header > div {
+  flex-basis: 100%;
+  display: flex;
+}
+
+#tooltip .header div div {
+  flex: 1 1 auto;
+}
+
+#tooltip .header .name {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  word-break: break-word;
+}
+
+#tooltip .header .kind {
+  margin: 4px 0 0;
+  opacity: 0.8;
+}
+
+#tooltip .header .rarity {
+  opacity: 0.4;
+  text-align: right;
+}
+
+#tooltip .frame .note {
+  padding: 7px 16px 6px;
+  background-color: rgba(158, 65, 51, 0.9);
+  font-size: 13px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-family: 'nhg text';
+}
+
+#tooltip .black {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#tooltip .black .screenshot {
+  position: relative;
+  height: unset;
+  padding-bottom: 56%;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#tooltip .black .screenshot .image {
+  background-size: cover;
+}
+
+#tooltip .damage {
+  padding: 14px 16px 10px;
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#tooltip .damage .power {
+  font-size: 32px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px 0 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#tooltip .damage .power .breaker-type {
+  padding: 0 7px 0 0;
+  color: #fff;
+}
+
+#tooltip .damage .power .text {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#tooltip .damage .power:not(.kinetic) .text {
+  padding: 0 0 0 7px;
+}
+
+#tooltip .damage .power .icon {
+  display: flex;
+}
+
+#tooltip .damage .power .icon::before {
+  font-family: 'destiny';
+}
+
+#tooltip .damage .power.solar {
+  color: #ef641f;
+}
+
+#tooltip .damage .power .icon.solar::before {
+  content: 's';
+}
+
+#tooltip .damage .power.arc {
+  color: #79bbe7;
+}
+
+#tooltip .damage .power .icon.arc::before {
+  content: 'a';
+}
+
+#tooltip .damage .power.void {
+  color: #a371c2;
+}
+
+#tooltip .damage .power .icon.void::before {
+  content: 'v';
+}
+
+#tooltip .damage.armour .power {
+  border-right: none;
+}
+
+#tooltip .damage.armour .power .text {
+  padding: 0;
+  line-height: 1;
+}
+
+#tooltip .damage.armour .power .text:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0 0 0 16px;
+  line-height: 0;
+}
+
+#tooltip .damage .slot {
+  padding: 0 0 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+#tooltip .damage .slot .icon {
+  font-size: 32px;
+  display: flex;
+}
+
+#tooltip .damage .slot .icon::before {
+  font-family: 'destiny' !important;
+}
+
+#tooltip .damage .slot .icon.primary::before {
+  content: '\e902';
+}
+
+#tooltip .damage .slot .icon.special::before {
+  content: '\e901';
+  color: #7af48b;
+}
+
+#tooltip .damage .slot .icon.heavy::before {
+  content: '\e900';
+  color: #b286ff;
+}
+
+#tooltip .damage .slot .text {
+  padding: 0 0 0 12px;
+  text-transform: uppercase;
+  font-family: 'nhg text';
+}
+
+#tooltip .line {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#tooltip .flair,
+#tooltip .source {
+  padding: 12px 16px 12px;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#tooltip .kill-tracker {
+  padding: 2px 16px 12px;
+  display: flex;
+  align-items: center;
+}
+
+#tooltip .kill-tracker .icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-basis: 16px;
+  background-size: contain;
+}
+
+#tooltip .kill-tracker .text {
+  flex-basis: calc(100% - 16px);
+  padding: 0 0 0 10px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#tooltip .kill-tracker .text .description {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#tooltip .kill-tracker .text .value {
+  text-align: right;
+}
+
+#tooltip .stats {
+  padding: 14px 16px 6px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#tooltip .stats:first-child {
+  border-top: none;
+}
+
+#tooltip .stats .stat {
+  display: flex;
+  align-items: center;
+  line-height: 1.6;
+  margin: 0 0 8px;
+}
+
+#tooltip .stats .stat .name {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 16px 0 0;
+  flex-basis: 45%;
+  height: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#tooltip .stats .stat .value {
+  flex-basis: 55%;
+  height: 16px;
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#tooltip .stats .stat .value.bar {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+#tooltip .stats .stat .value.bar .int {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  height: 100%;
+  display: grid;
+  align-content: center;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+#tooltip .stats .stat .value.mod {
+  color: #ddcd8c;
+}
+
+#tooltip .stats .stat .value.masterwork {
+  color: #c6ab3c;
+}
+
+#tooltip .stats .stat .value .bar {
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+#tooltip .stats .stat .value .bar::before {
+  content: attr(data-value);
+  position: absolute;
+  top: 0;
+  right: -16px;
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 0;
+}
+
+#tooltip .stats .stat .value .bar.masterwork {
+  background-color: #c6ab3c;
+}
+
+#tooltip .sockets {
+  display: block;
+  padding: 0 0 12px;
+}
+
+#tooltip .stats ~ .sockets {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#tooltip .sockets.one {
+  padding-bottom: 0;
+}
+
+#tooltip .plug {
+  padding: 12px 16px 0;
+  display: flex;
+  opacity: 0.4;
+}
+
+#tooltip .plug.enabled {
+  opacity: 1;
+}
+
+#tooltip .plug .icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-basis: 32px;
+  background-size: contain;
+}
+
+#tooltip .plug > .text {
+  flex-basis: calc(100% - 32px);
+  padding: 0 0 0 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+#tooltip .plug.no-icon > .text {
+  flex-basis: 100%;
+  padding: 0;
+}
+
+#tooltip .plug .text .name {
+  margin: 0 0 3px;
+  flex-basis: 100%;
+}
+
+#tooltip .plug > .text > .description {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+#tooltip .plug .text .objectives {
+  flex-basis: 100%;
+  padding: 4px 0 0;
+  border: unset;
+}
+
+#tooltip .sockets.detailed-mode .plug > .text {
+  flex-basis: calc(100% - 16px);
+}
+
+#tooltip .sockets.detailed-mode .group {
+  padding: 0 0 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#tooltip .sockets.detailed-mode .group:last-child {
+  padding: 0;
+  border-bottom: none;
+}
+
+#tooltip .sockets.detailed-mode .plug .icon {
+  width: 20px;
+  height: 20px;
+  flex-basis: 20px;
+}
+
+#tooltip .sockets.detailed-mode .plug .text .name {
+  margin: 0;
+}
+
+#tooltip .sockets.detailed-mode .plug > .text > .description {
+  display: none;
+}
+
+#tooltip .sockets.detailed-mode .plug .text .objectives {
+  margin-top: 3px;
+}
+
+#tooltip .intrinsic {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 12px 16px 10px;
+}
+
+#tooltip .frame.exotic .intrinsic .text .name {
+  color: hsla(var(--exotic), 1);
+}
+
+#tooltip .frame .objectives ~ .description {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#tooltip .description .destination {
+  padding: 0 0 10px;
+  line-height: 1.4;
+  font-size: 16px;
+  color: #f5eac4;
+}
+
+#tooltip .description pre,
+#tooltip .description .text {
+  padding: 12px 16px 12px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#tooltip .energy-cost {
+  padding: 14px 16px 0;
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  font-size: 16px;
+}
+
+#tooltip .energy-cost .value {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+#tooltip .energy-cost .value .icon {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 3px 0 0;
+}
+
+#tooltip .energy-cost .value.solar {
+  color: #ef641f;
+}
+
+#tooltip .energy-cost .value.arc {
+  color: #79bbe7;
+}
+
+#tooltip .energy-cost .value.void {
+  color: #a371c2;
+}
+
+#tooltip .energy-cost .text {
+  padding: 0 0 0 12px;
+}
+
+#tooltip .quantity {
+  padding: 0 16px 16px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#tooltip .quantity span {
+  color: #856621;
+}
+
+#tooltip .expiry {
+  padding: 12px 16px 16px;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #e12a1d;
+}
+
+#tooltip .frame.mod .description pre,
+#tooltip .frame.ui .description pre {
+  padding: 12px 16px 12px;
+  font-style: unset;
+  letter-spacing: unset;
+}
+
+#tooltip .frame.mod .description.has-stats pre,
+#tooltip .frame.ui .description.has-stats pre {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#tooltip .frame.ui .stats {
+  border-top: none;
+}
+
+#tooltip .frame .emblem {
+  position: relative;
+  height: initial;
+  padding-bottom: calc(96 / 474 * 100%);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#tooltip .frame .emblem .image {
+  background-size: cover;
+}
+
+#tooltip .frame.exotic .header {
+  background-color: hsla(var(--exotic), 0.9);
+}
+
+#tooltip .frame.exotic .black {
+  background-color: hsla(var(--exoticDark), 0.9);
+}
+
+#tooltip .frame.legendary .header {
+  background-color: hsla(var(--legendary), 0.9);
+}
+
+#tooltip .frame.legendary .black {
+  background-color: hsla(var(--legendaryDark), 0.9);
+}
+
+#tooltip .frame.rare .header {
+  background-color: hsla(var(--rare), 0.9);
+}
+
+#tooltip .frame.rare .black {
+  background-color: hsla(var(--rareDark), 0.9);
+}
+
+#tooltip .frame.uncommon .header {
+  background-color: hsla(var(--uncommon), 0.9);
+}
+
+#tooltip .frame.uncommon .black {
+  background-color: hsla(var(--uncommonDark), 0.9);
+}
+
+#tooltip .frame.common .header {
+  background-color: hsla(var(--common), 0.9);
+  color: #000;
+}
+
+#tooltip .frame.common .black {
+  background-color: hsla(var(--commonDark), 0.9);
+}
+
+#tooltip .frame.bounty .header {
+  background-color: hsla(0, 0%, 12%, 0.8);
+  color: #fff;
+}
+
+#tooltip .frame.no-name .header {
+  padding: 0;
+}
+
+#tooltip .frame.no-name .header .name {
+  display: none;
+}
+
+#tooltip .frame.ui .header {
+  background-color: hsla(0, 0%, 0%, 0.9);
+  border-top: 5px solid rgba(214, 214, 214, 0.8);
+  color: #fff;
+}
+
+#tooltip .frame.ui .black {
+  background-color: hsla(0, 0%, 10%, 0.9);
+}
+
+/* #tooltip .frame .objective {
+  padding: 16px 16px 12px;
+  white-space: pre-wrap;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.4;
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+} */
+
+#tooltip .frame .objectives {
+  padding: 0 16px 16px;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
+}
+
+#tooltip .frame .objectives .progress {
+  margin: 0 0 3px;
+}
+
+#tooltip .frame .objectives .progress:last-child {
+  margin: 0;
+}
+
+#tooltip .frame .objectives .progress-bar.complete {
+  opacity: 0.8;
+}
+
+#tooltip .frame .objectives .progress-bar.complete .bar .fill {
+  background-color: rgba(90, 163, 102, 0);
+}
+
+#tooltip .frame .objectives > .text {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.4;
+  font-size: 14px;
+  margin: 0 0 4px 24px;
+}
+
+#tooltip .frame .objectives > .text:last-child {
+  margin: 0 0 0 24px;
+}
+
+#tooltip .frame .rewards {
+  padding: 8px 16px 12px;
+  font-size: 14px;
+}
+
+#tooltip .frame .rewards::before {
+  content: 'REWARDS:';
+  display: block;
+  margin: 0 0 10px;
+  font-weight: 500;
+  color: hsla(126, 35%, 50%, 1);
+}
+
+#tooltip .frame .rewards ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px;
+}
+
+#tooltip .frame .rewards ul li:last-child {
+  margin: 0;
+}
+
+#tooltip .frame .rewards ul li .icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  margin: 0 10px 0 0;
+}
+
+#tooltip .frame .recommended-light {
+  padding: 12px 16px 8px;
+  font-size: 14px;
+  color: #e5d163;
+}
+
+#tooltip .frame .recommended-light:last-child {
+  padding: 12px 16px 16px;
+}
+
+#tooltip .frame .recommended-light span {
+  position: relative;
+  margin: 0 0 0 8px;
+}
+
+#tooltip .frame .recommended-light span::before {
+  content: 'l';
+  position: absolute;
+  top: 3px;
+  left: -7px;
+  font-family: 'destiny' !important;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#tooltip .header::before {
+  content: attr(data-debugtip);
+  position: absolute;
+  top: -22px;
+  right: 0;
+  font-size: 14px;
+}
+
+#tooltip .frame.masterworked .header {
+  position: relative;
+}
+
+#tooltip .frame.masterworked .image.bg {
+  background-size: cover;
+  background-position: center top;
+}
+
+#tooltip .frame.masterworked .image.bg::before,
+#tooltip .frame.masterworked .image.bg::after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  animation: animation-masterwork-header 2s linear infinite;
+}
+
+@keyframes animation-masterwork-header {
+  0% {
+    background-position-x: 200%;
+  }
+  40% {
+    background-position-x: -200%;
+  }
+  100% {
+    background-position-x: -200%;
+  }
+}
+
+#tooltip .frame.masterworked .image.bg::before {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  background-size: 200%;
+  background-repeat: no-repeat;
+  padding-bottom: 1.1%;
+  top: 0;
+}
+
+#tooltip .frame.masterworked .image.bg::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background-size: 200%;
+  background-repeat: no-repeat;
+  height: 100%;
+  bottom: 0;
+}
+
+#tooltip .frame.masterworked.exotic .image.bg::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #tooltip {
+    top: 0;
+    left: 0;
+    transform: translate(0px, 0px) !important;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
+    backdrop-filter: brightness(0.6) blur(4px);
+  }
+
+  #tooltip.visible {
+    pointer-events: unset;
+  }
+
+  #tooltip .acrylic {
+    display: none;
+  }
+
+  #tooltip .window {
+    margin: 32px;
+    position: relative;
+  }
+
+  #tooltip .frame {
+    position: relative;
+    padding: initial;
+    width: 100%;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+  }
+  
+  #tooltip .frame .recommended-light span::before {
+    top: 4px;
+  }
+}

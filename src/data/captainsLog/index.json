@@ -1,0 +1,817 @@
+[
+  {
+    "date": "2018-12-26T06:36:35.362Z",
+    "version": "1.0.0",
+    "content": "\n## Changes\n- Added a friendly change log to Index view (you are here)\n- Added light exotic gold inset border to fully completed (all three classes) Collections badges\n\n## Conversation\n<MyelinGames voice> Welcome back, Guardians. By request, I've revived the change log. I'm going to take a more structured–dare I say professional–approach to writing it.\n\nRecently, I posted again to Reddit, and the overwhelming feedback received was that I switch to using an OAuth model where users can authenticate with Bungie. The primary reason for this request, being asked to select your character on each subsequent visit, can be solved without OAuth. Other indirect requests for OAuth include the ability to see ones currencies and other class specific items on the Vendors page. I have failed to explain to users that the Vendors endpoint actually requires OAuth, and when they view them on Braytech, they're actually viewing them from the perspective of my own character (Warlock).\n\nWhile I have reached a level of skill where I could dare to try integrating OAuth, it's not without its cons i.e. quickly and easily looking up another player. You could argue that I could integrate it side by side with my current lookup mechanism... But I don't want to.\n\nLeading up to Christmas, I had completely lost myself in working on this site. It's easy to lose perspective as you bury yourself in feature after feature, especially of your over-arching goal.\n\nI'm not trying to build a DIM competitor or replace similar sites. Braytech is a learning exercise and something that I too want to enjoy using. A convenient and semi-beautiful tool to aid in my Destiny obsession.\n\nIt started as a Xur location/sales tracker. Then I took on some checklists. And now... Well it's a bit of everything, now...\n        "
+  },
+  {
+    "date": "2018-12-27T03:41:32.815Z",
+    "version": "1.1.0",
+    "content": "\n## Changes\n- Added NotificationBar component\n- Changed index.js into AppEntry component in order to handle callbacks from ServiceWorker to notify the aforementioned of a pending update\n- Amended some minor styles\n- Fixed an ObservedImage component bug\n- Removed index.css because it literally did nothing\n\n## Conversation\nThe long-awaited update notification has finally landed. It's been a long time coming because I've never used ServiceWorkers before. I keep typing ServiceWalkers instead of ServiceWorkers which I find super strange.\n\nAnyway, the basic idea–as far as I understand it–behind ServiceWorkers is that they run behind the code that actually drives Braytech or other sites and apps. They silently perform tasks in the background like checking for new code. When they find new code, they tell the browser, and the next time the users visits–after closing all tabs of the site–the browser installs and runs the new code.\n\nLots of fun capabilities come with ServiceWorkers, like making web apps feel more like offline native apps. The reason I use them is for how effectively they cache frequently used assets. Subsequent visits to Braytech load instantly. We all like this.\n"
+  },
+  {
+    "date": "2018-12-27T12:49:58.234Z",
+    "version": "1.1.1",
+    "content": "\n## Changes\n- Fixed a clan stats bug\n"
+  },
+  {
+    "date": "2018-12-30T04:13:51.070Z",
+    "version": "1.2.0",
+    "content": "## Changes\n- Updated font\n- Increased pixel perfection of profile header by a factor of 1 billion\n- Built new reusable components for progress bars and checkboxes\n- Fixed Collections bug\n- Gave progress bars in Badges and Seals a shiny new coat of paint\n- Completely reworked triumph records progress display\n- Renamed Overview → Account and ripped it a new one\n- Reworked Checklists\n- Polished up This Week\n- Language updates for Português Brasileiro and Deutsch\n\n## Conversation\nA lot of quality of life changes. A better version of the font. Fonts matter a lot to me. The medium weight on this one is a bit thick but we'll see how she fares.\n\nI've made a mess of the Account view–previously the Overview view–and I'm looking for a better purpose to assign it. Perhaps basics data about your characters, such as time played, subclasses unlocked, whether they've completed storylines, etc."
+  },
+  {
+    "date": "2018-12-31T07:32:48.539Z",
+    "version": "1.2.1",
+    "content": "## Changes\n- Removed link to Vendors page. Read about it below.\n- Made inline nav improvements for smaller viewports\n- Added 'rare collectibles' to Account view\n\n## Conversation\nSo, why the heck did you remove the Vendors page!\n- it was a reflection of my personal vendor data meaning my Destiny progression affects what it displays. Normally, Vendors are hidden behind OAuth–the funky click to login with Bungie buttons–which Braytech doesn’t use. More on this in a tick\n- only a small fraction of users actually used it\n\nSo, why doesn’t Braytech use OAuth then? A few reasons. \n- I’ve always wanted Braytech to be as accessible as possible. Requiring users to authenticate hampers that. OAuth is required for things like inventory actions. That market is very well-filled by DIM, Ishtar Commander, and at least 5 other apps\n- it’d be a fair bit of work to implement and as Braytech is a hobby and hobbies are meant to be fun...\n- why don’t you just have both options?\n\nThe good news? I haven't nuked the page entirely. You can still access it at braytech.org/vendors.\n\nThe final change in this minor update is an improvement to the Account view. I've added 'rare collectibles' allowing you to see, at a glance, if a player is good or not. A joke. I'll be adding more modules over time, as I think of them."
+  },
+  {
+    "date": "2019-01-01T08:54:18.867Z",
+    "version": "1.2.2",
+    "content": "## Changes\n- Added some codes to improve the Character Select view UX\n- Added strike high-scores to Account view\n- Rearranged Account view"
+  },
+  {
+    "date": "2019-01-05T15:43:52.508Z",
+    "version": "1.2.3",
+    "content": "## Changes\n- Significant modifications under the hood to make way for new things\n- Added a dark mode (beta)\n- Consolidated more styles\n- Added more UI components\n- Added settings to hide completed checklist items (beta)\n- Added more descriptive loading screen messages"
+  },
+  {
+    "date": "2019-01-06T14:27:00.196Z",
+    "version": "1.2.4",
+    "content": "## Changes\n- Various minor style adjustments\n- Few UI additions"
+  },
+  {
+    "date": "2019-01-10T17:33:11.187Z",
+    "version": "1.3.0",
+    "content": "## Changes\n- Redux\n- Super improvements to Checklists including more detailed information for checklists like Ahamkara Bones, powered by lowlines mapping service and engineered by Michael Pearson\n- Various style imporvements, as always\n- Refresh service\n\n## Conversation\nFor version 1.3.0, I thought I'd do something above my skill level, poorly. It's in testing and needs to be enabled from the Settings page. Aptly, it's named _Refresh Service_. It will refresh the current profile's data every 20 seconds silently in the background.\n\nIf you choose to use this feature and notice something odd, please inform me!"
+  },
+  {
+    "date": "2019-01-10T19:42:31.408Z",
+    "version": "1.3.1",
+    "content": "## Changes\n- Real quick theme setting bug fix"
+  },
+  {
+    "date": "2019-01-11T00:56:04.682Z",
+    "version": "1.3.2",
+    "content": "## Changes\n- Changed a footer link\n- Fixed some settings stuff"
+  },
+  {
+    "date": "2019-01-11T02:04:08.288Z",
+    "version": "1.3.3",
+    "content": "## Changes\n- Significant triumphs root nodes QoL styling improvements"
+  },
+  {
+    "date": "2019-01-11T06:20:44.305Z",
+    "version": "1.3.4",
+    "content": "## Changes\n- Further work on triumphs styling and total logic"
+  },
+  {
+    "date": "2019-01-13T22:30:10.962Z",
+    "version": "1.3.5",
+    "content": "## Changes\n- added a new mini-feature: next 💯 closest to complete triumphs\n- added HTML entity decoding for whacky clan names and call signs\n- usual number of minor style changes\n- mobile nav improvements including dark mode\n- fixed a profile history bug\n- enabled GZIP on my server - I thought it was on - so initial loads and updates will be much faster"
+  },
+  {
+    "date": "2019-01-15T04:11:19.541Z",
+    "version": "1.3.6",
+    "content": "## Changes\n- Michael added checklists for Ghost Stories, Awoken of the Reef, and Forsaken Prince lore. _Powered by lowlines_ 🔥\n- rewrote the fresh service logic and borrowed some inspiration from DIM\n- this is the first version where you can see triumphs notifications as you collect them in game\n\n## Conversation\nAs always, some of these additions are new and have sensitve emotions. Use TLC. [Tweet me](https://twitter.com/justrealmilk) or join the [Discord](https://discordapp.com/invite/Y68xDsG) if you have any dramas."
+  },
+  {
+    "date": "2019-01-17T02:01:07.334Z",
+    "version": "1.3.7",
+    "content": "## Changes\n- Minor dark mode impovements\n- refreshed page footer design\n- Vendors page soft re-launch"
+  },
+  {
+    "date": "2019-01-17T07:19:50.042Z",
+    "version": "1.3.8",
+    "content": "## Changes\n- Polished the edges of the new Vendors page"
+  },
+  {
+    "date": "2019-01-19T12:32:29.709Z",
+    "version": "1.3.9",
+    "content": "## Changes\n- Minor bug fixes"
+  },
+  {
+    "date": "2019-01-19T17:04:47.730Z",
+    "version": "1.3.10",
+    "content": "## Changes\n- Tooltip stuff refactoring\n- New fun time since data refresh timer for stuff"
+  },
+  {
+    "date": "2019-01-19T18:10:01.355Z",
+    "version": "1.3.11",
+    "content": "## Changes\n- Boo boo bandaid (bug fix)"
+  },
+  {
+    "date": "2019-01-20T07:10:31.064Z",
+    "version": "1.3.12",
+    "content": "## Changes\n- Improvements to RefreshService"
+  },
+  {
+    "date": "2019-01-22T18:23:09.942Z",
+    "version": "1.3.13",
+    "content": "## Changes\n- Added new icons for Ghost Stories, Awoken of the Reef, and Forsaken Prince lore checklists\n- Improved and expanded Tooltips features\n- Further refinements to RefreshService\n- Fixed an ObservedImage component bug"
+  },
+  {
+    "date": "2019-01-23T19:19:42.492Z",
+    "version": "1.3.14",
+    "content": "## Changes\n- RefreshService now on by default"
+  },
+  {
+    "date": "2019-01-25T12:27:27.199Z",
+    "version": "1.3.15",
+    "content": "## Changes\n- Characters module in Account view WIP\n- Major changes and learnings regarding tooltips and displaying instanced data for weapons and such - no idea what I'm doing really"
+  },
+  {
+    "date": "2019-01-25T23:19:31.359Z",
+    "version": "1.3.16",
+    "content": "## Changes\n- Fixed the collections badge image bug\n- more changes to tooltips\n- character module in account view bug if no weapons equipped fixed\n- no profile data vendor page bug fixed"
+  },
+  {
+    "date": "2019-01-26T12:03:12.254Z",
+    "version": "1.3.17",
+    "content": "## Changes\n- Added finishing touches on Masterwork items"
+  },
+  {
+    "date": "2019-01-29T07:28:07.909Z",
+    "version": "1.3.18",
+    "content": "## Changes\n- Triumph tracking! You can track records. No way to filter or view tracked triumphs just yet. One step at a time.\n- Lots of under the hood changes. Kinda sorta expect things to go wrong because lol they always do\n- More tooltip improvements as usual"
+  },
+  {
+    "date": "2019-01-29T17:46:56.658Z",
+    "version": "1.3.19",
+    "content": "## Changes\n- Added Lore view: access directly, without selecting a Destiny profile, or via the relevant Triumphs under lore."
+  },
+  {
+    "date": "2019-01-29T19:53:23.246Z",
+    "version": "1.3.20",
+    "content": "## Changes\n- Added intermediate covers for new lore books\n- Patched Vendors unavailable error bug thing"
+  },
+  {
+    "date": "2019-01-30T22:34:34.099Z",
+    "version": "1.3.21",
+    "content": "## Changes\n- Redesigned Triumphs root view\n- Patched a Tooltip bug\n- Fully realised tracked triumphs\n- Brought Collections root view into line with other styling"
+  },
+  {
+    "date": "2019-01-30T23:16:20.072Z",
+    "version": "1.3.22",
+    "content": "## Changes\n- Bug fixes"
+  },
+  {
+    "date": "2019-01-31T12:28:40.161Z",
+    "version": "1.3.23",
+    "content": "## Changes\n- Made initialisation error messages more helpful"
+  },
+  {
+    "date": "2019-01-31T14:12:12.710Z",
+    "version": "1.3.24",
+    "content": "## Changes\n- Added new option to settings page enabling view of invisible collectibles. Hidden by default."
+  },
+  {
+    "date": "2019-02-06T08:10:09.685Z",
+    "version": "1.3.25",
+    "content": "## Changes\n- Enormous changes behind the scenes\n- New clan roster\n- New icons for progress bars on triumph records"
+  },
+  {
+    "date": "2019-02-06T09:04:14.067Z",
+    "version": "1.3.26",
+    "content": "## Changes\n- bug spray"
+  },
+  {
+    "date": "2019-02-07T06:34:48.596Z",
+    "version": "1.3.28",
+    "content": "## Changes\n- bug spray"
+  },
+  {
+    "date": "2019-02-14T04:41:39.471Z",
+    "version": "2.0.0",
+    "content": "## Changes\n- Vastly different under the hood\n- Membership IDs in URLs\n- Vendors view deprecated\n- Design overhaul\n\n## Conversation\nHi! Lot's of changes. Membership IDs are now all over the app's URLs so you can easily share your view with a fellow Guardian and vice versa.\n\nPreviously, you might access: `https://braytech.org/triumphs/3685363199/2993089843/231845845/3324094091`. This URL doesn't contain any player context. You can still share a URL like this one to direct others to your view, but if you want to brag, you'd share a URL like: `https://braytech.org/1/4611686018449662397/2305843009260574394/triumphs/3685363199/2993089843/231845845/3324094091`.\n\nThis was an incredibly great undertaking and I was aided by Michael Pearson in its implementation. Braytech does a lot of stuff under the hood to try and be smarter and improve the user's experience. Examples include, remembering your profile and automatically loading it as soon as possible upon you opening the app. Coupled with the changes to URLs, this sort of thing is complicated and requires very thorough testing.\n\nIn addition to loading your profile ASAP, it also refreshes your profile data every 60 seconds in the background - another layer of complexity.\n\nSo there's that.\n\nTom, why are Vendors gone... So, I like to do few things excellently, rather than lots of things forgettably. I believe most of you feel the same way. DIM, the official Companion app, and others already handle vendors. I don't need to try and compete with them. Braytech isn't an item manager!\n\nOn the technical side, vendor data requires OAuth to access - you know, when a web site sends you to Bungie.net to authorise access for their app - and Braytech stears clear of that complexity. The vendor data I was making available was a cached reflection of my own character's. So as I collected items, etc., they'd suddenly disappear from Braytech's view. Additionally, some vendors sell class-specific items - I couldn't show you the correct gear... Unless you're a Warlock of course.\n\nI get a lot of a questions about clan stats. Here's the thing... clan stats were drawn from a particular part of Destiny's API that is often unreliable. I had far too many players come and tell me they've done far many more than 0 Nightfalls. You can see where this is going... Additionally, with this major update, it became infeasible to maintain the messy code that I wrote to drive it. I'd need to start from scratch. While we're on the topic of clan stats, certain stats in the roster view are drawn from the same source and therefore are unreliable and may be on the chopping block."
+  },
+  {
+    "date": "2019-02-19T17:34:45.881Z",
+    "version": "2.1.0",
+    "content": "## Changes\n- Various minor improvements\n- Rewrote mission critical triumph records code and nothing broke so that's tip top\n- All new Legend (account) view\n\n## Conversation\nThe new Legend view is the first time I've accessed and manipulated PGCR (Post Game Carnage Reports) data from the API. Naturally, I'm still learning how to use them and what I should do with them. _Pardon our dust._\n\nAs always, it's a work in progress.\n\nKeep in contact on Twitter @justrealmilk"
+  },
+  {
+    "date": "2019-02-20T14:41:31.654Z",
+    "version": "2.1.1",
+    "content": "## Changes\n- Additional raid data for the Legend view\n\n## Conversation\nRaid measurements are complicated and can differ between raids themselves. This is my initial attempt at displaying raid stats based on PGCRs. Raid.report operates on similar principles but have it refined into a precise art.\n\nThese preliminary stats count only full clears. Counting full clears, again, appears to differ between raids and I'm still learning. Stats which I do feel are reliable are fastest full clear and flawless runs."
+  },
+  {
+    "date": "2019-02-21T21:48:35.927Z",
+    "version": "2.1.3",
+    "content": "## Changes\n- Added a FAQ\n- Improved mobile nav"
+  },
+  {
+    "date": "2019-02-23T06:43:58.968Z",
+    "version": "2.1.6",
+    "content": "## Changes\n- Bug squash round up\n- Added top Ko-fi supports to Credits view\n- Changed my tone on raid stats - now showing all clears irrespective of checkpoints"
+  },
+  {
+    "date": "2019-02-25T06:51:02.453Z",
+    "version": "2.2.0",
+    "content": "## Changes\n- Legend view low screen res improvements\n- `REDACTED` added"
+  },
+  {
+    "date": "2019-02-25T09:18:18.725Z",
+    "version": "2.2.1",
+    "content": "## Changes\n- Competitive view added (preview)"
+  },
+  {
+    "date": "2019-03-03T11:24:10.745Z",
+    "version": "2.2.4",
+    "content": "## Changes\n- so many files altered. this is a round-up update.\n- the Sit Rep view is new\n\n## Conversation\nWhy the Sit Rep view? I didn't like the idea of forcing a user to download all of this API data as soon as they rock up to Braytech. So, I've adjusted the default view."
+  },
+  {
+    "date": "2019-03-05T17:33:43.234Z",
+    "version": "2.2.5",
+    "content": "## Changes\n- Drifter day bug slam"
+  },
+  {
+    "date": "2019-03-09T12:29:08.263Z",
+    "version": "2.2.6",
+    "content": "## Changes\n- Quality of life improvements\n- Additional Drifter assets\n- Addition of percentage of Braytech users who've completed a triumph record added to each record"
+  },
+  {
+    "date": "2019-03-11T04:26:44.497Z",
+    "version": "2.3.0",
+    "content": "## Changes\n- Profile privacy error correctly renders once more\n- Other things but I'm tired\n- Inspect view for items - kind of beta"
+  },
+  {
+    "date": "2019-03-11T14:42:14.395Z",
+    "version": "2.3.1",
+    "content": "## Changes\n- Added Lore to Inspect view"
+  },
+  {
+    "date": "2019-03-13T08:16:31.435Z",
+    "version": "2.3.2",
+    "content": "## Changes\n- Bye, Service Worker."
+  },
+  {
+    "date": "2019-04-16T08:57:03.526Z",
+    "version": "2.3.3",
+    "content": "## Changes\n- Improved loading screen performance\n- Tooltip touch-ups\n- NEW Dossier view"
+  },
+  {
+    "date": "2019-04-16T22:32:07.460Z",
+    "version": "2.3.6",
+    "content": "## Changes\n- Refreshed This Week view, added modifiers"
+  },
+  {
+    "date": "2019-05-07T19:36:46.258Z",
+    "version": "2.4.0",
+    "content": "## Changes\n- Added new view, _Multiplayer_\n  - This is a preview\n  - Only supports Crucible at this time but Gambit is next\n  - Auto-refreshes every 60 or 30 seconds, I can't remember which\n- Rearranged **lots** of core files and I hope I haven't broken anything"
+  },
+  {
+    "date": "2019-05-10T21:03:39.801Z",
+    "version": "2.4.1",
+    "content": "## Changes\n- further project restructuring\n- fixed a small _Collections_ root view bug\n- further work on PGCR component including displaying fireteams"
+  },
+  {
+    "date": "2019-05-12T07:38:09.212Z",
+    "version": "2.4.2",
+    "content": "- A brand new _Index_ view\n- Further VOLUSPA integration work\n- New share image for social media\n- A _Clan Roster_ view bug fix"
+  },
+  {
+    "date": "2019-05-16T10:28:16.198Z",
+    "version": "2.4.3",
+    "content": "- Renamed _Multiplayer_ view to _PGCRs_\n  - Rearranged _Crucible_ view to match new _Gambit_ view\n  - This is all still a work in progress\n  - I intend to add a _Raid_ view and an _All_ view\n - Added \"commonality percentage\" to collectibles\n - Other stuff"
+  },
+  {
+    "date": "2019-05-23T07:07:05.505Z",
+    "version": "2.5.0",
+    "content": "- MemberLink\n- More Leaderboards work but it's still not ready\n- Updated some theme stuff\n- Updated sticky navs (the bars at the bottom of some UIs)\n- improvements to PGCRs\n- Code clean up\n- Removed Dossier view"
+  },
+  {
+    "date": "2019-05-25T12:53:09.136Z",
+    "version": "2.5.1",
+    "content": "- Leaderboards BETA release\n- Improvements to MemberLink"
+  },
+  {
+    "date": "2019-05-27T04:55:45.232Z",
+    "version": "2.5.2",
+    "content": "- PGCRs edition"
+  },
+  {
+    "date": "2019-05-27T08:55:45.232Z",
+    "version": "2.5.3",
+    "content": "- PGCR bugs squashed\n- MemberLink Characters list now links to characters properly\n- Added active seal titles to MemberLink Characters\n- Told Leaderboards root view to check for and load if available the current user's clan"
+  },
+  {
+    "date": "2019-05-28T09:20:53.123Z",
+    "version": "2.5.4",
+    "content": "- Updated Legend view to remove dependency on `.flat()` support\n- Decoupled MemberLink data requests for a shorter time til data for the end users as well as general clean up/refactoring\n- Added Lore Book index link to sticky nav and cleaned up some mobile stylings for the Read component generally\n- Added more async stats to PGCRs including valor, infamy, and resets\n- Added various rotations to _This Week_ view\n- Consequently rearranged the aforementioned\n- Dark mode now _even_ darker than before"
+  },
+  {
+    "date": "2019-05-28T22:26:33.773Z",
+    "version": "2.5.5",
+    "content": "- Emergency _This Week_ fix"
+  },
+  {
+    "date": "2019-05-29T04:40:31.482Z",
+    "version": "2.5.6",
+    "content": "- New loading screen style and code\n- New NotificationLink component to deliver error and informational messages"
+  },
+  {
+    "date": "2019-05-29T12:31:52.863Z",
+    "version": "2.5.7",
+    "content": "- Minor works\n- Updated Credits page to use new MemberLink component"
+  },
+  {
+    "date": "2019-05-29T21:50:33.916Z",
+    "version": "2.5.8",
+    "content": "- Fix for private profiles on Leaderboards"
+  },
+  {
+    "date": "2019-05-30T20:03:41.339Z",
+    "version": "2.5.9",
+    "content": "- Renamed _Resources_ -> _Experiments_\n- Bumped the `line-height` from `1.4` -> `1.6`"
+  },
+  {
+    "date": "2019-05-31T10:29:27.841Z",
+    "version": "2.5.10",
+    "content": "- Added some new options to _Settings_\n- Touched up some styling"
+  },
+  {
+    "date": "2019-06-01T17:42:56.550Z",
+    "version": "2.5.11",
+    "content": "- Touched up some styling\n- Added an alternate _Tooltip_ design which can be activated from the _Settings_ view\n"
+  },
+  {
+    "date": "2019-06-02T19:44:43.266Z",
+    "version": "2.5.12",
+    "content": "- Touched up some styling"
+  },
+  {
+    "date": "2019-06-02T23:02:57.294Z",
+    "version": "2.5.13",
+    "content": "- Minor branding updates"
+  },
+  {
+    "date": "2019-06-04T01:08:08.337Z",
+    "version": "2.5.14",
+    "content": "- _Settings_ view update\n- _This Week_ got confused about the date"
+  },
+  {
+    "date": "2019-06-04T18:09:51.895Z",
+    "version": "2.5.15",
+    "content": "- SoO patches"
+  },
+  {
+    "date": "2019-06-06T06:16:34.126Z",
+    "version": "2.5.16",
+    "content": "- Rewrote a bunch of stuff to make Braytech more resilient to new content drops\n- A brand new _Clan Roster_\n- Added hi-res images for new badges, sealsm, and lore books\n- Adjusted ClanBanner component alignment and added a new minimalist banner stand"
+  },
+  {
+    "date": "2019-06-06T08:09:40.921Z",
+    "version": "2.5.17",
+    "content": "- Added weekly clan xp to new _Clan Roster_"
+  },
+  {
+    "date": "2019-06-06T13:45:04.549Z",
+    "version": "2.5.18",
+    "content": "- Bunch of changes, small, medium, and large\n- Added hide acquired collectibles settings"
+  },
+  {
+    "date": "2019-06-07T05:11:27.595Z",
+    "version": "2.5.19",
+    "content": "- Bunch of changes, small, medium, and large\n- Supposed improvements to the _Armor_ node of _Collections_ view"
+  },
+  {
+    "date": "2019-06-07T11:11:27.595Z",
+    "version": "2.5.20",
+    "content": "- Improved _Sit Rep_ view"
+  },
+  {
+    "date": "2019-06-07T12:26:53.105Z",
+    "version": "2.5.21",
+    "content": "- I made an important change behind the scenes and I hope it doesn't ruin my world."
+  },
+  {
+    "date": "2019-06-08T00:10:06.232Z",
+    "version": "2.5.22",
+    "content": "- Bunch of changes, small, medium, and large\n- Added new setting for displaying invisible triumph records"
+  },
+  {
+    "date": "2019-06-08T11:03:10.912Z",
+    "version": "2.5.23",
+    "content": "- Something special for the _Sit Rep_ view header"
+  },
+  {
+    "date": "2019-06-09T04:24:16.466Z",
+    "version": "2.5.24",
+    "content": "- Added search to _Triumphs_ and _Collections_ views"
+  },
+  {
+    "date": "2019-06-09T14:23:12.088Z",
+    "version": "2.5.25",
+    "content": "- Added rewards for records that have them to records\n- Added filter to _Collections_ view search (enter \"type:exotic scout rifle\" for example)\n- Experimental sort options for _Almost Complete Triumphs_ view"
+  },
+  {
+    "date": "2019-06-12T07:47:58.979Z",
+    "version": "2.5.26",
+    "content": "- A ridiculous number of changes to tooltips and how item stats are calculated. If you notice anything askew, let me know."
+  },
+  {
+    "date": "2019-06-13T07:49:30.755Z",
+    "version": "2.5.27",
+    "content": "- Continued work on tooltips and how item stats are calculated. If you notice anything askew, let me know."
+  },
+  {
+    "date": "2019-06-14T15:58:59.362Z",
+    "version": "2.5.28",
+    "content": "- Continued work on tooltips and how item stats are calculated. If you notice anything askew, let me know."
+  },
+  {
+    "date": "2019-06-16T16:19:11.373Z",
+    "version": "2.5.29",
+    "content": "- Continued work on tooltips and how item stats are calculated.\n- Other stuff 😟"
+  },
+  {
+    "date": "2019-06-18T17:00:55.676Z",
+    "version": "2.5.31",
+    "content": "- Chalice of Opulence tool BETA"
+  },
+  {
+    "date": "2019-06-19T05:49:47.555Z",
+    "version": "2.5.32",
+    "content": "- Chalice of Opulence tool updates"
+  },
+  {
+    "date": "2019-06-19T10:15:26.200Z",
+    "version": "2.5.33",
+    "content": "- Chalice of Opulence tool updates"
+  },
+  {
+    "date": "2019-06-19T10:15:26.200Z",
+    "version": "2.5.33",
+    "content": "- Chalice of Opulence tool updates... maybe the last one for a while"
+  },
+  {
+    "date": "2019-06-20T05:13:54.202Z",
+    "version": "2.5.35",
+    "content": "- General bug fixes\n- Minor Chalice of Opulence tool updates"
+  },
+  {
+    "date": "2019-06-24T03:59:15.843Z",
+    "version": "2.5.36",
+    "content": "- Updated _Inspect_ view for items\n- Completely rewrote the magic that creates the deep links for collectibles and triumphs\n- Refreshed _Character Select_ design\n- Assorted minor design changes"
+  },
+  {
+    "date": "2019-06-26T03:14:01.551Z",
+    "version": "2.5.37",
+    "content": "- _This Week_ beta"
+  },
+  {
+    "date": "2019-06-27T21:29:34.770Z",
+    "version": "2.6.0",
+    "content": "- New _This Week_ view"
+  },
+  {
+    "date": "2019-06-28T01:17:43.277Z",
+    "version": "2.6.1",
+    "content": "- Added raids to _This Week_ view\n- Fixed a clan search bug"
+  },
+  {
+    "date": "2019-06-29T07:08:05.943Z",
+    "version": "2.6.2",
+    "content": "- Component-ised Flair\n- Enabled and added custom tooltips\n- Rearranged _Sit Rep_ a little\n- Added ability to filter by class type to Chalice tool"
+  },
+  {
+    "date": "2019-07-02T02:13:17.419Z",
+    "version": "2.6.3",
+    "content": "- Added pagination to PGCRs\n- UI improvements for PGCRs"
+  },
+  {
+    "date": "2019-07-02T06:28:15.902Z",
+    "version": "2.6.4",
+    "content": "- Added EP back to _This Week_"
+  },
+  {
+    "date": "2019-07-03T13:49:54.064Z",
+    "version": "2.6.5",
+    "content": "- _Clans_ view... I dunno"
+  },
+  {
+    "date": "2019-07-05T05:12:53.556Z",
+    "version": "2.6.7",
+    "content": "- Made significant changes to networking code to enable OAuth"
+  },
+  {
+    "date": "2019-07-07T04:09:50.291Z",
+    "version": "2.6.8",
+    "content": "- Minor style changes\n- _Checklists_ view design refresh"
+  },
+  {
+    "date": "2019-07-10T07:04:04.855Z",
+    "version": "2.7.0",
+    "content": "- Fixes for classified location data\n- Implementation of OAuth\n- New _Inventory_ view - still a WIP"
+  },
+  {
+    "date": "2019-07-11T07:26:04.255Z",
+    "version": "2.7.1",
+    "content": "- Bungie fixes\n- _Inventory_ improvements"
+  },
+  {
+    "date": "2019-07-12T08:19:08.250Z",
+    "version": "2.7.4",
+    "content": "- _Inventory_ improvements"
+  },
+  {
+    "date": "2019-07-13T06:38:45.236Z",
+    "version": "2.7.5",
+    "content": "- _Inventory_ improvements\n- Header UI improvements\n- _Leaderboards_ have left us"
+  },
+  {
+    "date": "2019-07-14T22:55:53.288Z",
+    "version": "2.7.6",
+    "content": "- Some views have new names"
+  },
+  {
+    "date": "2019-07-17T09:01:50.405Z",
+    "version": "2.7.8",
+    "content": "- issue where you could no longer paginate PGCRs if a report failed to load fixed\n- medals added to PGCRs\n- mini loading indicator added to top-right of PGCRs to indicate previously silent loading activity"
+  },
+  {
+    "date": "2019-07-18T04:25:17.684Z",
+    "version": "2.7.9",
+    "content": "- added gambit medals to PGCRs but icons require manual association\n- added completed presentation node highlighting to secondary navigation for triumphs and collections\n- updated tooltip positioning logic\n- added ability to facilitate animated emblem icons\n- adjusted styling for emblem background positioning\n- added postmaster capacity warning notification bar"
+  },
+  {
+    "date": "2019-07-19T07:52:57.397Z",
+    "version": "2.7.10",
+    "content": "- added records to some quest item steps for display under _Inventory_ pursuits"
+  },
+  {
+    "date": "2019-07-19T12:19:19.223Z",
+    "version": "2.7.11",
+    "content": "- updated emblem animation component and added _Sign of Our City_ by @InexorableAce"
+  },
+  {
+    "date": "2019-07-20T06:25:30.546Z",
+    "version": "2.7.12",
+    "content": "- added animated emblem _Grizzled Wolf_ by @InexorableAce\n- language updates for Français and Português Brasileiro"
+  },
+  {
+    "date": "2019-07-22T04:14:56.263Z",
+    "version": "2.7.14",
+    "content": "- minor fixes to _Triumphs_ view root\n- increased _Almost Complete_ triumphs limit from 100 to 200\n- minor changes to header refresh notification animation\n- changes to what triumphs are included in ranking for _Almost Complete_ triumphs\n- changed order of commonality sort for _Almost Complete_ triumphs from 'asc' to 'desc' to show most common unobtained records first\n- Français translation update fix"
+  },
+  {
+    "date": "2019-07-24T12:44:29.498Z",
+    "version": "2.7.15",
+    "content": "- triumph record state fix\n- improved _Now_ view with renewed focus on milestones\n- tooltips work\n- translation work\n- new ranks component"
+  },
+  {
+    "date": "2019-07-25T05:09:00.088Z",
+    "version": "2.7.16",
+    "content": "- ranks component comp streak improvment"
+  },
+  {
+    "date": "2019-07-27T08:34:07.644Z",
+    "version": "2.7.17",
+    "content": "- many, many language updates\n- beta emotes collection added"
+  },
+  {
+    "date": "2019-07-29T17:31:29.033Z",
+    "version": "2.7.18",
+    "content": "- language updates\n- tooltip updates"
+  },
+  {
+    "date": "2019-08-04T06:29:27.580Z",
+    "version": "2.7.20",
+    "content": "- added a new _Suggestion box_ view"
+  },
+  {
+    "date": "2019-08-06T07:49:52.689Z",
+    "version": "2.7.21",
+    "content": "- changed valor and infamy points columns on Clan Roster to Resets x Total Points + Current Points\n- added commonality percentage to Triumph Seals\n- added _VOLUSPA last indexed ~date~_ to page footer"
+  },
+  {
+    "date": "2019-08-08T00:29:57.146Z",
+    "version": "2.7.22",
+    "content": "- adjusted Collections armour view style (again)\n- refreshed collections badges design with a class-first approach\n- added {{progress}}/{{total}} to collections secondary nav\n- made dark mode 1% darker"
+  },
+  {
+    "date": "2019-08-09T01:37:25.549Z",
+    "version": "2.7.23",
+    "content": "- testing service workers\n- scrollbars to match theme colour\n- added community-sourced run times to heroic story missions"
+  },
+  {
+    "date": "2019-08-13T03:09:18.798Z",
+    "version": "2.8.0",
+    "content": "- added _Clan Admin_ feature\n- re-added reckoning boss to _This Week_\n- i18n stuff"
+  },
+  {
+    "date": "2019-08-15T06:23:12.249Z",
+    "version": "2.8.1",
+    "content": "- fixed a complete cock up.\n- removed theming from notifications and made them nicer on mobile devices\n- reset saved authorisations\n- fixed a bug caused by the new _Clan Admin_ feature"
+  },
+  {
+    "date": "2019-08-23T18:05:32.271Z",
+    "version": "2.8.5",
+    "content": "- general code clean up\n- bugs, bugs, bugs\n- updated core dependancies\n- updated MemberLink\n- updated icons for new season\n- added completed parent node highlighting for _Triumphs_ and _Collections_\n- changed seals parent nodes display text from node name to node title reward name\n- improved _Collections_ badge mobile UX\n- redesigned Ranks component\n- fixed a cross save bug and added a cross save icon for authenticated accounts\n- _Pursuits_ view updates\n  - reconstructed Sturm's quest line\n  - added rewards to a whole bunch of quest lines\n- added currently tracked record to tracked triumphs list (though there's no way to untrack it)\n- lots of performance optimisation\n- new _Hide dud records_ option added to _Settings_ view"
+  },
+  {
+    "date": "2019-08-25T08:15:34.498Z",
+    "version": "2.8.6",
+    "content": "- fixed a _Now_ view bug\n- rewrote a bunch of _Collections_ view code"
+  },
+  {
+    "date": "2019-08-25T10:41:54.118Z",
+    "version": "2.8.7",
+    "content": "- search improvements\n  - filter search by prefixing `name:`, `description:`, or `type:`. for example, `type:trace` will return all Trace Rifles"
+  },
+  {
+    "date": "2019-08-26T09:19:48.419Z",
+    "version": "2.8.8",
+    "content": "- a brand new index page.\n- other minor improvements\n- icons stuff\n- language updates\n- high res display stuff"
+  },
+  {
+    "date": "2019-08-26T14:30:59.712Z",
+    "version": "2.8.9",
+    "content": "- added a manifest change log to the index page. it's super cool.\n- fixed a tiny tiny bug"
+  },
+  {
+    "date": "2019-08-27T21:49:36.894Z",
+    "version": "2.8.10",
+    "content": "- minor adjustments"
+  },
+  {
+    "date": "2019-09-02T06:13:53.726Z",
+    "version": "2.8.13",
+    "content": "- made _Clan Admin_ mode visible to everyone to increase feature visibility\n- Added Tooltips to _Clan Roster_ activity column\n- Performance improvements"
+  },
+  {
+    "date": "2019-09-03T18:47:28.614Z",
+    "version": "2.8.16",
+    "content": "- many lots of changes and improvements to how activity text is calculated\n- _Clan Roster_ activity tooltips\n- improvements to _Tooltips_ (it now relies on your GPU)\n- slight _Clans_ view remodelling\n- Header UI nav item bug fix\n- emergency deployment to fix _This Week_"
+  },
+  {
+    "date": "2019-09-05T07:33:24.063Z",
+    "version": "2.8.18",
+    "content": "- minor fixes\n- _Clan Stats_ view v1"
+  },
+  {
+    "date": "2019-09-21T12:25:42.368Z",
+    "version": "2.9.0",
+    "content": "- fixes\n- _Maps_ view\n- _Collections_ badges are now linked to from _Triumphs_ seals, where appropriate\n- more changes, so many that I can't recall"
+  },
+  {
+    "date": "2019-09-21T18:12:07.657Z",
+    "version": "2.9.1",
+    "content": "- minor fixes\n- removed some more CB.NAVs"
+  },
+  {
+    "date": "2019-09-22T03:28:15.859Z",
+    "version": "2.9.2",
+    "content": "- minor fixes\n- added images for Titan nodes in _Maps_"
+  },
+  {
+    "date": "2019-09-22T06:53:12.394Z",
+    "version": "2.9.3",
+    "content": "- minor fixes"
+  },
+  {
+    "date": "2019-09-22T16:35:26.421Z",
+    "version": "2.9.4",
+    "content": "- did a thing to prevent duplicated tracked records when tracking the same tracked record in-game\n- localisation improvements"
+  },
+  {
+    "date": "2019-09-23T11:35:26.421Z",
+    "version": "2.9.6",
+    "content": "- minor fixes\n- localisation improvements\n- some clean up\n- other stuff"
+  },
+  {
+    "date": "2019-09-23T16:55:38.416Z",
+    "version": "2.9.7",
+    "content": "- improvements to _Clan Stats_"
+  },
+  {
+    "date": "2019-09-26T14:24:57.328Z",
+    "version": "2.9.9",
+    "content": "- minor UI changes for _Maps_\n- further Tooltips perf work\n- _Now_ view redesign WIP\n- did some styling clean up\n- paid some attention to scrollbars on native Chrome devices (Android)\n- and more"
+  },
+  {
+    "date": "2019-09-27T23:43:49.123Z",
+    "version": "2.9.12",
+    "content": "- rectified issue with MMXIX unredeemable unredeemed triumphs display\n- a bunch of general clean up\n- tracked and unredeemed records can now be clicked to see them in their original context\n- collections badge class level completion corrected\n- further sit rep view design work\n- shadowkeep prep"
+  },
+  {
+    "date": "2019-09-30T10:35:52.957Z",
+    "version": "2.9.13",
+    "content": "_The night before Shadowkeep_\n\n- minor improvements to various components\n- seal records in almost complete now correctly link to relevant seal views\n- progress notifcation improvements\n- unredeemed triumphs improvements\n- icons"
+  },
+  {
+    "date": "2019-10-06T08:21:55.186Z",
+    "version": "2.9.27",
+    "content": "## Cumulative update for Shadowkeep\n- updated to use season rank where appropriate\n- new icons\n- nightfalls are back!\n- fundamental works done on current player activity functions\n- new icons\n- tooltip updates"
+  },
+  {
+    "date": "2019-10-06T14:45:01.760Z",
+    "version": "2.9.28",
+    "content": "- did some more font stuff\n- added some nodes to the moon map"
+  },
+  {
+    "date": "2019-10-09T06:09:37.854Z",
+    "version": "2.9.33",
+    "content": "- Added season pass progression details to _Now_ view\n- added more icons\n- Interval records"
+  },
+  {
+    "date": "2019-10-10T12:42:46.485Z",
+    "version": "2.9.36",
+    "content": "- updated some more map stuff\n- added jade rabbits checklist"
+  },
+  {
+    "date": "2019-10-12T12:29:38.147Z",
+    "version": "2.9.39",
+    "content": "- made an icon for Jade Rabbits\n- added a task to force everyone to re-auth\n- _Now_ and _This Week_ stuff\n- QuestLine stuff"
+  },
+  {
+    "date": "2019-10-14T16:38:16.602Z",
+    "version": "2.9.42",
+    "content": "- major remodelling under the hoods of _Now_ and _This Week_\n- Moon map is up to date as far as my personal progression permits\n- found all the new images for badges, lore books, etc."
+  },
+  {
+    "date": "2019-10-17T19:23:23.013Z",
+    "version": "2.9.49",
+    "content": "- changed character level to season rank on clan roster\n- iterated _This Week_ view design and added more content\n- NEW NEW NEW SEASONAL PROGRESSION MODULE ON _NOW_ VIEW\n- I'm available for hire - looking to work in-office as apart of a team in Brisbane, Australia\n - added daily black armory forge to _Now_"
+  },
+  {
+    "date": "2019-10-18T03:24:35.027Z",
+    "version": "2.9.53",
+    "content": "- minor bug fixes\n- Bungie.net auth added to character select\n- Bungie.net auth upsell added to _Now_ view"
+  },
+  {
+    "date": "2019-10-22T07:32:26.544Z",
+    "version": "2.10.0",
+    "content": "## Cumulative update for October\n- overhauled net code\n- added active Black Armory Forge to _Now_\n- translation improvements\n- about 200 other minor changes"
+  },
+  {
+    "date": "2019-10-22T17:29:49.706Z",
+    "version": "2.10.1",
+    "content": "- minor bug fixes"
+  },
+  {
+    "date": "2019-10-22T18:20:21.921Z",
+    "version": "2.10.2",
+    "content": "- added Leviathan's Breath to associated pursuit's rewards"
+  },
+  {
+    "date": "2019-10-23T08:47:31.104Z",
+    "version": "2.10.3",
+    "content": "- fixed bug preventing future quest line steps from display objective values"
+  },
+  {
+    "date": "2019-10-23T12:31:02.923Z",
+    "version": "2.10.4",
+    "content": "- minor style changes\n- translation updates"
+  },
+  {
+    "date": "2019-10-24T02:09:43.899Z",
+    "version": "2.10.7",
+    "content": "- translation updates"
+  },
+  {
+    "date": "2019-10-29T07:38:01.143Z",
+    "version": "2.10.10",
+    "content": "- reworked item tooltips\n- and other good stuff"
+  },
+  {
+    "date": "2019-10-29T17:46:58.243Z",
+    "version": "2.10.12",
+    "content": "- stuff"
+  },
+  {
+    "date": "2019-10-29T21:31:47.760Z",
+    "version": "2.10.13",
+    "content": "- deprecated some old stuff\n- highlighted some old stuff\n- taught some stuff how to hide errors when appropriate"
+  },
+  {
+    "date": "2019-10-29T22:56:23.650Z",
+    "version": "2.10.14",
+    "content": "- improved mod tooltips\n- added breaker types to weapon tooltips"
+  },
+  {
+    "date": "2019-10-31T03:19:24.171Z",
+    "version": "2.10.15",
+    "content": "- added tooltip for dungeons\n- trying to fix for Daniel\n- other bugs"
+  },
+  {
+    "date": "2019-10-31T09:32:11.384Z",
+    "version": "2.10.16",
+    "content": "- added fireteams to clan roster\n- reports bug"
+  },
+  {
+    "date": "2019-11-04T08:41:23.249Z",
+    "version": "2.10.21",
+    "content": "- next level performance improvements to _Reports_\n- lots of new icons\n- misc."
+  },
+  {
+    "date": "2019-11-06T18:24:54.426Z",
+    "version": "2.10.25",
+    "content": "- various improvements including continued updates to _Inspect_ view, tooltips for items and maps, checklist utilities, and languages"
+  },
+  {
+    "date": "2019-11-12T01:40:46.360Z",
+    "version": "2.10.35",
+    "content": "- _Maps_ refactor\n- connected _Checklists_ to _Maps_"
+  }
+]

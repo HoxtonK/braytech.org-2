@@ -1,0 +1,689 @@
+.list.reports li.linked:hover,
+.list.reports li.tooltip:hover {
+  z-index: unset;
+}
+
+.list.reports li > .basic {
+  display: grid;
+  width: 100%;
+  height: 38px;
+  position: relative;
+  padding: 0 1rem;
+  grid-template-columns: max-content max-content auto;
+  align-items: center;
+  font-size: 14px;
+}
+
+.list.reports li.standing > .basic::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.list.reports li.standing.victory .basic::before {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.list.reports li > .basic .mode {
+  font-size: 16px;
+  min-width: 13rem;
+}
+
+.list.reports li > .basic .map {
+  min-width: 10rem;
+}
+
+.list.reports li > .basic .ago {
+  text-align: right;
+}
+
+.list.reports li.isExpanded {
+  height: unset;
+  display: block;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.list.reports li.isExpanded:hover {
+  background-color: hsla(0, 0%, 100%, 0.05);
+}
+
+.list.reports li.isExpanded:hover::before,
+.list.reports li.isExpanded:hover::after {
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.list.reports li > .head {
+  position: relative;
+  width: 100%;
+  padding-bottom: 40%;
+}
+
+.list.reports li > .head .image.bg {
+  background-size: cover;
+  filter: brightness(0.5);
+}
+
+.list.reports li > .head .detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.list.reports li > .head .detail > div:last-child {
+  text-align: right;
+}
+
+.list.reports li > .head .detail .mode,
+.list.reports li > .head .detail .ago {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list.reports li > .head .standing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+}
+
+.list.reports li > .head .standing .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30%;
+  height: 30%;
+  margin: -15% 0 0 -15%;
+}
+
+.list.reports li > .head .standing .icon.crucible .victory .square {
+  transform-origin: center center;
+  animation: rotate-linear 32s infinite linear;
+}
+
+.list.reports li > .head .standing .icon.crucible .victory .square2 {
+  animation: rotate-linear 16s infinite linear;
+}
+
+.list.reports li > .head .standing .icon.crucible .victory .chevron.ani {
+  transform-origin: center center;
+  opacity: 0;
+  animation: standing-crucible-chevron-highlight 7s infinite 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.list.reports li > .head .standing .icon.crucible .victory .chevron.chevron2.ani {
+  animation: standing-crucible-chevron-highlight 7s infinite 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.list.reports li > .head .standing .icon.crucible .victory .chevron.chevron3.ani {
+  animation: standing-crucible-chevron-highlight 7s infinite 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.list.reports li > .head .standing .icon.crucible .victory .chevron.chevron4.ani {
+  animation: standing-crucible-chevron-highlight 7s infinite 0s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes standing-crucible-chevron-highlight {
+  0%, 10%, 100% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0.2;
+  }
+}
+
+.list.reports li > .head .standing .icon.crucible .defeat .knives {
+  transform-origin: center center;
+  animation: rotate-linear 40s infinite linear;
+}
+
+.list.reports li > .head .standing .icon.crucible .defeat .knife {
+  transform-origin: center center;
+  transform: translate3d(-10px, -10px, 0);
+  animation: standing-crucible-knife-bob-1 4s infinite cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.list.reports li > .head .standing .icon.crucible .defeat .knife.knife2 {
+  transform: translate3d(10px, -10px, 0);
+  animation: standing-crucible-knife-bob-2 4s infinite .5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.list.reports li > .head .standing .icon.crucible .defeat .knife.knife3 {
+  transform: translate3d(10px, 10px, 0);
+  animation: standing-crucible-knife-bob-3 4s infinite 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.list.reports li > .head .standing .icon.crucible .defeat .knife.knife4 {
+  transform: translate3d(-10px, 10px, 0);
+  animation: standing-crucible-knife-bob-4 4s infinite 1.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+@keyframes standing-crucible-knife-bob-1 {
+  0%, 60%, 100% {
+    transform: translate3d(-10px, -10px, 0);
+  }
+  30% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes standing-crucible-knife-bob-2 {
+  0%, 60%, 100% {
+    transform: translate3d(10px, -10px, 0);
+  }
+  30% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes standing-crucible-knife-bob-3 {
+  0%, 60%, 100% {
+    transform: translate3d(10px, 10px, 0);
+  }
+  30% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes standing-crucible-knife-bob-4 {
+  0%, 60%, 100% {
+    transform: translate3d(-10px, 10px, 0);
+  }
+  30% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.list.reports li > .head .standing .text {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  margin: 70px 0 0 0;
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 500;
+  letter-spacing: 0.2vw;
+  text-transform: uppercase;
+  display: none;
+}
+
+.list.reports li > .head .score {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 3px;
+  font-size: 2.4vw;
+  font-weight: 500;
+}
+
+.list.reports li > .head .score.teams {
+  top: 75%;
+  height: unset;
+  grid-template-columns: auto auto;
+}
+
+.list.reports li > .head .score.teams .value {
+  position: relative;
+  font-size: 1.4vw;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: center;
+  width: 5vw;
+  padding: 8px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.list.reports li > .head .score.teams .value:first-child {
+  justify-self: right;
+}
+
+.list.reports li > .head .score.teams .value.bravo.victory {
+  background-color: #60779a;
+}
+
+.list.reports li > .head .score.teams .value.alpha.victory {
+  background-color: #973835;
+}
+
+.list.reports li .entries {
+  padding: 1rem;
+}
+
+.list.reports li .entries ul.team {
+  margin: 0 0 1rem;
+}
+
+.list.reports li .entries ul.team:last-child {
+  margin: 0;
+}
+
+.list.reports li .entries .list li {
+  display: grid;
+}
+
+.list.reports li .entries .list.fireteam {
+  width: 100%;
+  position: relative;
+  padding: 0 0 0 10px;
+}
+
+.list.reports li .entries .list.fireteam.stacked::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: calc(100% - 2px);
+  border: 1px solid #d6d6d6;
+  border-right: none;
+  transition: opacity 0.25;
+  opacity: 0.4;
+}
+
+.list.reports li .entries .list.fireteam.stacked:hover::before {
+  opacity: 0.8;
+}
+
+.list.reports li .entries .team > li:not(.team-head) {
+  height: unset;
+}
+
+.list.reports li .entries .team-head,
+.list.reports li .entries li .inline,
+.list.reports li .entries li .expanded {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  font-size: 14px;
+}
+
+.list.reports li .entries li .expanded {
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+}
+
+.list.reports li .entries .team-head {
+  grid-template-columns: repeat(8, 1fr);
+  padding: 0 0 0 10px;
+}
+
+.list.reports li .entries .list li:last-child {
+  margin: 0;
+}
+
+.list.reports li .entries .team-head {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  line-height: 1.1;
+}
+
+.list.reports li .entries .team-head.bravo {
+  background-color: #60779a;
+}
+
+.list.reports li .entries .team-head.alpha {
+  background-color: #973835;
+}
+
+.list.reports li .entries .team-head::before {
+  content: '';
+  top: -8px;
+  left: -4px;
+  font-family: 'destiny' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 72px;
+  opacity: 0.2;
+}
+
+.list.reports li .entries .team-head.bravo::before {
+  content: '\e9f5';
+}
+
+.list.reports li .entries .team-head.alpha::before {
+  content: '\e9f4';
+}
+
+.list.reports li .entries .team-head div:not(.team) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list.reports li .entries .team-head div:not(.team) .full {
+  
+}
+
+.list.reports li .entries .team-head div:not(.team) .abbr {
+  display: none;
+}
+
+.list.reports li .entries .team-head .team.name {
+  padding: 0 0 0 54px;
+  grid-column: 1/3;
+}
+
+.list.reports li .entries .team-head .team.score {
+  padding: 0 16px 0 0;
+  text-align: right;
+}
+
+.list.reports li .entries .list li > .icon {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-color: hsla(0, 0%, 100%, 0.05);
+}
+
+.list.reports li .entries .list li .member {
+  font-size: 16px;
+  width: 100%;
+  position: relative;
+  grid-column: 1/3;
+}
+
+.list.reports li .entries .list .inline.dnf .member .member-link .displayName::after {
+  content: 'DNF';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.list.reports li .entries .list .inline .member {
+  padding: 0 16px 0 0;
+}
+
+.list.reports li .entries .list .inline.dnf .member .member-link > .emblem .image.dl {
+  opacity: 0;
+}
+
+.list.reports li .entries .list .expanded {
+  display: none;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .inline {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.list.reports li .entries .list .isExpandedPlayer {
+  height: unset;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.list.reports li .entries .list .isExpandedPlayer:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.list.reports li .entries .list .isExpandedPlayer:hover::before {
+  background-color: transparent;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded {
+  display: grid;
+  padding: 2rem 0 0;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .group {
+  padding: 0 0 2rem;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .group:first-child,
+.list.reports li .entries .list .isExpandedPlayer .expanded .group:nth-child(5) {
+  padding-left: calc(38px + 16px);
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .group:nth-child(5) {
+  grid-column: 1/3;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat {
+  margin: 0 0 12px;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat .name {
+  display: block;
+  margin: 0 0 7px;
+  padding: 0 2rem 0 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  /* margin: 7px 0 0;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6); */
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat .value {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.weapons .value ul,
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.medals .value ul {
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: repeat(auto-fill, 48px);
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.weapons .value ul li,
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.medals .value ul li {
+  height: 48px;
+  position: relative;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.weapons .value ul li .value,
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.medals .value ul li .value {
+  content: attr(data-kills);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 2px 4px;
+  background-color: #d6d6d6;
+  color: #000;
+  font-size: 11px;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.weapons .value ul li .icon,
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.medals .value ul li .icon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.medals .value ul li,
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.medals .value ul li .icon {
+  background-color: transparent;
+}
+
+.list.reports li .entries .list .isExpandedPlayer .expanded .stat.medals .value ul li::before {
+  box-shadow: none;
+}
+
+
+.list.reports li > .sticky-nav {
+  position: sticky;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .list.reports li > .basic {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .list.reports li > .basic > div {
+    display: none;
+  }
+
+  .list.reports li > .basic .mode,
+  .list.reports li > .basic .map {
+    display: inherit;
+  }
+
+  .list.reports li > .basic .map {
+    text-align: right;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list.reports li > .head {
+    width: 100%;
+    height: 38vh;
+  }
+
+  .list.reports li > .head .detail {
+    font-size: 14px;
+  }
+
+  .list.reports li > .head .detail > div:first-child {
+    grid-template-columns: calc(38px + 10px) auto;
+  }
+
+  .list.reports li > .head .detail .icon {
+    width: 38px;
+    height: 38px;
+  }
+
+  .list.reports li > .head .standing .text {
+    font-size: 3vh;
+    letter-spacing: 0.25vh;
+    margin: 0 0 1vh;
+  }
+  
+  .list.reports li > .head .score {
+    width: 100%;
+    font-size: 4vh;
+  }
+  
+  .list.reports li > .head .score.teams .value {
+    width: 12vh;
+    font-size: 3vh;
+  }
+
+  .list.reports li .entries .list li .member .member-link {
+    
+  }
+
+  .list.reports li .entries .team-head,
+  .list.reports li .entries .list li .inline,
+  .list.reports li .entries .list li .expanded {
+    grid-template-columns: auto 20px 30px 30px 30px 40px;
+    font-size: 12px;
+  }
+
+  /* .list.reports li .entries .team-head {
+    grid-template-columns: calc(38px + 16px + 10px) auto 2rem 2rem 2rem 3rem;
+  } */
+  
+  .list.reports li .entries .team-head .hideInline,
+  .list.reports li .entries .team-head .hideInline,
+  .list.reports li .entries .list li .inline .hideInline {
+    display: none;
+  }
+
+  .list.reports li .entries .team-head .killsDeathsRatio,
+  .list.reports li .entries .list li .inline .killsDeathsRatio {
+    text-align: right;
+    padding: 0 1rem 0 0;
+  }
+
+  .list.reports li .entries .team-head div:not(.team) .full {
+    display: none;
+  }
+  
+  .list.reports li .entries .team-head div:not(.team) .abbr {
+    display: unset;
+  }
+
+  .list.reports li .entries .list .isExpandedPlayer .expanded {
+    grid-template-columns: 1fr;
+    align-items: start;
+    width: 100%;
+    padding-left: calc(38px + 16px);
+  }
+
+  .list.reports li .entries .list .isExpandedPlayer .expanded .group {
+    padding: 0 0 1rem;
+  }
+
+  .list.reports li .entries .list .isExpandedPlayer .expanded .group:first-child,
+  .list.reports li .entries .list .isExpandedPlayer .expanded .group:nth-child(5) {
+    padding-left: 0;
+  }
+
+  .list.reports li .entries .list .isExpandedPlayer .expanded .group:nth-child(5) {
+    grid-column: unset;
+  }
+
+  .list.reports li .entries .list .isExpandedPlayer .expanded .group:not(.common):not(.medals) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .list.reports li .entries .list .isExpandedPlayer .expanded .group:not(.common):not(.medals) .sub-header {
+    grid-column: 1/3;
+  }
+  
+  .list.reports li .entries .list .isExpandedPlayer .expanded,
+  .list.reports li .entries .list .isExpandedPlayer .expanded .stat.expanded {
+    margin: 0 0 16px;
+  }
+
+  .list.reports li .entries .list .isExpandedPlayer .expanded {
+    margin: 0;
+    padding-top: 1.5rem;
+  }
+
+
+}
+
+/* @media screen and (max-width: 400px) {
+  .list.reports li .entries .list li .member {
+    max-width: 50px;
+    overflow: hidden;
+  }
+} */

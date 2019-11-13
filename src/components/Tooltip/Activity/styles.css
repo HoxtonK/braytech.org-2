@@ -1,0 +1,171 @@
+
+#tooltip .frame.activity .header {
+  display: grid;
+  grid-template-columns: 72px auto;
+  background-color: transparent;
+  color: #fff;
+  padding: 0;
+  border-top: 2px solid #f5eac4;
+}
+
+#tooltip .frame.activity .header .icon {
+  background-color: hsla(202, 0%, 15%, 0.8);
+  min-height: 72px;
+  padding: 24px 0 26px;
+  display: grid;
+  justify-content: center;
+  font-size: 42px;
+}
+
+#tooltip .frame.activity .header .text {
+  background-color: hsla(202, 0%, 25%, 0.8);
+  display: grid;
+  align-content: center;
+  padding: 20px 16px 26px;
+}
+
+#tooltip .frame.activity .header .text .kind {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#tooltip .frame.activity .black {
+  background-color: hsla(var(--commonDark), 0.9);
+}
+
+#tooltip .frame.activity.strike .header .icon {
+  background-color: hsla(202, 60%, 5%, 0.8);
+}
+
+#tooltip .frame.activity.strike .header .text {
+  background-color: hsla(202, 60%, 10%, 0.8);
+}
+
+#tooltip .frame.activity.raid .header .icon {
+  background-color: hsla(202, 0%, 0%, 0.9);
+}
+
+#tooltip .frame.activity.raid .header .text {
+  background-color: hsla(202, 0%, 3%, 0.9);
+}
+
+#tooltip .frame.activity.story .header .icon {
+  background-color: hsla(233, 84%, 11%, 0.8);
+}
+
+#tooltip .frame.activity.story .header .text {
+  background-color: hsla(233, 54%, 21%, 0.8);
+}
+
+#tooltip .frame.activity.adventure .header .icon {
+  background-color: hsla(19, 100%, 15%, 0.8);
+}
+
+#tooltip .frame.activity.adventure .header .text {
+  background-color: hsla(19, 83%, 31%, 0.8);
+}
+
+#tooltip .frame.activity.reckoning .header .icon {
+  background-color: hsla(166, 70%, 10%, 0.8);
+}
+
+#tooltip .frame.activity.reckoning .header .text {
+  background-color: hsla(166, 50%, 20%, 0.8);
+}
+
+#tooltip .frame.activity.gambit .header .icon {
+  background-color: hsla(166, 70%, 10%, 0.8);
+}
+
+#tooltip .frame.activity.gambit .header .text {
+  background-color: hsla(166, 50%, 20%, 0.8);
+}
+
+#tooltip .frame.activity.crucible .header .icon {
+  background-color: hsla(3, 80%, 15%, 0.8);
+}
+
+#tooltip .frame.activity.crucible .header .text {
+  background-color: hsla(3, 60%, 22%, 0.8);
+}
+
+#tooltip .frame.activity.forge .header .icon {
+  background-color: hsla(339, 40%, 12%, 0.8);
+}
+
+#tooltip .frame.activity.forge .header .text {
+  background-color: hsla(339, 50%, 17%, 0.8);
+}
+
+#tooltip .frame.activity.menagerie .header .icon {
+  background-color: hsla(12, 72%, 5%, 0.8);
+}
+
+#tooltip .frame.activity.menagerie .header .text {
+  background-color: hsla(12, 72%, 12%, 0.8);
+}
+
+#tooltip .frame.activity.vex-offensive .header .icon {
+  background-color: hsla(183, 52%, 20%, 0.8);
+}
+
+#tooltip .frame.activity.vex-offensive .header .text {
+  background-color: hsla(183, 52%, 34%, 0.8);
+}
+
+#tooltip .frame.activity.dungeon .header .icon {
+  background-color: hsla(26, 20%, 30%, 0.8);
+}
+
+#tooltip .frame.activity.dungeon .header .text {
+  background-color: hsla(26, 20%, 42%, 0.8);
+}
+
+#tooltip .frame.activity.nightmare-hunt .header .icon {
+  background-color: hsla(0, 75%, 5%, 0.8);
+}
+
+#tooltip .frame.activity.nightmare-hunt .header .text {
+  background-color: hsla(0, 72%, 12%, 0.8);
+}
+
+#tooltip .frame.activity .description {
+  padding: 16px 16px 0;
+}
+
+#tooltip .frame.activity .description:last-child {
+  padding: 16px;
+}
+
+#tooltip .frame.activity .description .destination {
+  padding: 0 0 10px;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #f5eac4;
+}
+
+#tooltip .frame.activity .description pre {
+  padding: 0;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: unset;
+}
+
+#tooltip .frame.activity .time-to-complete {
+  padding: 12px 16px 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#tooltip .frame.activity .completed {
+  padding: 12px 16px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#tooltip .frame.activity .description ~ .completed {
+  margin: 10px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+  
+}

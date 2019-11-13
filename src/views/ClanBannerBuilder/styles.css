@@ -1,0 +1,146 @@
+#banner-builder {
+  padding: 4rem 3rem 3rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 3rem;
+}
+
+#banner-builder .banner .canvas canvas {
+  width: 100%;
+  max-width: 410px;
+}
+
+#banner-builder .banner .canvas .spinner {
+  position: absolute;
+}
+
+#banner-builder .options .text {
+  max-width: 500px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#banner-builder .options .config .spinner {
+  margin: 2rem 0 0;
+}
+
+#banner-builder .options .config h3 {
+  margin: 2rem 0 1rem;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: unset;
+}
+
+#banner-builder .options .config .option a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#banner-builder .options .config .optionSet {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-gap: 7px;
+}
+
+#banner-builder .options .config .optionSet .option {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#banner-builder .options .config .optionSet .option::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0);
+  transition: box-shadow 0.25s;
+}
+
+#banner-builder .options .config .optionSet .option:after {
+  content: ' ';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: 3;
+  pointer-events: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+  transition: box-shadow 0.25s;
+}
+
+#banner-builder .options .config .optionSet .option.active::after {
+  box-shadow: 0 0 0 2px #eee;
+}
+
+#banner-builder .options .config .optionSet .option:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#banner-builder .options .config .optionSet .option:hover::before {
+  box-shadow: inset 0 0 0 1px #eee;
+}
+
+#banner-builder .options .config .optionSet .option:hover::after {
+  box-shadow: 0 0 0 2px #eee;
+}
+
+#banner-builder .options .config .optionSet.decals .decal {
+  padding-bottom: 148%;
+}
+
+#banner-builder .options .config .optionSet.decals .decal .image {
+  opacity: 0.6;
+}
+
+#banner-builder .options .config .optionSet.decals .decal .image:nth-child(2) {
+  opacity: 0.4;
+}
+
+#banner-builder .options .config .optionSet.gonfalonDetails .decal {
+  position: relative;
+  padding-bottom: 148%;
+}
+
+#banner-builder .options .config .optionSet.gonfalonDetails .decal .image {
+  opacity: 0.6;
+}
+
+#banner-builder .options .config .optionSet.colors .option {
+  padding-bottom: 100%;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozRkFCNEFBMjAyQ0QxMUU5QkM1NTkzOUZFQ0M2OUY4RCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozRkFCNEFBMzAyQ0QxMUU5QkM1NTkzOUZFQ0M2OUY4RCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNGQUI0QUEwMDJDRDExRTlCQzU1OTM5RkVDQzY5RjhEIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNGQUI0QUExMDJDRDExRTlCQzU1OTM5RkVDQzY5RjhEIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+0c1RFwAAAFRJREFUeNrs0cEJACEQBEE1IzH/BEQxogWTWLl7VAcwFEydc5WkxuhZU638MiwsLCwsLCwsLCwsLKyPqhGRtbX3cSIWFhYWFhYWFhYWFhbWi64AAwCc4gi6HTGx1gAAAABJRU5ErkJggg==');
+  background-size: 40%;
+}
+
+#banner-builder .options .config .optionSet.colors .option .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #banner-builder .options .config .optionSet {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #banner-builder {
+    padding: 2rem;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  #banner-builder .options .config .optionSet {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

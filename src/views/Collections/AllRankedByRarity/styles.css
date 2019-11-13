@@ -1,0 +1,7 @@
+#collections .all-ranked-by-rarity {
+  width: 100%;
+}
+
+#collections .all-ranked-by-rarity .list.collection-items {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

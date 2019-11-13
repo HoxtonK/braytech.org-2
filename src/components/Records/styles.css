@@ -1,0 +1,400 @@
+
+
+.list.record-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 7px;
+}
+
+.list.record-items li {
+  margin: 0;
+  height: initial;
+  flex-flow: row wrap;
+  align-content: space-between;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.list.record-items li::before {
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.4);
+}
+
+.list.record-items li.redacted {
+  align-items: flex-start;
+}
+
+.list.record-items li .aside {
+  margin: 0 1rem 1rem;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.list.record-items li .properties {
+  flex-basis: 100%;
+  padding: 1rem;  
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  grid-template-rows: 1fr;
+}
+
+.list.record-items li .properties .icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-basis: 48px;
+}
+
+.list.record-items li .properties .text {
+  margin: 0 0 0 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.list.record-items li .properties .text .name {
+  flex-basis: calc(100% - 100px);
+}
+
+.list.record-items li.has-intervals .properties .text .name {
+  flex-basis: calc(100% - 200px);
+}
+
+.list.record-items li .properties .text .meta {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.list.record-items li .properties .text .meta .commonality,
+.list.record-items li .properties .text .meta .intervals {
+  position: relative;
+  margin: 0 1rem 0 0;
+}
+
+.list.record-items li .properties .text .meta .commonality::after,
+.list.record-items li .properties .text .meta .intervals::after {
+  content: '  /  ';
+  position: absolute;
+  right: -1rem;
+  white-space: pre-wrap;
+  color: rgba(255, 255, 255, 0.6);
+  pointer-events: none;
+}
+
+.list.record-items li .properties .text .meta > div:last-child:first-child {
+  margin: 0;
+}
+
+.list.record-items li .properties .text .meta > div:last-child:first-child::after {
+  content: none;
+}
+
+.list.record-items li .properties .text .description {
+  flex-basis: 100%;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  transition: color .25s;
+}
+
+.list.record-items li.no-description .properties .text .description {
+  display: none;
+}
+
+.list.record-items li .objectives {
+  flex-basis: 100%;
+  padding: 0 1rem 1rem;
+}
+
+.list.record-items li .rewards {
+  flex-basis: 100%;
+  padding: 0 1rem 1rem;
+  grid-template-columns: 1fr;
+  position: relative;
+  z-index: 3;
+}
+
+.list.record-items li .collection-items.rewards li {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.list.record-items li .collection-items.rewards li.completed {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.list.record-items li .collection-items.rewards li .image.dl {
+  opacity: 0.4;
+}
+
+.list.record-items li .collection-items.rewards li.completed .image.dl {
+  opacity: 1;
+}
+
+.list.record-items li .collection-items.rewards li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1);
+}
+
+.list.record-items li .objectives .progress-bar.intervals > .bar {
+  background-color: transparent;
+}
+
+.list.record-items li .objectives .progress-bar.intervals .bar .bars {
+  display: grid;
+  grid-gap: 4px;
+  grid-auto-flow: column;
+  height: 100%;
+  transition: opacity 0.5s;
+}
+
+.list.record-items > li.completed {
+  background-color: rgba(207, 191, 124, 0.15);
+  box-shadow: inset 0 0 0 2px rgba(207, 191, 124, 1);
+}
+
+.list.record-items > li.completed .properties .text .description {
+  border-top: 1px solid rgba(221, 209, 162, 0.4);
+}
+
+.list.record-items > li.completed .progress-bar .check.ed::before {
+  background-color: rgba(188, 173, 113, 1);
+}
+
+.list.record-items > li.completed .progress-bar .bar {
+  background-color: rgba(188, 173, 113, 0);
+}
+
+.list.record-items > li.completed .progress-bar > .bar > .fill {
+  background-color: rgba(188, 173, 113, 0);
+}
+
+.list.record-items li .progress-bar .bar.completed:not(.unredeemed) .fill {
+  background-color: rgba(188, 173, 113, 0.6);
+}
+
+.list.record-items li.linked.completed:hover {
+  background-color: rgba(188, 173, 113, 0.8);
+}
+
+.list.record-items li.unredeemed {
+  background-color: rgba(123, 220, 193, 0.2);
+  box-shadow: inset 0 0 0 2px #7bdcc1;
+}
+
+.list.record-items li.unredeemed .progress-bar .bar {
+  background-color: rgba(123, 220, 193, 0);
+}
+
+.list.record-items li.unredeemed .progress-bar > .bar > .fill {
+  background-color: rgba(123, 220, 193, 0);
+}
+
+.list.record-items li .progress-bar .bar.unredeemed .fill {
+  background-color: rgba(123, 220, 193, 0.6);
+}
+
+.list.record-items li.unredeemed .progress-bar .check.ed::before {
+  background-color: #7bdcc1;
+}
+
+.list.record-items li.completed .progress-bar .bars {
+  opacity: 0;
+}
+
+.list.record-items li.tracked {
+  background-color: rgba(90, 163, 102, 0.15);
+  box-shadow: inset 0 0 0 2px hsl(130, 40%, 50%);
+}
+
+.list.record-items li.linked.tracked:hover {
+  background-color: rgba(90, 163, 102, 0.6);
+}
+
+.list.record-items li .track-this {
+  position: absolute;
+  top: -1px;
+  right: 100px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.25s;
+  z-index: 5;
+}
+
+.list.record-items li:hover .track-this {
+  opacity: 1;
+}
+
+.list.record-items li.tracked .track-this {
+  opacity: 1;
+}
+
+.list.record-items li .track-this::before,
+.list.record-items li .track-this div::before,
+.list.record-items li .track-this div::after {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: 'destiny' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.list.record-items li .track-this::before {
+  content: "\e9e8";
+  color: hsl(130, 29%, 60%);
+}
+
+.list.record-items li .track-this div::before {
+  left: 5px;
+  top: 4px;
+  height: 14px;
+  width: 14px;
+  border-radius: 100%;
+  background-color: hsl(130, 29%, 40%);
+}
+
+.list.record-items li .track-this div::after {
+  content: "\e9e6";
+  color: hsl(130, 29%, 60%);
+}
+
+.list.record-items li.tracked  .track-this div::after {
+  content: "\e9e6";
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  height: 14px;
+  width: 14px;
+  color: hsl(130, 29%, 60%);
+  animation: animation-tracked-rotate 3s linear infinite;
+}
+
+.list.record-items li.tracked .track-this::after {
+  content: ' ';
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  height: 14px;
+  width: 14px;
+  animation: animation-tracked-pulse 3s linear infinite;
+  border-radius: 100%;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><circle cx="5" cy="5" r="5" stroke="white" stroke-width="0.2" fill="transparent" /></svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes animation-tracked-pulse {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
+}
+
+@keyframes animation-tracked-rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.list.record-items li.highlight::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: animation-background-highlight 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+}
+
+.list.record-items .all-completed {
+  grid-column: 1/-1;
+}
+
+.list.record-items .all-completed::before {
+  box-shadow: none;
+}
+
+.list.record-items .all-completed .properties {
+  grid-template-columns: 1fr;
+  padding: 0;
+}
+
+.list.record-items .all-completed .properties .text {
+  margin: 0;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.list.record-items .none-tracked {
+  grid-column: 1/-1;
+  margin: 0 0 1rem;
+  padding: 2rem 0;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.4);
+  display: grid;
+  justify-items: center;
+}
+
+.list.record-items .none-tracked::before {
+  box-shadow: none;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+
+  .list.record-items {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .list.record-items li .track-this {
+    opacity: 1;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+
+  .list.record-items {
+    grid-template-columns: 1fr;
+  }
+
+}

@@ -1,0 +1,23 @@
+#oob {
+  padding: 3rem;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: start;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  #oob {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #oob {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+  }
+  
+}

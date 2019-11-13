@@ -1,0 +1,115 @@
+[
+  {
+    "id": "8gwz1qy4c8580m9o6qqxw5",
+    "date": "2019-05-28T17:00:00.000Z",
+    "expiry": 604800000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "G'day mate",
+      "description": "So, this is new, yep. I've built a component through which to annoy you all through direct messages. It might seem familiar, and that's intentional. This is a measured test.\n\nFollow me on Twitter @justrealmilk if you're feelin' it.\n\n—Thanks for using Braytech!",
+      "prompt": true
+    }
+  },
+  {
+    "id": "1aux23y1wt3j14bvdmpeci",
+    "date": "2019-06-04T17:00:00.000Z",
+    "expiry": 1209600000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "Season of Opulence",
+      "image": "/static/images/notifications/SoO.jpg",
+      "description": "This Season, Emperor Calus beckons Guardians to prove their worth by pitting them against foes in his Menagerie. He'll send Guardians on treasure hunts throughout the system to unlock the power of the Chalice of Opulence—upgrades that allow you to choose the type of gear you earn.\n\n_Tend to your Imperial summons immediately._",
+      "prompt": true
+    }
+  },
+  {
+    "id": "b0f6wep2d1tqb1gyx09y",
+    "date": "2019-06-01T17:00:00.000Z",
+    "expiry": 2592000000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "Pride month",
+      "image": "/static/images/notifications/PRIDE.png",
+      "description": "June is Pride month. For more information on Pride month, use your preferred search engine, as I'm not qualified to properly disseminate all of the related information.\n\nWhat I can speak to is what Pride means to me, your friendly neighbourhood Braytech developer. I'll do what I can to temper my language. It's actually very easy to abide by the following guidelines.\n\n- Don't be a wanker\n- Treat each other with respect\n- Don't use slurs (fag, faggot, gay, homo, are all hateful derogatory terms)\n- Next time you think to make a joke with your friends, consider first that it's only funny if **everyone** can be amused and feel comfortable\n- Everyone has a right to play Destiny in a safe environment\n\nYou may notice that these guidelines have little to do with being gay or otherwise and that isn't a coincidence. Be a nice Guardian to everyone. \n\n*If you disagree with any of these points, you can stop using Braytech immediately.*",
+      "prompt": true
+    }
+  },
+  {
+    "id": "8kea1g7t1mb6pbpq5oi93y",
+    "date": "2019-06-06T06:21:42.429Z",
+    "expiry": 259200000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "New Clan Roster",
+      "description": "New and improved _Clan Roster_ now available. You can sort by different columns by tapping the column header names. Let me know what you think/if it explodes.",
+      "prompt": true
+    }
+  },
+  {
+    "id": "dh61ymecq1w0zpumu9it59k",
+    "date": "2019-06-24T18:34:57.705Z",
+    "expiry": 604800000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "New Chalice Recipes Tool",
+      "description": "Did you know Braytech has a new tool for decrypting the Menagerie rolls? No? Find it under the menu—click _More_ if you're a desktop user!",
+      "prompt": true
+    }
+  },
+  {
+    "id": "3en4i3fyevqpzkki5wdh1i",
+    "date": "2019-07-14T22:52:19.573Z",
+    "expiry": 604800000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "Leaderboards",
+      "description": "Bad news, everyone—I'm retiring Leaderboards.\n\nLeaderboards require a lot of data, time, and focus. Scraping that data in a time efficient manner was not something that I was able to do, ... not something that I'm terribly interested in working on anyway (ew server side code gross).\n\nA good alternative is Charlemagne's recent release: https://warmind.io/global/lb",
+      "prompt": true
+    }
+  },
+  {
+    "id": "s08ut8ixk1p6s06ltodr",
+    "date": "2019-08-04T09:24:39.131Z",
+    "expiry": 604800000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "Suggestion box",
+      "description": "Hello Guardian! Braytech's feature set is largely user-inspired. You can directly impact the direction in which Braytech develops by sharing your points of pain and pleasure.\n\nUse this opportunity to go on the record and make your voice heard.\n\nEach suggestion is manually reviewed by me, Tom, before being published. Once published, others may vote on it, potentially affecting its priority.\n\n**You can access the Suggestion box by selecting Views on mobile or More desktop.**\n\nxoxo gossip goat",
+      "prompt": true
+    }
+  },
+  {
+    "id": "dtsyzrpbeonigm500j5nj",
+    "date": "2019-09-03T18:47:28.614Z",
+    "expiry": 604800000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "This Week",
+      "description": "Yo. _This Week_, I'd like to play the blame game: _Bungie_ broke some stuff. Nightfalls are noticeably missing from the _This Week_ view, probably due to the way in which they implemented fixed Nightfalls for our first Destiny 2 community challenge.\n\nRead more about this challenge in last week's Bungie.net blog post.\n\nAs a result of this sudden and very unexpected change, production Braytech is currently running the latest changes. This means it's not as tested as I'd prefer.\n\nCheck behind collectibles and records for any shadow thrall.",
+      "prompt": true
+    }
+  },
+  {
+    "id": "c1buc6f9snby8ix56ickvb",
+    "date": "2019-09-21T12:25:42.368Z",
+    "expiry": 604800000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "Hello gamers",
+      "description": "Nightfalls, daily heroic adventure, and daily heroic story missions, are still missing from _Now_, and _This Week_. Bungie are investigating a fix and [if possible] it will be come with Shadowkeep's API deployment.\n\nWelcome to version 2.9.0: Maps.\n\nOver the past week I've been experimenting with maps, based on lowlidev's work. It's all still new and I'm actively working to fill out its data.\n\nThere's a bunch of other little cool bits too.\n\nLove, justrealmilk x0x0",
+      "prompt": true
+    }
+  },
+  {
+    "id": "vhbx6qo824kw22opkcr4h",
+    "date": "2019-11-06T18:24:54.426Z",
+    "expiry": 604800000,
+    "showOnce": true,
+    "displayProperties": {
+      "name": "Dark mode",
+      "image": "/static/images/notifications/darkMode.jpg",
+      "description": "_Yeah, but, did you know there's a dark mode?_ — me, now\n\nHave you been to the _Settings_ view? You can access it by selecting VIEWS on smaller touch devices, or by just pinching the cog. There's some good stuff in there and it's come to my attention that not everyone knows that I have a dark mode.\n\nOkay, that's all. Also, like and subscribe to my Patreon.",
+      "prompt": true
+    }
+  }
+]

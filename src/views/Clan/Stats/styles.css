@@ -1,0 +1,148 @@
+#clan.stats {
+  grid-template-columns: 60px 1fr;
+}
+
+#clan.stats .module.views {
+  /* grid-row: 1/4; */
+}
+
+#clan.stats .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+#clan.stats .wrapper .bread {
+  grid-column: 1/end;
+  margin: 0 0 2rem;
+}
+
+#clan.stats .wrapper .bread span {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#clan.stats .wrapper .bread span::before {
+  content: ' // ';
+}
+
+#clan.stats .wrapper .bread span:first-child {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#clan.stats .wrapper .bread span:first-child::before {
+  content: none;
+}
+
+#clan.stats .wrapper .boards {
+  grid-column: 2/end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  align-content: start;
+  padding: 0 0 0 3rem;
+}
+
+#clan .module.views.scopes .list {
+  width: unset;
+}
+
+#clan .module.views.scopes .list li {
+  height: 38px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#clan .module.views.scopes .list li .text {
+  padding: 0 1rem;
+  letter-spacing: 2px;
+}
+
+#clan .module.views.scopes .list li.active .text {
+  color: rgba(255, 255, 255, 1);
+}
+
+#clan.stats .wrapper .boards.summary-stats {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#clan.stats .wrapper .summary-stats .stat .name {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+#clan.stats .wrapper .summary-stats .stat .value {
+  font-size: 32px;
+  line-height: 26px;
+}
+
+
+
+@media screen and (max-width: 1700px) {
+  #clan.stats .wrapper .boards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #clan.stats .wrapper .boards.summary-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #clan.stats .wrapper {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  #clan.stats .wrapper .boards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #clan.stats .wrapper .boards.summary-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #clan.stats .wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #clan.stats .wrapper .bread,
+  #clan.stats .wrapper .boards {
+    grid-column: unset;
+    padding: 0;
+  }
+
+  #clan.stats .wrapper .boards {
+    padding: 3rem 0 0;
+  }
+
+  #clan.stats .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #clan.stats {
+    grid-template-columns: 40px 1fr;
+  }
+
+  #clan.stats .wrapper .boards {
+    padding: 2rem 0 0;
+    grid-gap: 2rem;
+  }
+
+  #clan.stats .wrapper .boards.summary-stats {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #clan.stats .wrapper .bread span {
+    font-size: 24px;
+  }
+}

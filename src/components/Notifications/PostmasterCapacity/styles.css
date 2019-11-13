@@ -1,0 +1,147 @@
+#postmaster-capacity {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 21;
+  display: grid;
+  align-content: center;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: background-color 0.25s;
+}
+
+#postmaster-capacity:hover {
+  background-color: rgba(17, 17, 17, 0.4);
+}
+
+#postmaster-capacity .background .border-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: rgb(220, 81, 59);
+}
+
+#postmaster-capacity .background .acrylic {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 6px);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#postmaster-capacity .background .border-top {
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+html.backdropfilter #postmaster-capacity .background .acrylic {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+#postmaster-capacity .wrapper-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0;
+  padding: 6px 0 1rem;
+  font-size: 14px;
+}
+
+#postmaster-capacity .wrapper-inner > div {
+
+}
+
+#postmaster-capacity .wrapper-inner > div:first-child {
+  display: grid;
+  justify-content: right;
+}
+
+#postmaster-capacity .wrapper-inner div .icon {
+  position: relative;
+  margin: 0.75rem 1rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 38px;
+  height: 38px;
+  font-size: 21px;
+}
+
+#postmaster-capacity .wrapper-inner div .icon::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 0 2px white;
+  border-radius: 100%;
+  opacity: 0.2;
+}
+
+#postmaster-capacity .wrapper-inner .text {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-gap: 1rem;
+  font-size: 18px;
+}
+
+#postmaster-capacity .wrapper-inner .text .name {
+  color: white;
+}
+
+#postmaster-capacity .wrapper-inner .text .description {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 0 1rem 0 0;
+  max-width: calc(600px + 4rem);
+}
+
+#postmaster-capacity .wrapper-inner .text .description ul {
+  list-style-type: disc;
+  padding: 0 0 0 2rem;  
+  margin: 0 0 1rem;
+}
+
+#postmaster-capacity .wrapper-inner .text .description ul li {
+  line-height: 1.6;
+  margin: 0 0 6px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  #postmaster-capacity {
+    display: block;
+  }
+
+  #postmaster-capacity .wrapper-inner {
+    grid-template-columns: min-content auto;
+    padding: 6px 0 1rem;
+  }
+
+  #postmaster-capacity .wrapper-inner div .icon {
+    margin: 1rem 2rem 0 2rem;
+  }
+
+  #postmaster-capacity .wrapper-inner .text {
+    grid-template-columns: 1fr;
+    grid-gap: 6px;
+  }
+
+  #postmaster-capacity .wrapper-inner .text .name {
+    font-size: 14px;
+  }
+  
+  #postmaster-capacity .wrapper-inner .text .description {
+    font-size: 14px;
+  }
+}

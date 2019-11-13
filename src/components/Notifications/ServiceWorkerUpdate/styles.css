@@ -1,0 +1,39 @@
+#service-worker-update {
+  position: relative;
+  padding: 0 3rem;
+  background-color: #000000;
+}
+
+#service-worker-update .wrapper {
+  width: 100%;
+  min-height: 60px;
+  max-width: calc(1920px - 6rem);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  justify-content: space-between;
+}
+
+#service-worker-update .wrapper > .text {
+  display: grid;
+  align-content: center;  
+  font-family: 'nhg text';
+  font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  #service-worker-update {
+    padding: 1rem 2rem;
+  }
+
+  #service-worker-update .wrapper {
+    max-width: calc(1920px - 4rem);
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+}

@@ -1,0 +1,64 @@
+.ranks .rank {
+  margin: 0 0 2rem;
+  position: relative;
+}
+
+.ranks .rank:last-child {
+  margin: 0;
+}
+
+.ranks .rank .icon {
+  position: absolute;
+  top: -12px;
+  right: 0;
+  pointer-events: none;
+  font-size: 128px;
+  color: #fff;
+  opacity: 0.1;
+}
+
+.ranks .rank.mini .icon {
+  top: -8px;
+  font-size: 96px;
+}
+
+.ranks .rank .data {
+  margin: 18px 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.ranks .rank.mini .data {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ranks .rank .data .name {
+  margin: 0 0 7px;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ranks .rank .data .value {
+  position: relative;
+  height: 18px;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.ranks .rank .data .value .spinner {
+  position: absolute;
+  bottom: 0;
+}
+
+.ranks .rank .data .tooltip {
+  display: inline-block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  
+
+}

@@ -1,0 +1,329 @@
+#triumphs {
+  padding: 4rem 3rem 3rem;
+}
+
+#triumphs.root {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+#triumphs.root .sidebar {
+  
+}
+
+#triumphs.root .total-score {
+  padding: 0 0 1rem;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 600;
+}
+
+#triumphs.root .almost-complete .list.record-items,
+#triumphs.root .tracked .list.record-items {
+  grid-template-columns: 1fr;
+}
+
+#triumphs.root .almost-complete .button,
+#triumphs.root .tracked .button {
+  margin: 1rem 0 0;
+}
+
+#triumphs .list.parents {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3px;
+  margin: 0 0 2rem;
+}
+
+#triumphs .list.parents li {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 38px auto;
+}
+
+#triumphs .list.parents li .progress-bar-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#triumphs .list.parents li .icon {
+  position: relative;
+  height: 38px;
+  width: 38px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#triumphs .list.parents li .displayProperties {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+#triumphs .list.parents li .displayProperties .name {
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#triumphs .list.parents li .displayProperties .progress {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#triumphs .list.parents li .displayProperties .progress span {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#triumphs .list.parents:not(.seals) li.completed {
+  background-color: rgba(207, 191, 124, 0.15);
+  box-shadow: inset 0 0 0 1px rgba(207, 191, 124, 1);
+}
+
+#triumphs .list.parents.seals {
+  margin: 0;
+}
+
+#triumphs .list.parents.seals li.completed {
+  background-color: #7b3274;
+}
+
+#triumphs .list.parents.seals li .icon {
+  background-size: 80%;
+}
+
+#triumphs .node.seal .children .icon {
+  position: relative;
+  flex-basis: 100%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+#triumphs .node.seal .children .icon .corners {
+  opacity: 0.2;
+}
+
+#triumphs .node.seal .children .icon .image {
+  position: relative;
+  height: initial;
+  padding-bottom: 50%;
+}
+
+#triumphs .node.seal .children .options {
+  margin: 2rem 0 0.4rem;
+}
+
+#triumphs .node.seal .children .text .name {
+  margin: 2rem 0 0.5rem;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#triumphs .node.seal .children .text .description {
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#triumphs .node.seal .children .until {
+  margin: 6rem 0 0;
+}
+
+#triumphs .node.seal .children h4 {
+  margin: 0 0 1rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#triumphs .node.seal .children h4.completed {
+  color: rgb(206, 174, 51);
+  font-family: 'nhg text';
+}
+
+#triumphs .node.seal .children .progress {
+  flex-basis: 100%;
+  position: relative;
+  background-color: #7b3274;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+#triumphs .node.seal .children .progress .text {
+  flex-basis: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 38px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#triumphs .node.seal .children .progress .title {
+  flex: 1 1 auto;
+  font-size: 16px;
+  padding: 0 0 0 10px;
+  position: relative;
+  z-index: 2;
+}
+
+#triumphs .node.seal .children .progress .fraction {
+  flex: 1 0 auto;
+  text-align: right;
+  font-size: 16px;
+  padding: 0 10px 0 0;
+  position: relative;
+  z-index: 2;
+}
+
+#triumphs .node.seal .children .progress .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7px;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.25s;
+}
+
+#triumphs .node.seal .children .progress .bar .fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transition: background-color 0.25s;
+}
+
+#triumphs .node.seal .children .progress .bar.completed {
+  background-color: transparent;
+}
+
+#triumphs .node.seal .children .progress .bar.completed .fill {
+  background-color: transparent;
+}
+
+#triumphs .node.seal .children .commonality {
+  margin: 2rem 0 0;
+}
+
+#triumphs .node.seal .children .commonality .value {
+  font-size: 18px;
+  margin: 0 0 6px;
+}
+
+#triumphs .node.seal .children .commonality .description {
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+#triumphs > .almost-complete {
+  width: 100%;
+}
+
+#triumphs > .almost-complete .list.record-items {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+#triumphs.root .list.notification-unredeemed {
+  margin: 0 0 2rem;
+  grid-template-columns: 1fr;
+}
+
+#triumphs.root .list.notification-unredeemed li {
+  height: 38px;
+  align-items: center;
+  align-content: unset;
+  justify-content: space-between;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: 'nhg text';
+}
+
+#triumphs.root .list.notification-unredeemed li .text {
+  font-size: 13px;
+}
+
+
+@media screen and (max-width: 1600px) {
+  #triumphs > .almost-complete .list.record-items {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  #triumphs .node .entries .list.record-items {
+    grid-template-columns: 1fr;
+  }
+  
+  #triumphs > .almost-complete .list.record-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #triumphs > .almost-complete .list.record-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+
+  #triumphs.root {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #triumphs .node.seal .entries .list.record-items {
+    grid-template-columns: 1fr;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  #triumphs.root {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #triumphs {
+    padding: 3rem 2rem 2rem;
+  }
+
+  #triumphs.root {
+    grid-gap: 2rem;
+  }
+
+  #triumphs .node.seal .children .text .name {
+    font-size: 24px;
+  }
+
+  #triumphs .node.seal .children .until {
+    margin: 3rem 0 2rem;
+  }
+
+  #triumphs .header .name {
+    font-size: 24px;
+  }
+}

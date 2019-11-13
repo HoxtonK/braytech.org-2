@@ -1,0 +1,17 @@
+.clan-banner {
+  position: relative;
+}
+
+.clan-banner .spinner {
+  position: absolute;
+}
+
+.clan-banner canvas {
+  opacity: 1;
+  transition: opacity 0.5s;
+  width: 100%;
+}
+
+.clan-banner.loading canvas {
+  opacity: 0;
+}

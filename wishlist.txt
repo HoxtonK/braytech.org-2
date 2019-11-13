@@ -1,0 +1,7 @@
+Tom's API Wishlist
+
+* Time Destiny profile was created
+* UNIX stamp (or better) for completion attached to high value records 
+  * Or even just seals? That'd be pretty cool
+* Ornaments get a set of presensation nodes in Collections
+* 

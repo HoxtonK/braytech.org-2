@@ -1,0 +1,614 @@
+.member-link {
+  position: relative;
+  width: 100%;
+  max-width: 270px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.25s, background-color 0.25s, box-shadow 0.25s;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.member-link::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0);
+  transition: box-shadow 0.25s, background-color 0.25s;
+}
+
+.member-link::after {
+  content: ' ';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: 3;
+  pointer-events: none;
+  box-shadow: 0 0 0 2px rgba(214, 214, 214, 0);
+  transform: scale(1.021) translateZ(0);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.member-link > .user-flair {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: grid;
+  justify-content: right;
+  align-content: center;
+  overflow: hidden;
+  opacity: 0.4;
+}
+
+.member-link > .user-flair i {
+  font-size: 48px;
+  padding: 0 30px 0 0;
+  color: #fff;
+}
+
+.member-link > .user-flair.me i {
+  font-size: 48px;
+  padding-top: 2px;
+}
+
+.member-link > .user-flair.one-hundo {
+  opacity: 0.6;
+}
+
+.member-link > .user-flair.one-hundo i {
+  color: #f12818;
+}
+
+.member-link .emblem {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 38px;
+  width: 38px;
+}
+
+.member-link .emblem .image {
+  background-size: cover;
+}
+
+.member-link .icon [class^="destiny-"] {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(75, 127, 149);
+}
+
+.member-link .icon .destiny-class_hunter {
+  background-color: rgb(127, 98, 76);
+}
+
+.member-link .icon .destiny-class_warlock {
+  background-color: rgb(42, 120, 99);
+}
+
+.member-link .displayName {
+  left: calc(38px + 16px);
+  font-size: 16px;  
+  position: absolute;
+  white-space: nowrap;
+  width: calc(100% - (38px + 16px + 16px));
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.member-link:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1);
+  z-index: 2;
+}
+
+.member-link:hover::before {
+  box-shadow: inset 0 0 0 1px #d6d6d6;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.member-link:hover::after {
+  box-shadow: 0 0 0 2px #d6d6d6;
+  transform: scale(1) translateZ(0);
+}
+
+.member-link a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 2;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .member-link {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .member-link .displayName {
+    font-size: 14px;
+  }
+
+  .member-link > .user-flair {
+    opacity: 0.2;
+  }
+
+  .member-link > .user-flair i {
+    padding-right: 4px;
+  }
+
+}
+
+
+
+
+
+
+
+
+#member-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 21;
+  display: grid;
+  align-content: center;
+  -webkit-overflow-scrolling: touch;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+html.backdropfilter #member-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#member-overlay .wrapper-outer {
+  position: relative;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#member-overlay .background .border-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(180, 180, 180, 0.6);
+}
+
+#member-overlay .background .acrylic {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 1rem);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+html.backdropfilter #member-overlay .background .border-top {
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+html.backdropfilter #member-overlay .background .acrylic {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(7px) brightness(1.2) saturate(1.2);
+}
+
+#member-overlay .wrapper-inner {
+  position: relative;
+  padding: 4rem 3rem 3rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.4fr 2fr 2fr;
+  grid-gap: 3rem;
+  font-size: 14px;
+}
+
+#member-overlay .wrapper-inner .sub-header ~ .sub-header {
+  margin: 2rem 0 1rem;
+}
+
+#member-overlay .wrapper-inner .names {
+  position: relative;
+  padding: 52px 0 0;
+  margin: 0 0 3rem;
+}
+
+#member-overlay .wrapper-inner .names .displayName {
+  position: absolute;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 500;
+  top: -5px;
+  left: 1px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  mask: linear-gradient(to right, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0));
+}
+
+#member-overlay .wrapper-inner .names .groupName {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#member-overlay .wrapper-inner .names .groupName::before {
+  content: '// ';
+  white-space: pre-line;
+}
+
+#member-overlay .wrapper-inner .stamps {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 38px);
+  grid-gap: 3px;
+  margin: 1rem 0 0;
+}
+
+#member-overlay .wrapper-inner .stamps div i {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem 0 0;
+  color: #fff;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#member-overlay .wrapper-inner .stamps div i.destiny-platform_xbox {
+  background-color: #4CAF50;
+}
+
+#member-overlay .wrapper-inner .stamps div i.destiny-platform_playstation {
+  background-color: #3F51B5;
+}
+
+#member-overlay .wrapper-inner .stamps div i.destiny-platform_steam {
+  background-color: #0a1b48;
+}
+
+#member-overlay .wrapper-inner .stamps div i.destiny-platform_battlenet {
+  background-color: #009ae4;
+}
+
+#member-overlay .wrapper-inner .stamps div i.destiny-clovis_bray_device {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#member-overlay .wrapper-inner .stamps div i.destiny-clovis_bray_device.one-hundo {
+  background-color: rgb(241, 40, 24);
+}
+
+#member-overlay .wrapper-inner .basics {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+#member-overlay .wrapper-inner .basics > div {
+  position: relative;
+}
+
+#member-overlay .wrapper-inner .basics > div:last-child {
+  margin: 0;
+}
+
+#member-overlay .wrapper-inner .basics div .name {
+  margin: 0 0 7px;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#member-overlay .wrapper-inner .basics div .value {
+  font-size: 18px;
+  line-height: 1;
+}
+
+#member-overlay .wrapper-inner .characters {
+  display: grid;
+  grid-gap: 22px;
+}
+
+#member-overlay .wrapper-inner .characters .char {
+  position: relative;
+}
+
+#member-overlay .wrapper-inner .characters .button {
+  max-width: unset;
+}
+
+#member-overlay .wrapper-inner .characters [class^="destiny-"] {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(75, 127, 149);
+}
+
+#member-overlay .wrapper-inner .characters .destiny-class_hunter {
+  background-color: rgb(127, 98, 76);
+}
+
+#member-overlay .wrapper-inner .characters .destiny-class_warlock {
+  background-color: rgb(42, 120, 99);
+}
+
+#member-overlay .wrapper-inner .characters .text {
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#member-overlay .wrapper-inner .characters .text div:last-child > span {
+  width: 42px;
+  display: inline-block;
+  text-align: right;
+}
+
+#member-overlay .wrapper-inner .characters .text div:last-child span:last-child span {
+  position: relative;
+  font-weight: 500;
+  color: #e5d163;
+}
+
+#member-overlay .wrapper-inner .characters .text div:last-child span:last-child span::before {
+  content: 'l';
+  position: absolute;
+  top: 4px;
+  left: -10px;
+  font-family: 'destiny' !important;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+#member-overlay .wrapper-inner .characters .char .title {
+  --titleColor: rgb(228, 144, 220);
+  margin: 12px 0 0 0;
+  position: relative;
+  padding: 4px 12px 4px 34px;
+  background-color: rgba(228, 144, 220, 0.1);
+  background-repeat: no-repeat;
+  background-position: 3px center;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozNzRBN0QxMTk2MjMxMUU5ODBCRTg2OTEzMUM5ODA4NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozNzRBN0QxMjk2MjMxMUU5ODBCRTg2OTEzMUM5ODA4NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjM3NEE3RDBGOTYyMzExRTk4MEJFODY5MTMxQzk4MDg2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjM3NEE3RDEwOTYyMzExRTk4MEJFODY5MTMxQzk4MDg2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+7Br06QAAA2tJREFUeNq0lstLVVEUxs+9lt4Q0SKFsgK1pIepWERGEaFcm6ikBILRIBwIDaQ/oWHgQEdNI0SCMAzBBCUb9ADT0FSMNIVeVGo1CHyVt2/Bb5+OR++wAx/rnL3X+tbaa6+99okkEgkv2fOp/V2KRLFQJNzPbSlYDszFJC4LE8Jrzf1JxhMNkeYI5bzvkmgWaoWpoAN7+J5ivhl9sys3nqRO9GQKVThqFLKFUREObxUh46PoNWJXBY//bAvbIeNCRJgTegKp205g68IaKeqBNA87xzPtSCNuT0RipC1CFnPPhUHhkHBY2C0Y6ZKwQzCnC8IbCC8IZ7D9KbQriER4JXk4MJIHwlehRshgcwdl9COwfzslCoRTwhGhn5XXwWN8s2Ene4UV4Q6ObEONtFfkSxDbCkqEMRwOa8wCqET/IfbX4JsNb/x+oUuYJ7eLIQeWnhcOfLsq60U/jn0XfP/2RAaW73IZ9Oj9uN7LhHsEsU+YYU++BYLKYU8OCh8phgbhlXjGxVNtweh9wa3EUvCS96OWDiFVmBTeCh1StgjbiLSN7w7mJ9Efw96DrySYrmwZfZH3VMpxhlOex3wNqblh40h/HL0i7DKNx/g4P74T11vsHKxI4ZfkCBWzJrRaiQuPrOok+yj5VuZNbwS7ZVbl8zonEWQKFWZRrwq2kRmSN9mDi+jZqc5h3Objps/capg3Gjr5dthiVFOaYJW0JHlLJHZuutHrtm8bZ96qLY25GDw+r++R5VsUqXrPosJOE811VndJIh3pMR5Brww7S9UqfBtWYlHmyniNsiwUxumyHuVsq7tt80h/HL1x7BbhyYXXd2Kld4L3CSrF4y4x502072b6lrV225MmyIrRL8KZB9+Y74R8p8uwkGY3z+ZGNfcZI1vhEO9DfHvMRwOnfRqedHg3tJX3Qj1V1E+l1dIIjcxO9DnhmEm+XaOsZZP7sa+Hb1Orz5e4GujCH4TzwgFWN0uky1SQHbR8rgLTfUK/qiOldxXIpi48xz2Qxa1o98mAsIdWXhnS/w15n2ApqwjdJ3ObVsJqzkKWCNyMHe4nQfNRdzMG0mVpvUJrcXYDmn+a7Pp13h/T3Myw2h1CiNdDNtXoLVBNFcFVbPUj8Z2e9UzoZA9KFe3JJL9MNl6KXid2I/B4W6brf/13/RVgAOVSis4iwA6+AAAAAElFTkSuQmCC');
+  color: var(--titleColor);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+.wrapper.light-mode #member-overlay .wrapper-inner .characters .char .title {
+  /* color: rgba(255, 255, 255, 0.8); */
+}
+
+#member-overlay .wrapper-inner .characters .char .title::before,
+#member-overlay .wrapper-inner .characters .char .title::after {
+  content: ' ';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--titleColor);
+  opacity: 0.4;
+}
+
+#member-overlay .wrapper-inner .characters .char .title::after {
+  top: unset;
+  bottom: -4px;
+}
+
+#member-overlay .wrapper-inner .characters .char .state {
+  margin: 10px 0 0;
+}
+
+#member-overlay .wrapper-inner .characters .char .title ~ .state {
+  margin: 15px 0 0;
+}
+
+#member-overlay .wrapper-inner .characters .char .list.inventory-items {
+  grid-template-columns: repeat(9, 1fr);
+  margin: 0 0 26px; 
+}
+
+#member-overlay .wrapper-inner .characters .char:last-child .list.inventory-items {
+  margin-bottom:  0;
+}
+
+#member-overlay .wrapper-inner .characters .char .state div {
+  display: inline;
+}
+
+#member-overlay .wrapper-inner .characters .char .state div::after {
+  content: ' ';
+}
+
+#member-overlay .wrapper-inner .characters .char .state .activity {
+  display: block;
+  margin: 0 0 2px;
+}
+
+#member-overlay .wrapper-inner .characters .char .state .time-before,
+#member-overlay .wrapper-inner .characters .char .state time {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#member-overlay.error .background .border-top,
+html.backdropfilter #member-overlay.error .background .border-top {
+  background-color: rgb(220, 81, 59);
+}
+
+#member-overlay.error .wrapper-inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 0;
+  padding: 1rem 0 0;
+  max-width: unset;
+}
+
+#member-overlay.error .wrapper-inner > div {
+  padding: 2rem;
+}
+
+#member-overlay.error .wrapper-inner > div:first-child {
+  display: grid;
+  justify-content: right;
+  background-image: linear-gradient(to right, rgba(220, 81, 59, 0), rgba(220, 81, 59, 0.2));
+}
+
+#member-overlay.error .wrapper-inner div .icon {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#member-overlay.error .wrapper-inner .text .name {
+  font-size: 24px;
+  line-height: 19px;
+  margin: 0 0 21px;
+}
+
+#member-overlay.error .wrapper-inner .text .description {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#member-overlay .sticky-nav-inner {
+  padding: 3rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#member-overlay .sticky-nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper.light-mode #member-overlay .sticky-nav .destiny-key span {
+  color: #333;
+}
+
+.wrapper.light-mode #member-overlay .sticky-nav.ultra-black {
+  background-color: hsla(0, 0%, 0%, 0.6);
+}
+
+html.backdropfilter .wrapper.light-mode #member-overlay .sticky-nav {
+  background-color: hsla(0, 0%, 3%, 0.8);
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #member-overlay {
+    display: block;
+    overflow-y: scroll;
+  }
+
+  #member-overlay .wrapper-inner {
+    padding: 3rem 2rem 2rem;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  #member-overlay .wrapper-inner .names {
+    padding: 38px 0 0;
+    margin: 0 0 2rem;
+  }
+
+  #member-overlay .wrapper-inner .names .displayName {
+    font-size: 32px;
+    line-height: 36px;
+    top: 0;
+  }
+  
+  #member-overlay .wrapper-inner .names .groupName {
+    font-size: 16px;
+  }
+
+  #member-overlay.error .wrapper-inner {
+    grid-template-columns: min-content auto;
+    padding: 1rem 0 0;
+  }
+  
+  #member-overlay.error .wrapper-inner > div {
+    padding: 1rem;
+  }
+
+  #member-overlay.error .wrapper-inner div .icon {
+    position: relative;
+    height: 50px;
+    width: 50px;
+  }
+
+  #member-overlay.error .wrapper-inner .text .name {
+    font-size: 18px;
+    line-height: 14px;
+    margin: 0 0 20px;
+  }
+  
+  #member-overlay.error .wrapper-inner .text .description {
+    font-size: 14px;
+  }
+
+  #member-overlay .sticky-nav {
+    position: sticky;
+  }
+
+  #member-overlay .sticky-nav-inner {
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

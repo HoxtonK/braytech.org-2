@@ -1,0 +1,173 @@
+#checklists {
+  padding: 0;
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#checklists > .padder {
+  width: 100%;
+  padding: 4rem 3rem 3rem;
+  display: grid;
+  grid-gap: 3rem;
+}
+
+#checklists .module .module-header {
+  position: relative;
+  margin: 12px 0 0;
+}
+
+#checklists .module .module-header .sub-name,
+#checklists .module h3 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#checklists .module .module-header .sub-name {
+  font-size: 18px;
+}
+
+#checklists .module .module-header::after {
+  content: ' ';
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 16px;
+  border-bottom: 3px solid #ffffff;
+  opacity: 0.2;
+}
+
+#checklists .module .module-header .sub-title {
+  margin: 0 0 3px;
+  font-size: 18px;
+}
+
+#checklists .module .module-header .name {
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+#checklists .module .module-header .tooltip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 24px;
+  display: grid;
+  align-content: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#checklists .cols-6 {
+  grid-template-columns: 83px repeat(6, 1fr);
+}
+
+#checklists .cols-5 {
+  grid-template-columns: 83px repeat(5, 1fr);
+}
+
+#checklists .cols-4 {
+  grid-template-columns: 83px repeat(4, 1fr);
+}
+
+#checklists .cols-3 {
+  grid-template-columns: 83px repeat(3, 1fr);
+}
+
+#checklists .cols-2 {
+  grid-template-columns: 83px repeat(2, 1fr);
+}
+
+#checklists .cols-1 {
+  grid-template-columns: 40px repeat(1, 1fr);
+}
+
+#checklists .cols-0 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#checklists .module.views .list {
+  position: sticky;
+  top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3px;
+}
+
+#checklists .module.views .list li {
+  margin: 0;
+  display: grid;
+  height: 40px;  
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#checklists .module.views .list li .image {
+  background-size: 70%;
+}
+
+#checklists .module.views .list li::before {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.4);
+}
+
+#checklists .module.views .list li.active::before {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 1);
+}
+
+#checklists .module.views .list li.active {
+  color: #fff;
+}
+
+#checklists .module.views .list li.linked:hover::before {
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 2;
+}
+
+#checklists .module.views .list li.active {
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 1);
+  color: #fff;
+}
+
+#checklists .module.views .list li:hover {
+  color: #fff;
+}
+
+#checklists .module.list .progress-bar {
+  margin: 1rem 0 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .list.checklist-items li .text {
+    flex-basis: calc(100% - 1rem - 10px);
+  }
+
+  .list.checklist-items li .lowlines a {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #checklists .module.views .list {
+    top: 2rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #checklists > .module.head {
+    padding: 3rem 2rem 2rem;
+    grid-gap: 2rem;
+  }
+
+  #checklists > .module.head .content.source {
+    padding: 0 0 0 1rem;
+  }
+  
+  #checklists > .padder {
+    padding: 3rem 2rem 2rem;
+    grid-gap: 2rem;
+  }
+}

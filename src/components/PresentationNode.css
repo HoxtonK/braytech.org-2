@@ -1,0 +1,173 @@
+.presentation-node .list li {
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.presentation-node .list li::before {
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 0.4);
+}
+
+.presentation-node .list li a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 0 1px rgba(214, 214, 214, 1);
+  color: #fff;
+}
+
+.presentation-node .list li a:hover {
+  color: #fff;
+}
+
+.presentation-node .header {
+  grid-column: 1/3;
+}
+
+.presentation-node .header .name {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.presentation-node .header .name span {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.presentation-node .node {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 320px 2fr;
+  grid-gap: 2rem;
+}
+
+.presentation-node .node .children {
+  
+}
+
+.presentation-node .list.primary {
+  display: flex;
+  margin: 0 0 2rem;
+}
+
+.presentation-node .list.primary.single-primary {
+  display: none;
+}
+
+.presentation-node .list.primary li {
+  height: 72px;
+  margin: 0 3px 3px 0;
+  flex-basis: calc(100% / 3 - 1px);
+}
+
+.presentation-node .list.primary li:last-child {
+  margin: 0 0 3px 0;
+}
+
+.presentation-node .list.primary li .image.dl {
+  top: 12%;
+  height: 76%;
+  opacity: 0.4;
+}
+
+.presentation-node .list.primary li .active .image.dl {
+  opacity: 1;
+}
+
+.presentation-node .list.primary li:hover .image.dl {
+  opacity: 1;
+}
+
+.presentation-node .list.secondary li {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.presentation-node .list.secondary li.linked:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 2;
+}
+
+.presentation-node .list.secondary li .text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.presentation-node .list.secondary li .text .name {
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 2px;
+}
+
+.presentation-node .list.secondary li .text .progress {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.presentation-node .list.secondary li .text .progress span {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.presentation-node .list.secondary li.active .text .name {
+  color: rgba(255, 255, 255, 1);
+}
+
+.presentation-node .list.secondary li.active .text .progress {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.presentation-node .list.secondary li.active .text .progress span {
+  color: rgba(255, 255, 255, 1);
+}
+
+.presentation-node .list.secondary li a {
+  justify-content: space-between;
+}
+
+.presentation-node .list.secondary li.completed {
+  background-color: rgba(207, 191, 124, 0.15);
+  box-shadow: inset 0 0 0 1px rgba(207, 191, 124, 1);
+}
+
+.presentation-node .node .entries {
+  padding: 0 0 0 calc(2rem - 1px);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 1023px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .presentation-node .node {
+    grid-template-columns: 1fr;
+  }
+
+  .presentation-node .header {
+    grid-column: unset;
+  }
+
+  .presentation-node .node .entries {
+    margin: 0;
+    padding: 0;
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .presentation-node .header .name {
+    font-size: 24px;
+  }
+  
+  .presentation-node .node {
+    grid-gap: 2rem;
+  }
+
+  .presentation-node .parent .node {
+    margin: 0 0 2rem;
+    flex-basis: calc(100% / 3);
+  }
+
+  .presentation-node .parent .node a {
+  }
+}

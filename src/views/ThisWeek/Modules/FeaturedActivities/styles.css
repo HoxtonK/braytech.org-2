@@ -1,0 +1,149 @@
+.activity-mode-icons.featured {
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+.activity-mode-icons.featured > div {
+  position: relative;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: minmax(60px, 120px) auto;
+}
+
+.activity-mode-icons.featured > div .icon svg {
+  width: 100%;
+  height: auto;
+  transform: scale(1.2);
+}
+
+.activity-mode-icons.featured > div .icon svg .polygon.inner {
+  animation: rotate-linear 20s infinite linear;
+  transform-origin: center;
+}
+
+.activity-mode-icons.featured > div .icon svg .polygon.inner.ani {
+  animation: activity-mode-icons-rotate-and-scale-out 5s infinite ease-out;
+  transform-origin: center;
+}
+
+@keyframes activity-mode-icons-rotate-and-scale-out {
+  0%,
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 0.4;
+  }
+  25% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.activity-mode-icons.featured > div .text {
+  text-align: unset;
+}
+
+.activity-mode-icons.featured > div .text .name {
+  margin: 10px 0 6px;
+}
+
+.activity-mode-icons.featured > div .text .description {
+  font-size: 14px;
+}
+
+.activity-mode-icons.featured .falling-1,
+.activity-mode-icons.featured .falling-2,
+.activity-mode-icons.featured .falling-3 {
+  transform-origin: center center;
+  /* animation: rotate-linear 2s infinite linear; */
+  animation: activity-mode-icons-falling-leaf 3s infinite cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.activity-mode-icons.featured .falling-2 {
+  animation-delay: 1s;
+}
+
+.activity-mode-icons.featured .falling-3 {
+  animation-delay: 1.5s;
+}
+
+@keyframes activity-mode-icons-falling-leaf {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(40%);
+  }
+}
+
+.activity-mode-icons.featured .triangle-1,
+.activity-mode-icons.featured .triangle-2,
+.activity-mode-icons.featured .triangle-3,
+.activity-mode-icons.featured .triangle-4 {
+  animation: rotate-linear 20s infinite linear;
+  transform-origin: center;
+}
+
+.activity-mode-icons.featured .triangle-2 {
+  animation-duration: 30s;
+}
+
+.activity-mode-icons.featured .triangle-3 {
+  animation-duration: 40s;
+}
+
+.activity-mode-icons.featured .triangle-4 {
+  animation-duration: 50s;
+}
+
+@keyframes rotate-orbits-sleep {
+  0% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.activity-mode-icons.featured .orbits {
+  animation: rotate-orbits-sleep 10s infinite ease-out;
+  transform-origin: center;
+}
+
+@keyframes point-left {
+  0%, 40%, 100% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-4px);
+  }
+}
+
+.activity-mode-icons.featured .point-left {
+  animation: point-left 4s both infinite;
+  transform-origin: center;
+}
+
+@keyframes point-right {
+  0%, 40%, 100% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(4px);
+  }
+}
+
+.activity-mode-icons.featured .point-right {
+  animation: point-right 4s both infinite;
+  transform-origin: center;
+}

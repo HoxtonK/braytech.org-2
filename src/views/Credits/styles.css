@@ -1,0 +1,105 @@
+#credits {
+  padding: 3rem;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: 1fr 2fr;
+  align-content: start;
+}
+
+#credits .module {
+  
+}
+
+#credits .module.intro {
+}
+
+#credits .module.intro .text p {
+  font-size: 14px;
+  max-width: 500px;
+}
+
+#credits .module.intro .text p:first-child {
+  font-size: 16px;
+}
+
+#credits .module.thanks {
+  
+}
+
+#credits .module.thanks .persons {
+  margin: 2rem 0 3rem;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: start;
+}
+
+#credits .module.thanks .person {
+  display: grid;
+  grid-template-columns: auto;
+  font-size: 14px;
+}
+
+#credits .module.thanks .person .text {
+
+}
+
+#credits .module.thanks .person .text strong {
+  font-weight: 500;
+  display: block;
+  margin: 0 0 8px;
+}
+
+#credits .module.thanks > .tags {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3px;
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+  #credits .module.thanks > .tags {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #credits .module.thanks > .tags {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #credits {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #credits .module.thanks .persons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #credits .module.thanks > .tags {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  #credits .module.thanks .persons {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #credits {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  #credits .module.thanks > .tags {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
