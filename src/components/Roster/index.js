@@ -65,11 +65,14 @@ class Roster extends React.Component {
   }
 
   changeSortTo = to => {
-    this.setState((prevState, props) => {
-      prevState.order.dir = prevState.order.sort === to && prevState.order.dir === 'desc' ? 'asc' : 'desc';
-      prevState.order.sort = to;
-      return prevState;
-    });
+    this.setState(p => ({
+      ...p,
+      order: {
+        ...p.order,
+        dir: p.order.sort === to && p.order.dir === 'desc' ? 'asc' : 'desc',
+        sort: to
+      }
+    }));
   };
 
   calculateResets = (progressionHash, characterId, characterProgressions) => {

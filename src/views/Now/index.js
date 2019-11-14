@@ -15,6 +15,7 @@ import SeasonPass from './Modules/SeasonPass';
 import SeasonalArtifact from './Modules/SeasonalArtifact';
 import Vendor from './Modules/Vendor';
 import AuthUpsell from './Modules/AuthUpsell';
+import Transitory from './Modules/Transitory';
 
 import './styles.css';
 
@@ -86,21 +87,30 @@ class Now extends React.Component {
       {
         className: [],
         cols: [
-          {
-            className: ['double'],
-            mods: [
-              {
-                className: ['seasonal-artifact'],
-                component: <SeasonalArtifact />
-              }
-            ]
-          },
+          // {
+          //   className: [],
+          //   mods: [
+          //     {
+          //       className: [],
+          //       component: <Transitory />
+          //     }
+          //   ]
+          // },
           {
             className: [],
             mods: [
               {
                 className: [],
                 component: <Ranks />
+              }
+            ]
+          },
+          {
+            className: ['double'],
+            mods: [
+              {
+                className: ['seasonal-artifact'],
+                component: <SeasonalArtifact />
               }
             ]
           }

@@ -568,7 +568,10 @@ function supplementedConversionTable() {
     { char: '', objectiveHash: 3080184954, substring: '' },
     { char: '', objectiveHash: 2923868331, substring: '' },
     { char: '', objectiveHash: 989767424, substring: '' },
-    { char: '', objectiveHash: 1788114534, substring: '' }
+    { char: '', objectiveHash: 1788114534, substring: '' },
+    { char: '', objectiveHash: 276438067, substring: '' },
+    { char: '', objectiveHash: 3792840449, substring: '' },
+    { char: '', objectiveHash: 2031240843, substring: '' }
   ];
 
   // loop through conversionTable entries to update them with manifest string info

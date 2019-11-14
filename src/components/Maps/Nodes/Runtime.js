@@ -13,10 +13,10 @@ class Runtime extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = {};
+    this.state = {
+      nodes: nodesRuntime(this.props.member)
+    };
   }
-
-  runtimeNodes = nodesRuntime(this.props.member);
 
   componentDidMount() {
     this.mounted = true;
@@ -30,7 +30,7 @@ class Runtime extends React.Component {
     const { member } = this.props;
     
     if (((!pP.member.data && member.data) || pP.member.data.updated !== member.data.updated || pP.member.characterId !== member.characterId) && this.mounted) {
-      this.runtimeNodes = nodesRuntime(this.props.member);
+      this.setState({ nodes: nodesRuntime(this.props.member) })
     }
   }
 
@@ -44,8 +44,8 @@ class Runtime extends React.Component {
     const mapYOffset = -(map.height - viewHeight) / 2;
 
     return (
-      (this.runtimeNodes &&
-        this.runtimeNodes[this.props.id].map((node, i) => {
+      (this.state.nodes &&
+        this.state.nodes[this.props.id].map((node, i) => {
           return node.location.points.map(point => {
             const markerOffsetX = mapXOffset + viewWidth / 2;
             const markerOffsetY = mapYOffset + map.height + -viewHeight / 2;

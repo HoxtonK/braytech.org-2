@@ -1,86 +1,164 @@
 {
   "de": {
     "translated": 462,
-    "notTranslated": 10,
-    "added": [],
+    "notTranslated": 15,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "en": {
-    "translated": 472,
+    "translated": 477,
     "notTranslated": 0,
     "added": [],
     "removed": []
   },
   "es-mx": {
     "translated": 0,
-    "notTranslated": 472,
-    "added": [],
+    "notTranslated": 477,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "es": {
     "translated": 472,
-    "notTranslated": 0,
-    "added": [],
+    "notTranslated": 5,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "fr": {
     "translated": 361,
-    "notTranslated": 111,
-    "added": [],
+    "notTranslated": 116,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "internal": {
     "translated": 0,
-    "notTranslated": 472,
-    "added": [],
+    "notTranslated": 477,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "it": {
-    "translated": 470,
-    "notTranslated": 2,
-    "added": [],
+    "translated": 472,
+    "notTranslated": 5,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "ja": {
     "translated": 220,
-    "notTranslated": 252,
-    "added": [],
+    "notTranslated": 257,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "ko": {
     "translated": 302,
-    "notTranslated": 170,
-    "added": [],
+    "notTranslated": 175,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "pl": {
     "translated": 0,
-    "notTranslated": 472,
-    "added": [],
+    "notTranslated": 477,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "pt-br": {
     "translated": 462,
-    "notTranslated": 10,
-    "added": [],
+    "notTranslated": 15,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "ru": {
     "translated": 0,
-    "notTranslated": 472,
-    "added": [],
+    "notTranslated": 477,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "zh-chs": {
     "translated": 462,
-    "notTranslated": 10,
-    "added": [],
+    "notTranslated": 15,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   },
   "zh-cht": {
     "translated": 462,
-    "notTranslated": 10,
-    "added": [],
+    "notTranslated": 15,
+    "added": [
+      "All players must refresh their Enlightened buff at approximately the same time. However, the team may be split up at different tethers.",
+      "Fireteam",
+      "Total",
+      "Unknown 1",
+      "Unknown 2"
+    ],
     "removed": []
   }
 }

@@ -362,7 +362,7 @@ export const stats = item => {
   //   }
   // }
 
-  if (definitionItem && definitionItem.itemType === 2) {
+  if (definitionItem && definitionItem.itemType === 2 && investmentStats.length) {
     // Add the "Total" stat for armor
     investmentStats.push(totalStat(investmentStats));
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import i18n from 'i18next';
 import cx from 'classnames';
 
 import manifest from '../../../utils/manifest';
@@ -66,7 +67,7 @@ const Equipment = props => {
 
             return (
               <div key={s.statHash} className='stat'>
-                <div className='name'>{s.displayProperties.name}</div>
+                <div className='name'>{s.statHash === -1000 ? i18n.t('Total') : s.displayProperties.name}</div>
                 <div className={cx('value', { bar: s.bar })}>
                   {s.bar ? (
                     <>
